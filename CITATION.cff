@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Automatic Prioritization of IT Support Tickets Using Natural Language Processing and Explainable AI: A Data-Driven Evaluation of Machine Learning Classifiers Based on the CRISP-DM Model"
+type: software
+authors:
+  - given-names: "Verena"
+    family-names: "Gräf"
+version: 1.0.0
+date-released: 2026-10-26
+license: MIT
+keywords:
+  - IT support
+  - ticket prioritization
+  - natural language processing
+  - machine learning
+  - explainable AI
+  - SHAP
+  - CRISP-DM
+# repository-code: "https://github.com/verenagraef/Ticket_Prioritization"
+# doi: "10.5281/zenodo.XXXXXXXX"
