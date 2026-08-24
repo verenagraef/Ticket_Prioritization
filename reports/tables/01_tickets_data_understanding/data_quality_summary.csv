@@ -1,0 +1,14 @@
+﻿check,value
+missing_priority_records,0
+records_without_subject_and_body,0
+exact_duplicate_full_rows,0
+exact_duplicate_text_groups,0
+duplicate_normalized_text_groups,1
+records_in_duplicate_text_groups,2
+conflicting_priority_text_groups,0
+exact_body_answer_matches,15
+answer_contained_in_body,22
+body_quoted_in_later_answer,25
+likely_answer_leakage_into_body,20
+unexpected_priority_labels,0
+unexpected_language_labels,0

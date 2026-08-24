@@ -1,0 +1,40 @@
+{
+  "created_utc": "2026-08-21T11:51:13.068118+00:00",
+  "script_build": "2026-08-16_knn_shap_sensitivity_common_feature_selection_v2",
+  "script": "05a_knn_shap_sensitivity.py",
+  "script_sha256": "c141706a1f2d11e288e845452098b273691a28583cff4b31ad3682830cdcf849",
+  "reference_xai_build": "2026-08-16_explainability_common_feature_selection_v1",
+  "reference_xai_run_id": "explainability_common_feature_selection_v1",
+  "reference_xai_manifest_sha256": "c8111aa451cf6ff6871755727869c57e68954c2aa1f619cac0f904f3e933341c",
+  "model": "knn_cosine",
+  "feature_set": "FS4",
+  "current_05_knn_background_groups_per_class": 3,
+  "current_05_knn_permutation_cycles": 3,
+  "reference_configuration": "reference",
+  "model_sha256": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+  "sensitivity_groups_per_class": 30,
+  "sensitivity_groups": 90,
+  "configs": [
+    {
+      "config": "reference",
+      "background_groups_per_class": 3,
+      "cycles": 3,
+      "role": "current_05_design"
+    },
+    {
+      "config": "reduced_background",
+      "background_groups_per_class": 1,
+      "cycles": 3,
+      "role": "background_sensitivity"
+    },
+    {
+      "config": "reduced_cycles",
+      "background_groups_per_class": 3,
+      "cycles": 1,
+      "role": "permutation_budget_sensitivity"
+    }
+  ],
+  "sample_sha256": "dffe4ad39abde2d88850b35df033fc099dd7b34ab8fef03f43a5c73f62fdfeb0",
+  "summary_sha256": "e95794d50b8528396a0718263b24c5eae9cd7d741e7c3450f87ff3167de3e972",
+  "comparison_sha256": "d646e883a5205071d4d364e3e3db4784783719d6934f0f3bd20ff65ee2b58a64"
+}

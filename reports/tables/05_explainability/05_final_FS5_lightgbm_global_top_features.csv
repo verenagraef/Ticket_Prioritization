@@ -1,0 +1,201 @@
+feature_set,model,model_label,class_output,rank,feature_index,feature_name,feature_label,feature_group,mean_abs_shap,share_of_total_abs_shap
+FS5,lightgbm,LightGBM,low,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.2520724833011627,0.06332066655158997
+FS5,lightgbm,LightGBM,low,2,15010,categorical__queue_IT Support,IT Support,queue,0.22046275436878204,0.05538029596209526
+FS5,lightgbm,LightGBM,low,3,15007,categorical__queue_Customer Service,Customer Service,queue,0.07891618460416794,0.019823765382170677
+FS5,lightgbm,LightGBM,low,4,15011,categorical__queue_Product Support,Product Support,queue,0.04057253152132034,0.01019182987511158
+FS5,lightgbm,LightGBM,low,5,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.033503107726573944,0.008415988646447659
+FS5,lightgbm,LightGBM,low,6,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.032844994217157364,0.00825067050755024
+FS5,lightgbm,LightGBM,low,7,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.029185647144913673,0.00733144162222743
+FS5,lightgbm,LightGBM,low,8,14048,text__char__ras,[char] ras,text,0.026635723188519478,0.006690900307148695
+FS5,lightgbm,LightGBM,low,9,13946,text__char__plat,[char] plat,text,0.025298280641436577,0.006354934070259333
+FS5,lightgbm,LightGBM,low,10,11872,text__char__ache ,[char] ache ,text,0.025222059339284897,0.0063357874751091
+FS5,lightgbm,LightGBM,low,11,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.021698826923966408,0.0054507507011294365
+FS5,lightgbm,LightGBM,low,12,13489,text__char__mme,[char] mme,text,0.01901497319340706,0.004776565823704004
+FS5,lightgbm,LightGBM,low,13,14815,text__char__usf,[char] usf,text,0.017974957823753357,0.004515313543379307
+FS5,lightgbm,LightGBM,low,14,15016,sentiment__sentiment_negative,sentiment_negative,sentiment,0.01651388593018055,0.004148292355239391
+FS5,lightgbm,LightGBM,low,15,12581,text__char__em ,[char] em ,text,0.015977194532752037,0.004013475030660629
+FS5,lightgbm,LightGBM,low,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.015648741275072098,0.003930967766791582
+FS5,lightgbm,LightGBM,low,17,8648,text__word__server,server,text,0.015445836819708347,0.003879997879266739
+FS5,lightgbm,LightGBM,low,18,11684,text__char__ sl,[char]  sl,text,0.015196206048130989,0.003817290533334017
+FS5,lightgbm,LightGBM,low,19,2937,text__word__downtime,downtime,text,0.014883344992995262,0.003738699946552515
+FS5,lightgbm,LightGBM,low,20,14587,text__char__tform,[char] tform,text,0.014353320002555847,0.0036055573727935553
+FS5,lightgbm,LightGBM,low,21,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.014025310054421425,0.003523161169141531
+FS5,lightgbm,LightGBM,low,22,13949,text__char__ple ,[char] ple ,text,0.013766349293291569,0.0034581103827804327
+FS5,lightgbm,LightGBM,low,23,11695,text__char__ spo,[char]  spo,text,0.013661621138453484,0.0034318026155233383
+FS5,lightgbm,LightGBM,low,24,14623,text__char__tisc,[char] tisc,text,0.013600594364106655,0.0034164725802838802
+FS5,lightgbm,LightGBM,low,25,12469,text__char__eat,[char] eat,text,0.01330212876200676,0.003341497853398323
+FS5,lightgbm,LightGBM,low,26,2189,text__word__customer,customer,text,0.013195102103054523,0.0033146128989756107
+FS5,lightgbm,LightGBM,low,27,12924,text__char__haben,[char] haben,text,0.012887297198176384,0.003237292170524597
+FS5,lightgbm,LightGBM,low,28,13877,text__char__overl,[char] overl,text,0.012521686963737011,0.0031454507261514664
+FS5,lightgbm,LightGBM,low,29,14789,text__char__upt,[char] upt,text,0.011902892962098122,0.002990009495988488
+FS5,lightgbm,LightGBM,low,30,15017,sentiment__sentiment_neutral,sentiment_neutral,sentiment,0.011736579239368439,0.002948231529444456
+FS5,lightgbm,LightGBM,low,31,13582,text__char__nga,[char] nga,text,0.011681181378662586,0.002934315474703908
+FS5,lightgbm,LightGBM,low,32,421,text__word__aktualisierung,aktualisierung,text,0.011262573301792145,0.002829161239787936
+FS5,lightgbm,LightGBM,low,33,13237,text__char__itä,[char] itä,text,0.011147149838507175,0.00280016683973372
+FS5,lightgbm,LightGBM,low,34,11604,text__char__ outa,[char]  outa,text,0.01102448906749487,0.0027693542651832104
+FS5,lightgbm,LightGBM,low,35,4160,text__word__helfen,helfen,text,0.010862565599381924,0.0027286792173981667
+FS5,lightgbm,LightGBM,low,36,3906,text__word__führen,führen,text,0.010685238987207413,0.0026841345243155956
+FS5,lightgbm,LightGBM,low,37,6591,text__word__online,online,text,0.010527299717068672,0.0026444601826369762
+FS5,lightgbm,LightGBM,low,38,12858,text__char__ge ,[char] ge ,text,0.01036174688488245,0.002602873370051384
+FS5,lightgbm,LightGBM,low,39,11317,text__char__ a ,[char]  a ,text,0.010290327481925488,0.0025849328376352787
+FS5,lightgbm,LightGBM,low,40,14093,text__char__refe,[char] refe,text,0.010006831027567387,0.0025137183256447315
+FS5,lightgbm,LightGBM,low,41,3324,text__word__erhöhte,erhöhte,text,0.009928200393915176,0.002493966370820999
+FS5,lightgbm,LightGBM,low,42,11973,text__char__angs,[char] angs,text,0.009817994199693203,0.0024662825744599104
+FS5,lightgbm,LightGBM,low,43,11597,text__char__ on ,[char]  on ,text,0.00974450446665287,0.0024478218983858824
+FS5,lightgbm,LightGBM,low,44,14618,text__char__tion?,[char] tion?,text,0.009710736572742462,0.0024393394123762846
+FS5,lightgbm,LightGBM,low,45,6626,text__word__optimierung,optimierung,text,0.009671185165643692,0.0024294040631502867
+FS5,lightgbm,LightGBM,low,46,14585,text__char__tfo,[char] tfo,text,0.009567027911543846,0.002403239719569683
+FS5,lightgbm,LightGBM,low,47,15018,sentiment__sentiment_positive,sentiment_positive,sentiment,0.009562754072248936,0.002402166137471795
+FS5,lightgbm,LightGBM,low,48,12162,text__char__bre,[char] bre,text,0.009520200081169605,0.0023914766497910023
+FS5,lightgbm,LightGBM,low,49,13072,text__char__ies ,[char] ies ,text,0.009462622925639153,0.002377013210207224
+FS5,lightgbm,LightGBM,low,50,12316,text__char__criti,[char] criti,text,0.009357932955026627,0.0023507149890065193
+FS5,lightgbm,LightGBM,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.11488545686006546,0.04606683924794197
+FS5,lightgbm,LightGBM,medium,2,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.0555516816675663,0.02227514609694481
+FS5,lightgbm,LightGBM,medium,3,15011,categorical__queue_Product Support,Product Support,queue,0.03584181144833565,0.014371871016919613
+FS5,lightgbm,LightGBM,medium,4,14540,text__char__techn,[char] techn,text,0.01804424822330475,0.007235393393784761
+FS5,lightgbm,LightGBM,medium,5,14580,text__char__tes,[char] tes,text,0.01227528229355812,0.004922150168567896
+FS5,lightgbm,LightGBM,medium,6,680,text__word__application,application,text,0.010432815179228783,0.004183356650173664
+FS5,lightgbm,LightGBM,medium,7,114,text__word__access logs,access logs,text,0.010067189112305641,0.004036747384816408
+FS5,lightgbm,LightGBM,medium,8,11917,text__char__agen,[char] agen,text,0.010066112503409386,0.004036315716803074
+FS5,lightgbm,LightGBM,medium,9,13752,text__char__oin,[char] oin,text,0.009490431286394596,0.0038054788019508123
+FS5,lightgbm,LightGBM,medium,10,12883,text__char__gin,[char] gin,text,0.009225303307175636,0.0036991676315665245
+FS5,lightgbm,LightGBM,medium,11,9014,text__word__software,software,text,0.009127792902290821,0.003660067915916443
+FS5,lightgbm,LightGBM,medium,12,14286,text__char__rus,[char] rus,text,0.008968842215836048,0.0035963316913694143
+FS5,lightgbm,LightGBM,medium,13,15017,sentiment__sentiment_neutral,sentiment_neutral,sentiment,0.008911045268177986,0.0035731561947613955
+FS5,lightgbm,LightGBM,medium,14,12955,text__char__hes,[char] hes,text,0.008580159395933151,0.003440477419644594
+FS5,lightgbm,LightGBM,medium,15,12840,text__char__fun,[char] fun,text,0.007995549589395523,0.003206060267984867
+FS5,lightgbm,LightGBM,medium,16,14090,text__char__redi,[char] redi,text,0.007861346006393433,0.0031522472854703665
+FS5,lightgbm,LightGBM,medium,17,14560,"text__char__tems,","[char] tems,",text,0.007682460825890303,0.003080517752096057
+FS5,lightgbm,LightGBM,medium,18,14746,text__char__uired,[char] uired,text,0.00760048720985651,0.003047647885978222
+FS5,lightgbm,LightGBM,medium,19,9621,text__word__system,system,text,0.00739654153585434,0.002965869614854455
+FS5,lightgbm,LightGBM,medium,20,14738,text__char__ufa,[char] ufa,text,0.007133496459573507,0.0028603936079889536
+FS5,lightgbm,LightGBM,medium,21,11711,text__char__ sys,[char]  sys,text,0.006708539556711912,0.0026899941731244326
+FS5,lightgbm,LightGBM,medium,22,409,text__word__aktualisieren,aktualisieren,text,0.006554527208209038,0.00262823817320168
+FS5,lightgbm,LightGBM,medium,23,14729,text__char__udie,[char] udie,text,0.006419687531888485,0.0025741702411323786
+FS5,lightgbm,LightGBM,medium,24,6191,text__word__microsoft teams,microsoft teams,text,0.006314973346889019,0.0025321817956864834
+FS5,lightgbm,LightGBM,medium,25,11446,text__char__ emp,[char]  emp,text,0.006276908330619335,0.002516918582841754
+FS5,lightgbm,LightGBM,medium,26,6192,text__word__microsoft word,microsoft word,text,0.006188106723129749,0.002481310861185193
+FS5,lightgbm,LightGBM,medium,27,2623,text__word__detailed documentation,detailed documentation,text,0.006055481266230345,0.0024281304795295
+FS5,lightgbm,LightGBM,medium,28,15007,categorical__queue_Customer Service,Customer Service,queue,0.005978494882583618,0.002397260395810008
+FS5,lightgbm,LightGBM,medium,29,14938,text__char__you,[char] you,text,0.005881079006940126,0.002358198631554842
+FS5,lightgbm,LightGBM,medium,30,14528,text__char__tarte,[char] tarte,text,0.0058163003996014595,0.002332223579287529
+FS5,lightgbm,LightGBM,medium,31,11762,text__char__ wäh,[char]  wäh,text,0.005721673369407654,0.0022942801006138325
+FS5,lightgbm,LightGBM,medium,32,12821,text__char__flic,[char] flic,text,0.005707690492272377,0.00228867307305336
+FS5,lightgbm,LightGBM,medium,33,13781,text__char__ompro,[char] ompro,text,0.005663009826093912,0.0022707569878548384
+FS5,lightgbm,LightGBM,medium,34,12118,text__char__bee,[char] bee,text,0.005636529065668583,0.0022601387463510036
+FS5,lightgbm,LightGBM,medium,35,13220,text__char__itio,[char] itio,text,0.0055732522159814835,0.002234766026958823
+FS5,lightgbm,LightGBM,medium,36,9502,text__word__suchen,suchen,text,0.005519815720617771,0.002213339088484645
+FS5,lightgbm,LightGBM,medium,37,10747,text__word__verbindung,verbindung,text,0.005412648431956768,0.002170366933569312
+FS5,lightgbm,LightGBM,medium,38,1927,text__word__connectivity,connectivity,text,0.005266212858259678,0.002111649140715599
+FS5,lightgbm,LightGBM,medium,39,2192,text__word__customer data,customer data,text,0.005250731948763132,0.0021054416429251432
+FS5,lightgbm,LightGBM,medium,40,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.005227649584412575,0.0020961861591786146
+FS5,lightgbm,LightGBM,medium,41,12589,text__char__emi,[char] emi,text,0.005166633985936642,0.0020717200823128223
+FS5,lightgbm,LightGBM,medium,42,13518,"text__char__ms,","[char] ms,",text,0.005162213463336229,0.0020699475426226854
+FS5,lightgbm,LightGBM,medium,43,12877,text__char__gie,[char] gie,text,0.005125163123011589,0.0020550910849124193
+FS5,lightgbm,LightGBM,medium,44,13828,text__char__ora,[char] ora,text,0.005100727546960115,0.0020452928729355335
+FS5,lightgbm,LightGBM,medium,45,12248,text__char__chne,[char] chne,text,0.005065015982836485,0.0020309730898588896
+FS5,lightgbm,LightGBM,medium,46,13661,text__char__nstab,[char] nstab,text,0.005029839463531971,0.0020168679766356945
+FS5,lightgbm,LightGBM,medium,47,12924,text__char__haben,[char] haben,text,0.0049742734991014,0.0019945872481912374
+FS5,lightgbm,LightGBM,medium,48,14641,text__char__trate,[char] trate,text,0.004943684209138155,0.001982321497052908
+FS5,lightgbm,LightGBM,medium,49,5056,text__word__interessiere weitere,interessiere weitere,text,0.004881235305219889,0.0019572805613279343
+FS5,lightgbm,LightGBM,medium,50,8776,text__word__settings issue,settings issue,text,0.004780819173902273,0.0019170157611370087
+FS5,lightgbm,LightGBM,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.3403448462486267,0.09353181719779968
+FS5,lightgbm,LightGBM,high,2,15010,categorical__queue_IT Support,IT Support,queue,0.1132461428642273,0.031121721491217613
+FS5,lightgbm,LightGBM,high,3,15007,categorical__queue_Customer Service,Customer Service,queue,0.10491345077753067,0.02883177436888218
+FS5,lightgbm,LightGBM,high,4,15001,categorical__type_Incident,Incident,type,0.0700884684920311,0.019261352717876434
+FS5,lightgbm,LightGBM,high,5,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.06883790343999863,0.01891767792403698
+FS5,lightgbm,LightGBM,high,6,15009,categorical__queue_Human Resources,Human Resources,queue,0.03660596162080765,0.010059862397611141
+FS5,lightgbm,LightGBM,high,7,12581,text__char__em ,[char] em ,text,0.03553261607885361,0.009764891117811203
+FS5,lightgbm,LightGBM,high,8,11701,text__char__ str,[char]  str,text,0.0263057928532362,0.007229222450405359
+FS5,lightgbm,LightGBM,high,9,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.02505561150610447,0.006885654293000698
+FS5,lightgbm,LightGBM,high,10,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.02454465627670288,0.0067452359944581985
+FS5,lightgbm,LightGBM,high,11,14129,text__char__rge,[char] rge,text,0.02382214181125164,0.006546678487211466
+FS5,lightgbm,LightGBM,high,12,15017,sentiment__sentiment_neutral,sentiment_neutral,sentiment,0.023166220635175705,0.006366421468555927
+FS5,lightgbm,LightGBM,high,13,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.02159564010798931,0.005934802815318108
+FS5,lightgbm,LightGBM,high,14,9014,text__word__software,software,text,0.01914038322865963,0.005260061472654343
+FS5,lightgbm,LightGBM,high,15,15003,categorical__type_Request,Request,type,0.018948568031191826,0.005207348149269819
+FS5,lightgbm,LightGBM,high,16,6591,text__word__online,online,text,0.016354987397789955,0.004494593478739262
+FS5,lightgbm,LightGBM,high,17,12353,text__char__date ,[char] date ,text,0.015358245000243187,0.004220673814415932
+FS5,lightgbm,LightGBM,high,18,15011,categorical__queue_Product Support,Product Support,queue,0.015261341817677021,0.004194043576717377
+FS5,lightgbm,LightGBM,high,19,13780,text__char__ompr,[char] ompr,text,0.015110816806554794,0.004152677021920681
+FS5,lightgbm,LightGBM,high,20,12175,text__char__bst,[char] bst,text,0.014510267414152622,0.003987636882811785
+FS5,lightgbm,LightGBM,high,21,13961,text__char__pora,[char] pora,text,0.013920880854129791,0.0038256647530943155
+FS5,lightgbm,LightGBM,high,22,11696,text__char__ spor,[char]  spor,text,0.013252581469714642,0.0036420063115656376
+FS5,lightgbm,LightGBM,high,23,1403,text__word__cache,cache,text,0.012502824887633324,0.003435961902141571
+FS5,lightgbm,LightGBM,high,24,6626,text__word__optimierung,optimierung,text,0.012286892160773277,0.003376620588824153
+FS5,lightgbm,LightGBM,high,25,13678,text__char__nterm,[char] nterm,text,0.012268084101378918,0.003371451748535037
+FS5,lightgbm,LightGBM,high,26,12401,text__char__dic,[char] dic,text,0.012151605449616909,0.0033394417259842157
+FS5,lightgbm,LightGBM,high,27,15018,sentiment__sentiment_positive,sentiment_positive,sentiment,0.012074504047632217,0.0033182529732584953
+FS5,lightgbm,LightGBM,high,28,14056,text__char__rate,[char] rate,text,0.01106638740748167,0.003041207557544112
+FS5,lightgbm,LightGBM,high,29,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.010947595350444317,0.003008561907336116
+FS5,lightgbm,LightGBM,high,30,14950,text__char__yst,[char] yst,text,0.010935209691524506,0.00300515815615654
+FS5,lightgbm,LightGBM,high,31,3964,text__word__geräte,geräte,text,0.010879267007112503,0.0029897841159254313
+FS5,lightgbm,LightGBM,high,32,13558,text__char__neffe,[char] neffe,text,0.010100326500833035,0.002775719854980707
+FS5,lightgbm,LightGBM,high,33,1824,text__word__concern,concern,text,0.009928574785590172,0.0027285197284072638
+FS5,lightgbm,LightGBM,high,34,11028,text__word__weiterhin,weiterhin,text,0.00978046003729105,0.002687815809622407
+FS5,lightgbm,LightGBM,high,35,221,text__word__ad,ad,text,0.008931363001465797,0.0024544713087379932
+FS5,lightgbm,LightGBM,high,36,2635,text__word__details,details,text,0.008837888948619366,0.002428783103823662
+FS5,lightgbm,LightGBM,high,37,14840,text__char__ver,[char] ver,text,0.008676126599311829,0.002384328516200185
+FS5,lightgbm,LightGBM,high,38,4769,text__word__inquiry,inquiry,text,0.008636150509119034,0.002373342402279377
+FS5,lightgbm,LightGBM,high,39,12647,text__char__era,[char] era,text,0.008465931750833988,0.002326563699170947
+FS5,lightgbm,LightGBM,high,40,11456,text__char__ fai,[char]  fai,text,0.008452540263533592,0.002322883578017354
+FS5,lightgbm,LightGBM,high,41,14439,text__char__sta,[char] sta,text,0.008273875340819359,0.0022737837862223387
+FS5,lightgbm,LightGBM,high,42,8085,text__word__request update,request update,text,0.00814745295792818,0.002239041030406952
+FS5,lightgbm,LightGBM,high,43,14572,text__char__term,[char] term,text,0.008029293268918991,0.0022065690718591213
+FS5,lightgbm,LightGBM,high,44,11410,text__char__ crit,[char]  crit,text,0.007887077517807484,0.0021674861200153828
+FS5,lightgbm,LightGBM,high,45,14055,text__char__rat,[char] rat,text,0.007486911490559578,0.002057514386251569
+FS5,lightgbm,LightGBM,high,46,10747,text__word__verbindung,verbindung,text,0.007400523871183395,0.002033773809671402
+FS5,lightgbm,LightGBM,high,47,11738,text__char__ une,[char]  une,text,0.007381462026387453,0.0020285353530198336
+FS5,lightgbm,LightGBM,high,48,14421,text__char__spor,[char] spor,text,0.007292118854820728,0.002003982663154602
+FS5,lightgbm,LightGBM,high,49,1375,text__word__browser,browser,text,0.007285290397703648,0.002002106048166752
+FS5,lightgbm,LightGBM,high,50,114,text__word__access logs,access logs,text,0.007242150139063597,0.0019902505446225405
+FS5,lightgbm,LightGBM,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.23272380232810974,0.07399643957614899
+FS5,lightgbm,LightGBM,predicted_class,2,15010,categorical__queue_IT Support,IT Support,queue,0.06482616066932678,0.02061200886964798
+FS5,lightgbm,LightGBM,predicted_class,3,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.05810970440506935,0.0184764564037323
+FS5,lightgbm,LightGBM,predicted_class,4,15007,categorical__queue_Customer Service,Customer Service,queue,0.045587312430143356,0.014494858682155609
+FS5,lightgbm,LightGBM,predicted_class,5,15011,categorical__queue_Product Support,Product Support,queue,0.03174459934234619,0.010093455202877522
+FS5,lightgbm,LightGBM,predicted_class,6,15001,categorical__type_Incident,Incident,type,0.02472825162112713,0.00786255020648241
+FS5,lightgbm,LightGBM,predicted_class,7,12581,text__char__em ,[char] em ,text,0.01887379214167595,0.00600107666105032
+FS5,lightgbm,LightGBM,predicted_class,8,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.01557228248566389,0.004951334558427334
+FS5,lightgbm,LightGBM,predicted_class,9,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.013999352231621742,0.004451208747923374
+FS5,lightgbm,LightGBM,predicted_class,10,15017,sentiment__sentiment_neutral,sentiment_neutral,sentiment,0.013499939814209938,0.004292416386306286
+FS5,lightgbm,LightGBM,predicted_class,11,9014,text__word__software,software,text,0.013241508044302464,0.004210245795547962
+FS5,lightgbm,LightGBM,predicted_class,12,11701,text__char__ str,[char]  str,text,0.011383263394236565,0.003619401715695858
+FS5,lightgbm,LightGBM,predicted_class,13,15009,categorical__queue_Human Resources,Human Resources,queue,0.010348763316869736,0.003290473949164152
+FS5,lightgbm,LightGBM,predicted_class,14,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.010207765735685825,0.003245642641559243
+FS5,lightgbm,LightGBM,predicted_class,15,6591,text__word__online,online,text,0.009501930326223373,0.0030212164856493473
+FS5,lightgbm,LightGBM,predicted_class,16,14129,text__char__rge,[char] rge,text,0.009365061298012733,0.002977697877213359
+FS5,lightgbm,LightGBM,predicted_class,17,14540,text__char__techn,[char] techn,text,0.009160499088466167,0.0029126557055860758
+FS5,lightgbm,LightGBM,predicted_class,18,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.008470830507576466,0.0026933697517961264
+FS5,lightgbm,LightGBM,predicted_class,19,15018,sentiment__sentiment_positive,sentiment_positive,sentiment,0.008228127844631672,0.0026162005960941315
+FS5,lightgbm,LightGBM,predicted_class,20,15003,categorical__type_Request,Request,type,0.008042811416089535,0.0025572776794433594
+FS5,lightgbm,LightGBM,predicted_class,21,13780,text__char__ompr,[char] ompr,text,0.007932687178254128,0.0025222627446055412
+FS5,lightgbm,LightGBM,predicted_class,22,114,text__word__access logs,access logs,text,0.007877327501773834,0.0025046607479453087
+FS5,lightgbm,LightGBM,predicted_class,23,15016,sentiment__sentiment_negative,sentiment_negative,sentiment,0.00772892776876688,0.0024574757553637028
+FS5,lightgbm,LightGBM,predicted_class,24,12401,text__char__dic,[char] dic,text,0.00758918933570385,0.0024130449164658785
+FS5,lightgbm,LightGBM,predicted_class,25,12175,text__char__bst,[char] bst,text,0.007530043832957745,0.0023942389525473118
+FS5,lightgbm,LightGBM,predicted_class,26,6626,text__word__optimierung,optimierung,text,0.007373346481472254,0.002344415755942464
+FS5,lightgbm,LightGBM,predicted_class,27,11917,text__char__agen,[char] agen,text,0.0070533957332372665,0.002242684829980135
+FS5,lightgbm,LightGBM,predicted_class,28,14580,text__char__tes,[char] tes,text,0.007029708009213209,0.0022351532243192196
+FS5,lightgbm,LightGBM,predicted_class,29,9621,text__word__system,system,text,0.006843153852969408,0.0021758368238806725
+FS5,lightgbm,LightGBM,predicted_class,30,12883,text__char__gin,[char] gin,text,0.006750465836375952,0.0021463658194988966
+FS5,lightgbm,LightGBM,predicted_class,31,12353,text__char__date ,[char] date ,text,0.00641034496948123,0.002038221573457122
+FS5,lightgbm,LightGBM,predicted_class,32,14048,text__char__ras,[char] ras,text,0.006405617110431194,0.0020367184188216925
+FS5,lightgbm,LightGBM,predicted_class,33,14090,text__char__redi,[char] redi,text,0.006382343824952841,0.0020293183624744415
+FS5,lightgbm,LightGBM,predicted_class,34,12647,text__char__era,[char] era,text,0.006237479392439127,0.00198325770907104
+FS5,lightgbm,LightGBM,predicted_class,35,409,text__word__aktualisieren,aktualisieren,text,0.006148365791887045,0.001954923151060939
+FS5,lightgbm,LightGBM,predicted_class,36,10747,text__word__verbindung,verbindung,text,0.005992183927446604,0.0019052638672292233
+FS5,lightgbm,LightGBM,predicted_class,37,11711,text__char__ sys,[char]  sys,text,0.0059407418593764305,0.001888907514512539
+FS5,lightgbm,LightGBM,predicted_class,38,11684,text__char__ sl,[char]  sl,text,0.005903952289372683,0.0018772098701447248
+FS5,lightgbm,LightGBM,predicted_class,39,14950,text__char__yst,[char] yst,text,0.005762850865721703,0.0018323456170037389
+FS5,lightgbm,LightGBM,predicted_class,40,1185,text__word__bestand darin,bestand darin,text,0.00574900908395648,0.0018279444193467498
+FS5,lightgbm,LightGBM,predicted_class,41,12957,"text__char__hes,","[char] hes,",text,0.005661909468472004,0.0018002503784373403
+FS5,lightgbm,LightGBM,predicted_class,42,6192,text__word__microsoft word,microsoft word,text,0.0056411102414131165,0.0017936371732503176
+FS5,lightgbm,LightGBM,predicted_class,43,13752,text__char__oin,[char] oin,text,0.005595642141997814,0.0017791801365092397
+FS5,lightgbm,LightGBM,predicted_class,44,14286,text__char__rus,[char] rus,text,0.005440124776214361,0.00172973214648664
+FS5,lightgbm,LightGBM,predicted_class,45,11456,text__char__ fai,[char]  fai,text,0.005384054500609636,0.0017119041876867414
+FS5,lightgbm,LightGBM,predicted_class,46,13678,text__char__nterm,[char] nterm,text,0.005364324431866407,0.0017056307988241315
+FS5,lightgbm,LightGBM,predicted_class,47,14564,text__char__tent,[char] tent,text,0.005363743286579847,0.0017054460477083921
+FS5,lightgbm,LightGBM,predicted_class,48,14840,text__char__ver,[char] ver,text,0.005328841507434845,0.0016943487571552396
+FS5,lightgbm,LightGBM,predicted_class,49,13509,text__char__mpa,[char] mpa,text,0.005261156242340803,0.0016728276386857033
+FS5,lightgbm,LightGBM,predicted_class,50,14815,text__char__usf,[char] usf,text,0.0052404929883778095,0.0016662576235830784

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-08-20T10:07:23.522372+00:00",
+  "script": "01a_manual_review_validation.py",
+  "data_understanding_manifest_sha256": "c11ec19333e80d00eb008694f0ad592e33ced5c92de3449bbfe442bbe50a454a",
+  "template_hashes": {
+    "semantic": "9064e6010fd0c7d9900ad1a161dab4e1acda7ef067c79fd3026609ffe8d2f7d9",
+    "language": "37ccba65ae9b2d06e83560f3f24f5f1b39578ccd8112567df69ef77c8339c3ea",
+    "priority": "0d6038d4895704dca74a432b7cc942e930b465eb4caaf5881fa1a246f1ac282d"
+  },
+  "confirmed_review_hashes": {
+    "semantic": "f333366cb4b64d04a17365262f1fac5240f53e9c33a82d16b5438c22e743c215",
+    "language": "c7ab7d667ae92e66eb921b0c48bc346f9feb6fa804bc9ed266658117b052f461",
+    "priority": "d1dc1f3e41994d40cb31a23b174a3a35a29cda959283b1b4c9e032138243fa88"
+  },
+  "review_counts": {
+    "semantic": 60,
+    "language": 60,
+    "priority": 30
+  },
+  "semantic_similarity_threshold": 0.95,
+  "semantic_similarity_bands_validated": true,
+  "max_semantic_similarity_difference": 0.0,
+  "semantic_equivalent_share": 0.975,
+  "priority_not_observable": 8,
+  "priority_implausible": 2,
+  "output_hashes": {
+    "validated_language_decisions": "7363ee254c1783c941535d1157686638b4628a295065ddcd655782f89f8cb0a2",
+    "manual_review_summary": "abae062f149c6f8542ef06cb931b40ca889a1becc6884bf2047b9d8690e513b5"
+  },
+  "all_reviews_validated": true
+}

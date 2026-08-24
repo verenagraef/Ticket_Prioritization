@@ -1,0 +1,9 @@
+﻿indicator,records_before,records_after,action
+literal_escape_sequences,1232,0,replace with whitespace
+br_markup,640,0,remove markup token
+other_angle_markup,3,0,remove markup syntax
+known_anonymization_placeholders,433,433,retain
+unmasked_email_addresses,0,0,replace with <email_address>
+urls,0,0,replace with <url>
+email_address_tokens,0,0,created replacement token
+url_tokens,0,0,created replacement token

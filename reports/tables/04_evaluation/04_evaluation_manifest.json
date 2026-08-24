@@ -1,0 +1,127 @@
+{
+  "created_utc": "2026-08-21T10:10:16.773446+00:00",
+  "script": "04_evaluation.py",
+  "script_sha256": "a06b0af98e653fde6e9391c019e4ea192a21ce4b29328acdabc5b1a1603fd86e",
+  "script_build": "2026-08-16_evaluation_common_feature_selection_v1",
+  "run_id": "evaluation_common_feature_selection_v1",
+  "modeling_build": "2026-08-16_final_comparative_common_feature_selection_v1",
+  "modeling_run_id": "final_comparative_common_feature_selection_v1",
+  "modeling_manifest_sha256": "00658f89bcf18e86fee8e21352ea122ee319293558dcff6ffc13d51f56d1ee1c",
+  "data_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "records": 28551,
+  "semantic_groups": 20825,
+  "training_records": 22842,
+  "training_semantic_groups": 16661,
+  "holdout_records": 5709,
+  "holdout_semantic_groups": 4164,
+  "group_column": "semantic_group_id",
+  "exact_group_column": "text_group_id",
+  "evaluated_pipelines": [
+    {
+      "feature_set": "FS4",
+      "model": "logistic_regression"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "linear_svm"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "complement_naive_bayes"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "knn_cosine"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "random_forest"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "xgboost"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "lightgbm"
+    },
+    {
+      "feature_set": "FS5",
+      "model": "lightgbm"
+    }
+  ],
+  "final_model": {
+    "feature_set": "FS5",
+    "model": "lightgbm"
+  },
+  "common_feature_set_selection": {
+    "feature_set": "FS4",
+    "source": "Modeling training-only cross-validation",
+    "selection_performed_in_evaluation": false,
+    "selection_artifact": "03_modeling_feature_set_selection.csv"
+  },
+  "h1": {
+    "feature_set": "FS4",
+    "baseline": "logistic_regression",
+    "alternatives": [
+      "linear_svm",
+      "complement_naive_bayes",
+      "knn_cosine",
+      "random_forest",
+      "xgboost",
+      "lightgbm"
+    ],
+    "contrast": "Macro-F1(alternative) - Macro-F1(logistic_regression)",
+    "pairwise": true,
+    "family_mean_comparison": false,
+    "directional_alternative": "delta > 0",
+    "number_of_comparisons": 6,
+    "multiple_testing": "Holm correction across six one-sided pairwise H1 tests",
+    "alpha": 0.05,
+    "supported": true,
+    "supporting_alternatives": [
+      "lightgbm"
+    ]
+  },
+  "bootstrap": {
+    "iterations": 10000,
+    "random_state": 42,
+    "sampling_unit": "semantic_group_id",
+    "paired_across_models": true,
+    "interval": "two-sided percentile 95%",
+    "h1_p_value": "centered paired bootstrap, one-sided"
+  },
+  "reuse": {
+    "reuse_valid_results": true,
+    "prediction_source": "new hold-out scoring",
+    "bootstrap_source": "new paired group-aware bootstrap"
+  },
+  "model_training_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "model_selection_performed": false,
+  "holdout_used_for_model_selection": false,
+  "figures_grayscale_only": true,
+  "input_model_hashes": {
+    "03_model_FS4_complement_naive_bayes.joblib": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+    "03_model_FS4_knn_cosine.joblib": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+    "03_model_FS4_lightgbm.joblib": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d",
+    "03_model_FS4_linear_svm.joblib": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+    "03_model_FS4_logistic_regression.joblib": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+    "03_model_FS4_random_forest.joblib": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+    "03_model_FS4_xgboost.joblib": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa",
+    "03_model_FS5_lightgbm.joblib": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66"
+  },
+  "output_hashes": {
+    "holdout_results": "d55ca717f60378d429a91245c6613461f53fc23d2d0b4319a32d6119467f782e",
+    "holdout_class_results": "43dd880264b93b89de3f0400b42581a54edc92b2c66a7035e9f0b69e52d07503",
+    "h1_pairwise_results": "78ed5530b703b776bf8c5c2d2c2cebb3b8f6a749de80f3b8e85ced4efb04c0b9",
+    "final_model_intervals": "37f43e7430aeb73ef3a5e44f773cb70e26aa53896b1d4c689f40237f659ae16b",
+    "holdout_predictions": "998b1702f12439ff8004babfda5262ad047237efae56cd0803635da7baec13f5",
+    "holdout_predictions_metadata": "f19195676e0f81c33158896a56565e3f9ec7b78d8f1c9517241eed2326f26f96",
+    "bootstrap_distributions": "be348c1a98ce93e898bb93af7fae00b39d971d65d3064780d6b0b9e87d66dc5b",
+    "bootstrap_metadata": "54337d0ce283098a5218de2dd4586918280c19764e0b0346562718fa181e30f4",
+    "common_feature_set_holdout_figure": "0fe9e3e3fc4b4917aa0be99f92a51806cb77d009454010b99d26a1bf41506386",
+    "h1_pairwise_figure": "a50f7359ef26cac5ca58e3819894bc2c264c7be27ba76457589be87b4d9fff31",
+    "final_confusion_figure": "bf61e92fad744923b7407ab04a8ca575d4ae53dcb2fa25c67747b154563611e3"
+  }
+}

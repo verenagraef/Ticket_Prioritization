@@ -1,0 +1,61 @@
+﻿source_row_id,manual_language,manual_assessment,review_comment
+26002,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+4859,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+10468,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+12717,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+606,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+10997,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+28191,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+22791,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+5193,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+4508,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+28012,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+15546,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+857,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+11351,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+20265,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+1578,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+11212,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+10440,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+13627,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+6744,en,detector_correct,Text is clearly English; the declared German label is inconsistent.
+2907,en,detector_correct,Declared label and automatic detection agree with the text.
+18148,en,detector_correct,Declared label and automatic detection agree with the text.
+20064,de,detector_correct,Declared label and automatic detection agree with the text.
+27213,en,detector_correct,Declared label and automatic detection agree with the text.
+10693,en,detector_correct,Declared label and automatic detection agree with the text.
+9424,de,detector_correct,Declared label and automatic detection agree with the text.
+13364,de,detector_correct,Declared label and automatic detection agree with the text.
+3325,en,detector_correct,Declared label and automatic detection agree with the text.
+19777,en,detector_correct,Declared label and automatic detection agree with the text.
+9256,en,detector_correct,Declared label and automatic detection agree with the text.
+4301,en,detector_correct,Declared label and automatic detection agree with the text.
+3018,en,detector_correct,Declared label and automatic detection agree with the text.
+11225,en,detector_correct,Declared label and automatic detection agree with the text.
+21435,de,detector_correct,Declared label and automatic detection agree with the text.
+27440,en,detector_correct,Declared label and automatic detection agree with the text.
+8584,de,detector_correct,Declared label and automatic detection agree with the text.
+2420,de,detector_correct,Declared label and automatic detection agree with the text.
+3042,de,detector_correct,Declared label and automatic detection agree with the text.
+4498,de,detector_correct,Declared label and automatic detection agree with the text.
+6385,en,detector_correct,Declared label and automatic detection agree with the text.
+11865,en,declared_label_correct,Short English text; automatic detector is inconclusive.
+20087,en,uncertain,"Text is clearly English; declared German label is inconsistent, while the detector remained inconclusive."
+23834,en,uncertain,Text is English; declared German label is inconsistent and the detector's 'other' result is not specific enough.
+9289,es,detector_correct,"Text is Spanish, not German or English."
+20803,en,declared_label_correct,Short English text; automatic detector is inconclusive.
+4972,en,uncertain,"Text is English; declared German label is inconsistent, while the detector remained inconclusive."
+10788,fr,detector_correct,"Text is French, not German or English."
+25850,en,uncertain,"Text is English; declared German label is inconsistent, while the detector remained inconclusive."
+2293,es,detector_correct,"Text is Spanish, not German or English."
+17289,en,declared_label_correct,Short English text; automatic detector is inconclusive.
+9469,de,declared_label_correct,Text is German; automatic detector is inconclusive.
+7115,de,declared_label_correct,The one-word text is German; automatic detection as 'other' is not supported.
+14372,de-es,both_acceptable,German heading with predominantly Spanish body; neither a simple German nor English label fully represents the text.
+5175,en,uncertain,"Text is English; declared German label is inconsistent, while the detector remained inconclusive."
+17970,en,declared_label_correct,Short English text; automatic detector is inconclusive.
+4270,en,declared_label_correct,Short English text; automatic detector is inconclusive.
+18965,en,declared_label_correct,English text; automatic detector is inconclusive.
+13584,pt,detector_correct,"Text is Portuguese, not German or English."
+22259,fr,detector_correct,"Text is French, not German or English."
+17311,en,declared_label_correct,Short English text; automatic detector is inconclusive.

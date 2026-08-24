@@ -1,0 +1,283 @@
+{
+  "created_utc": "2026-08-21T11:13:12.755925+00:00",
+  "script_build": "2026-08-16_explainability_common_feature_selection_v1",
+  "run_id": "explainability_common_feature_selection_v1",
+  "script": "05_explainability.py",
+  "script_sha256": "134bd7520457e80c7fb69da3826bfbcd8c31615f2a2617a31de87ee1dee21013",
+  "modeling_build": "2026-08-16_final_comparative_common_feature_selection_v1",
+  "modeling_run_id": "final_comparative_common_feature_selection_v1",
+  "evaluation_build": "2026-08-16_evaluation_common_feature_selection_v1",
+  "data_file": "data\\processed\\customer_it_support_prepared.csv",
+  "data_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "records": 28551,
+  "training_records": 22842,
+  "training_semantic_groups": 16661,
+  "holdout_records": 5709,
+  "holdout_semantic_groups": 4164,
+  "feature_set": "FS4",
+  "all_frozen_models": [
+    "logistic_regression",
+    "linear_svm",
+    "complement_naive_bayes",
+    "knn_cosine",
+    "random_forest",
+    "xgboost",
+    "lightgbm"
+  ],
+  "h2_models": [
+    "logistic_regression",
+    "linear_svm",
+    "complement_naive_bayes",
+    "knn_cosine",
+    "random_forest",
+    "xgboost",
+    "lightgbm"
+  ],
+  "h2_excluded_models": {},
+  "model_hashes": {
+    "complement_naive_bayes": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+    "knn_cosine": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+    "lightgbm": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d",
+    "linear_svm": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+    "logistic_regression": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+    "random_forest": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+    "xgboost": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa"
+  },
+  "global_groups_per_class": 100,
+  "global_h2_groups": 300,
+  "faithfulness_groups_per_class": 50,
+  "faithfulness_groups": 150,
+  "xgboost_sensitivity_groups_per_class": 30,
+  "xgboost_sensitivity_groups": 90,
+  "local_cases": 12,
+  "unique_explained_groups": 312,
+  "linear_background_groups_per_class": 50,
+  "knn_permutation_background_groups_per_class": 3,
+  "knn_permutation_cycles": 3,
+  "h2": {
+    "feature_set": "FS4",
+    "baseline": "logistic_regression",
+    "alternatives": [
+      "linear_svm",
+      "complement_naive_bayes",
+      "knn_cosine",
+      "random_forest",
+      "xgboost",
+      "lightgbm"
+    ],
+    "primary_metric": "predicted-class full-attribution Top-10 absolute SHAP-mass concentration",
+    "contrast": "Top10(Logistic Regression) - Top10(alternative)",
+    "pairwise": true,
+    "family_mean_comparison": false,
+    "number_of_comparisons": 6,
+    "multiple_testing": "holm_one_sided_6",
+    "alpha": 0.05,
+    "supported": true,
+    "supporting_alternatives": [
+      "complement_naive_bayes",
+      "random_forest"
+    ]
+  },
+  "compactness_sensitivity_metrics": [
+    "Top-5 concentration",
+    "Top-20 concentration",
+    "K80",
+    "normalized entropy",
+    "active-feature Top-10 concentration"
+  ],
+  "faithfulness": {
+    "metrics": [
+      "comprehensiveness",
+      "flip rate"
+    ],
+    "groups_per_class": 50,
+    "groups": 150,
+    "top_k_values": [
+      10
+    ],
+    "primary_reporting_k": 10,
+    "perturbation_scope": "active transformed text features",
+    "random_baseline_repeats": 5
+  },
+  "bootstrap": {
+    "sampling_unit": "semantic_group_id",
+    "stratification": "priority",
+    "iterations": 10000,
+    "random_state": 42,
+    "paired_across_models": true
+  },
+  "explainer_assignment": {
+    "logistic_regression": "LinearExplainer",
+    "linear_svm": "LinearExplainer",
+    "complement_naive_bayes": "LinearExplainer (ComplementNB score)",
+    "knn_cosine": "PermutationExplainer",
+    "random_forest": "TreeExplainer approximate=True",
+    "xgboost": "TreeExplainer approximate=True",
+    "lightgbm": "LightGBM native TreeSHAP"
+  },
+  "tree_shap_approximation": {
+    "approximate_models": [
+      "random_forest",
+      "xgboost"
+    ],
+    "exact_tree_shap_models": [
+      "lightgbm"
+    ],
+    "xgboost_exact_approximate_sensitivity": {
+      "groups": 90,
+      "groups_per_class": 30,
+      "exact_method": "XGBoost native exact Tree SHAP contributions",
+      "approximate_method": "TreeExplainer approximate=True",
+      "exact_max_additivity_error": 8.982629822185118e-07,
+      "exact_prediction_reconstruction_matches": true,
+      "mean_abs_shap_rank_spearman": 0.9665861172465535,
+      "mean_absolute_top_10_difference": 0.024660788389268787,
+      "mean_absolute_k_80_difference": 47.388888888888886
+    }
+  },
+  "model_training_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "model_selection_performed": false,
+  "h2_model_eligibility_based_on_performance": false,
+  "common_feature_set_selection": {
+    "feature_set": "FS4",
+    "source": "Modeling training-only cross-validation",
+    "selection_performed_in_explainability": false,
+    "selection_artifact": "03_modeling_feature_set_selection.csv"
+  },
+  "report_model": {
+    "feature_set": "FS5",
+    "model": "lightgbm"
+  },
+  "final_overall_model_from_evaluation": {
+    "feature_set": "FS5",
+    "model": "lightgbm"
+  },
+  "final_model_explainability": {
+    "feature_set": "FS5",
+    "model": "lightgbm",
+    "model_sha256": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66",
+    "sentiment_sha256": "fbbbef806d1ae10b454ea0a9d0245e57a19f41486730390bf2a802a7ebde72ea",
+    "feature_groups": [
+      "text",
+      "type",
+      "language",
+      "queue",
+      "sentiment"
+    ],
+    "global_groups": 300,
+    "local_cases": 12,
+    "validation": {
+      "explainer": "LightGBM native TreeSHAP",
+      "background_assumption": "tree_path_dependent",
+      "approximate_shap": false,
+      "max_abs_shap_value_before_storage": 1.6759202480316162,
+      "max_additivity_error": 0.00019726078527856905,
+      "additivity_tolerance": 0.001,
+      "prediction_reconstruction_matches": true,
+      "shap_output_scale": "raw_margin",
+      "feature_set": "FS5",
+      "model": "lightgbm",
+      "model_label": "LightGBM",
+      "model_sha256": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66",
+      "analysis_records": 312,
+      "global_records": 300,
+      "local_cases": 12,
+      "transformed_features": 15019,
+      "prediction_matches_evaluation": true,
+      "shap_values_shape": [
+        312,
+        3,
+        15019
+      ],
+      "base_values_shape": [
+        312,
+        3
+      ],
+      "source": "new SHAP calculation"
+    }
+  },
+  "local_case_selection": {
+    "target_cases": 12
+  },
+  "qualitative_assessment": {
+    "template_file": "reports\\tables\\05_explainability\\05_qualitative_plausibility_assessment_template.csv",
+    "evaluator_role": "author"
+  },
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "shap": "0.51.0",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3"
+  },
+  "cache_files": {
+    "logistic_regression": {
+      "path": "cache\\05_explainability\\models\\05_FS4_logistic_regression_results.joblib",
+      "sha256": "695a713824907d92d10934c1553cd95ed76ac64b4c9e3801c333b5720501b020"
+    },
+    "linear_svm": {
+      "path": "cache\\05_explainability\\models\\05_FS4_linear_svm_results.joblib",
+      "sha256": "8e555c275e0d16671b0245eab750ad96cfbc8d64713392aceb723c0852f7d053"
+    },
+    "complement_naive_bayes": {
+      "path": "cache\\05_explainability\\models\\05_FS4_complement_naive_bayes_results.joblib",
+      "sha256": "4671e76c633b1ab07e74ba4fcd5abe78c8e8ea7bab04ac647cbf2931b564b42f"
+    },
+    "knn_cosine": {
+      "path": "cache\\05_explainability\\models\\05_FS4_knn_cosine_results.joblib",
+      "sha256": "a4f479d672da060304d6f7bb2b5a6264779e92385d1df57b0b95e03308b5d039"
+    },
+    "random_forest": {
+      "path": "cache\\05_explainability\\models\\05_FS4_random_forest_results.joblib",
+      "sha256": "8f718911b99672c7af22b56943d0545e87873e11e91270f5c80957e3b8146f77"
+    },
+    "xgboost": {
+      "path": "cache\\05_explainability\\models\\05_FS4_xgboost_results.joblib",
+      "sha256": "918c242394583e8790ffc1f0469f44b8df5e3340389625096f4333fa444db3fe"
+    },
+    "lightgbm": {
+      "path": "cache\\05_explainability\\models\\05_FS4_lightgbm_results.joblib",
+      "sha256": "0c1499ed10bbeaf04aefea9a2d0065beb4324a0cdb9c35e78d43a810c36fd5d7"
+    }
+  },
+  "final_model_cache": {
+    "path": "cache\\05_explainability\\models\\05_FS5_lightgbm_final_model_results.joblib",
+    "sha256": "5c12a47986f50fe147ea992311618f3edeaef4821ae50598c7834f582dbbd3ca"
+  },
+  "output_hashes": {
+    "xai_model_eligibility": "86a89268a15cb8bdb3790e1ad8e4ef81c063fed6e8c441c62758b746bcda2f20",
+    "xai_sample": "0e2618cfb4cc47e9a21fbcd17cb973dc8bfc9e1a2e04f16ba1d8e242e0b54e8d",
+    "linear_shap_background_sample": "02a69af82b9b9315672fa6f169a3fb93b1dfd55b54d72cadcb707482d5779168",
+    "knn_permutation_background_sample": "153c0388193d11c6b314315795453faa90df8b42b03d540cafb81b653aa8958a",
+    "feature_dictionary_summary": "5c0392392fdda2171165111274565d347893eba0bb5f9d090c83510c99fc9f81",
+    "compactness_by_case": "c4b31d5eda8b8372009c947672e1784dbc4fae659f8b4f1f4f2a601415874f2d",
+    "compactness_summary": "4d0fdbca36ec4dadd9afa7692260f53dd27beb2a2e98e61bab0e5bd0c60d5f94",
+    "h2_pairwise_results": "8643e212753f92b4fd0243f591110c9c77698729d077ef3a5e37a86b24a20ec7",
+    "h2_sensitivity_results": "0a67a038304c088c325994fce0196b9b76550f6da373715f10e2051facff6f20",
+    "global_top_features": "d02c82139aca5723a59243c455cd5dd5acbcdcb61cf2122518291c35c2b409da",
+    "feature_group_summary": "b1b97a977302d9da58979cb32389229343aaaaf84da481599429434ef2a0aad2",
+    "local_explanation_cases": "f999ad0b5d64ceba427fa1316ff7ce7b1e5111605a6f5ad4d36a12da95a66c3e",
+    "local_feature_contributions": "7a4b6a50cd4a171b992e0020c324649175c99fe10f8f2a246293cefa3c5b5d4a",
+    "faithfulness_by_case": "85050e97e4cc0a542802d87488c90f7542fcf2f9dae3895004d1b58e4ebadf8a",
+    "faithfulness_summary": "5e4db9792c2866b582d884df1b3aff1d3b41c70cb851e6933dc735483d1b6109",
+    "xgboost_sensitivity_by_case": "717b4d6d86348a47a58732c05b056b58f63c3b5bd961b36236da5ee7636007f6",
+    "xgboost_sensitivity_summary": "1e5adb92c39d7b042b1e8a81b899e7f5f01f19c07322cdf3958403f59cd150d7",
+    "qualitative_assessment_template": "82075adce145e630b0a1cec7c5784ed7a00f48f6311599abd3536cf59825b010",
+    "validation_summary": "9d9b3cb6d8a60048780d316d051d7d5b6843bfb64fa046e43222b571ecc33e39",
+    "final_model_global_top_features": "4d4a8bbd2375d83c23bfa8c160177330b41d95a5044a8982ae0b0d085cc8e7ec",
+    "final_model_feature_group_summary": "da726e5befd8dd4a6452684317d8518e1cbb8473b775cd4929e10fc8175950e6",
+    "final_model_local_contributions": "cce7d8290103317b27ca990f7a4eac0a69e0a940a9fe2ed6045385ea59eb2f35",
+    "final_model_validation": "b44da48e1771cb7dd5444c8ae78c9415c067bc0a07011ec4d747f5e242904e59"
+  },
+  "figure_hashes": {
+    "05_h2_compactness_by_model.png": "dafb7ffe90e6a5b9ce739749d14e64a7c8934af247173c2088363e2aa43819c3",
+    "05_h2_pairwise_differences.png": "f6ac5bb2510cda45ad8f157cc0d7d714e0704eb69605eae19c06d585662c5039",
+    "05_feature_group_shares_by_model.png": "6d727e23649d483ee9dd36697a43b4a3d5d8e03025b2313b57d2621341bf7b4f",
+    "05_top_features_FS5_lightgbm_low.png": "8a87ad61f99efd48a1f37c81b614398f2d6918fa87d071e75741f75d86d7a4f9",
+    "05_top_features_FS5_lightgbm_medium.png": "59d5d39ee1b011a02841148277c2710f566cc25b1b765d689c3160c22a9f651d",
+    "05_top_features_FS5_lightgbm_high.png": "c4a31470e634d17debd4032b79a5cc70baac454651e5c44b0d5524ede3d22bf4"
+  }
+}

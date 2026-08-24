@@ -1,0 +1,37 @@
+﻿record_index,priority,language,type,queue,subject,body,combined_words,combined_characters,suspected_missing_whitespace,reviewed_uninformative,combined_text,decision,decision_reason
+23451,medium,de,Change,Customer Service,,Hallo Support,2,13,False,True,Hallo Support,exclude_after_manual_content_review,no_issue_specific_content
+7114,medium,de,Incident,General Inquiry,,Serverprobleme,1,14,False,False,Serverprobleme,retain,issue_specific_content_retained
+20616,medium,de,Incident,Returns and Exchanges,,Support benötigt,2,16,False,True,Support benötigt,exclude_after_manual_content_review,no_issue_specific_content
+10111,medium,en,Change,Customer Service,,Hello support team,3,18,False,True,Hello support team,exclude_after_manual_content_review,no_issue_specific_content
+1641,low,de,Request,Billing and Payments,Guidance,Support needed,3,23,False,False,Guidance Support needed,retain,issue_specific_content_retained
+4696,medium,en,Incident,General Inquiry,,Problems with the server,4,24,False,False,Problems with the server,retain,issue_specific_content_retained
+14592,low,de,Incident,Returns and Exchanges,,Error with Tracking Tools,4,25,False,False,Error with Tracking Tools,retain,issue_specific_content_retained
+16623,high,de,Incident,Billing and Payments,,Support for Invoice Issue,4,25,False,False,Support for Invoice Issue,retain,issue_specific_content_retained
+15883,medium,en,Problem,Billing and Payments,,Seek assistance with billing,4,28,False,False,Seek assistance with billing,retain,issue_specific_content_retained
+3317,high,de,Incident,IT Support,Technical Issue,Resolve Crash,4,29,False,False,Technical Issue Resolve Crash,retain,issue_specific_content_retained
+5423,high,en,Incident,Technical Support,,Several products are impacted,4,29,False,False,Several products are impacted,retain,issue_specific_content_retained
+27499,medium,de,Problem,Billing and Payments,,Support for Invoice Statement,4,29,False,False,Support for Invoice Statement,retain,issue_specific_content_retained
+6245,high,en,Incident,Technical Support,,Several products are impacted.,4,30,False,False,Several products are impacted.,retain,issue_specific_content_retained
+5333,high,de,Incident,Technical Support,,Multiple products are impacted.,4,31,False,False,Multiple products are impacted.,retain,issue_specific_content_retained
+16235,medium,en,Problem,Billing and Payments,,Seeking assistance with billing,4,31,False,False,Seeking assistance with billing,retain,issue_specific_content_retained
+18743,low,de,Incident,Returns and Exchanges,,Probleme beim Tracking-Werkzeug,4,31,False,False,Probleme beim Tracking-Werkzeug,retain,issue_specific_content_retained
+8765,high,de,Problem,Technical Support,Digital Issues,Tools are failing,5,32,False,False,Digital Issues Tools are failing,retain,issue_specific_content_retained
+19092,high,en,Problem,Technical Support,,Issues with software integration,4,32,False,False,Issues with software integration,retain,issue_specific_content_retained
+10679,low,de,Incident,Technical Support,IT-Problems Support,Please assist,5,33,False,False,IT-Problems Support Please assist,retain,issue_specific_content_retained
+12883,low,de,Incident,Technical Support,IT Support Issues,Need assistance,5,33,False,False,IT Support Issues Need assistance,retain,issue_specific_content_retained
+25627,low,de,Incident,Technical Support,IT-Probleme Unterstützung,Beitrag,4,33,False,False,IT-Probleme Unterstützung Beitrag,retain,issue_specific_content_retained
+18534,high,en,Incident,Billing and Payments,,Support needed for billing concern,5,34,False,False,Support needed for billing concern,retain,issue_specific_content_retained
+21179,high,de,Problem,Technical Support,,Problems with Software Integration,4,34,False,False,Problems with Software Integration,retain,issue_specific_content_retained
+25342,high,en,Problem,Technical Support,,Problems with software integration,4,34,False,False,Problems with software integration,retain,issue_specific_content_retained
+1547,high,en,Problem,Technical Support,Issue Encountered,Assistance Needed,4,35,False,False,Issue Encountered Assistance Needed,retain,issue_specific_content_retained
+3970,high,en,Incident,IT Support,,Suspicion of a data security breach,6,35,False,False,Suspicion of a data security breach,retain,issue_specific_content_retained
+23172,medium,en,Problem,Billing and Payments,,Request for assistance with billing,5,35,False,False,Request for assistance with billing,retain,issue_specific_content_retained
+13365,medium,de,Problem,IT Support,Issue with SaaS,Experiencing outages,5,36,False,False,Issue with SaaS Experiencing outages,retain,issue_specific_content_retained
+12268,high,de,Problem,Technical Support,,Probleme bei der Software-Integration,5,37,False,False,Probleme bei der Software-Integration,retain,issue_specific_content_retained
+4231,high,en,Incident,IT Support,,Suspicion of a data security violation,6,38,False,False,Suspicion of a data security violation,retain,issue_specific_content_retained
+23453,high,en,Incident,Billing and Payments,,Assistance needed with billing concern,5,38,False,False,Assistance needed with billing concern,retain,issue_specific_content_retained
+5395,high,de,Change,Product Support,Medical Data Security,Assistance needed,5,39,False,False,Medical Data Security Assistance needed,retain,issue_specific_content_retained
+19271,high,en,Incident,Billing and Payments,,Assistance needed with billing concerns,5,39,False,False,Assistance needed with billing concerns,retain,issue_specific_content_retained
+7031,high,en,Incident,Technical Support,,Several products are experiencing issues,5,40,False,False,Several products are experiencing issues,retain,issue_specific_content_retained
+25327,medium,de,Incident,Product Support,IT-Consulting,authorized access detected,5,40,False,False,IT-Consulting authorized access detected,retain,issue_specific_content_retained
+25287,medium,en,Incident,Technical Support,ConcernregardingSystemInvestmentAnalytics,Thecompanyisincapableofaccessinginvestmentanalyticsduetosystemunavailability.,2,119,True,False,ConcernregardingSystemInvestmentAnalytics Thecompanyisincapableofaccessinginvestmentanalyticsduetosystemunavailability.,retain_missing_whitespace_artifact,missing_whitespace_artifact_retained

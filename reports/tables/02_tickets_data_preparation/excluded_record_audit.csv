@@ -1,0 +1,37 @@
+﻿source_row_id,priority,type,queue,declared_language,combined_characters,combined_words,exact_body_answer,answer_in_body,answer_coverage,exclusion_reason,detected_language,language_confidence,manual_language,language_scope_status
+2293,high,Incident,Technical Support,de,739,108,False,False,0.7857142857142857,conservative_language_scope_exclusion,es,0.9999976061113304,es,non_target_language_confirmed_manually
+8001,high,Incident,Customer Service,de,637,74,True,True,1.0,likely_body_answer_leakage,,,,
+9289,high,Change,IT Support,de,671,94,False,False,1.0854037267080745,conservative_language_scope_exclusion,es,0.9999982371489985,es,non_target_language_confirmed_manually
+10080,low,Request,Technical Support,de,396,52,True,True,1.0,likely_body_answer_leakage,,,,
+10112,medium,Change,Customer Service,en,18,3,False,False,8.333333333333334,reviewed_uninformative_short_text,,,,
+10788,high,Problem,Technical Support,de,629,94,False,False,0.8603839441535777,conservative_language_scope_exclusion,fr,0.9999966634368638,fr,non_target_language_confirmed_manually
+11295,medium,Incident,Technical Support,de,49,7,False,False,3.8,conservative_language_scope_exclusion,es,0.999992723786132,,non_target_language_detected_automatically
+13584,high,Change,Service Outages and Maintenance,de,647,88,False,False,0.5689381933438986,conservative_language_scope_exclusion,pt,0.9999953474519998,pt,non_target_language_confirmed_manually
+13611,medium,Incident,Technical Support,de,559,74,True,True,1.0,likely_body_answer_leakage,,,,
+14294,high,Incident,Product Support,de,574,88,False,False,0.6610169491525424,conservative_language_scope_exclusion,pt,0.9999974363182407,,non_target_language_detected_automatically
+14372,high,Incident,Product Support,de,345,47,False,False,2.216949152542373,conservative_language_scope_exclusion,es,0.9999982240772494,de-es,non_target_language_confirmed_manually
+14528,high,Problem,IT Support,en,544,94,True,True,1.0,likely_body_answer_leakage,,,,
+15320,high,Change,IT Support,de,51,6,False,False,19.620689655172413,conservative_language_scope_exclusion,af,0.9999950986624185,,non_target_language_detected_automatically
+16168,low,Request,Returns and Exchanges,en,520,75,False,True,0.9576923076923077,likely_body_answer_leakage,,,,
+17836,medium,Change,Product Support,de,418,50,True,True,1.0,likely_body_answer_leakage,,,,
+18247,low,Request,IT Support,de,658,92,True,True,1.0,likely_body_answer_leakage,,,,
+18521,low,Request,Customer Service,en,87,12,False,False,5.324324324324325,conservative_language_scope_exclusion,fr,0.999997685591522,,non_target_language_detected_automatically
+18801,low,Problem,Billing and Payments,de,556,73,False,True,0.7481203007518797,likely_body_answer_leakage,,,,
+19259,low,Problem,Returns and Exchanges,de,747,103,False,True,0.9676923076923077,likely_body_answer_leakage,,,,
+19579,low,Request,Billing and Payments,de,339,51,False,False,1.135693215339233,conservative_language_scope_exclusion,es,0.9999973114199181,,non_target_language_detected_automatically
+20617,medium,Incident,Returns and Exchanges,de,16,2,False,False,7.0625,reviewed_uninformative_short_text,,,,
+20800,high,Request,Technical Support,de,908,118,True,True,1.0,likely_body_answer_leakage,,,,
+21077,medium,Request,Technical Support,de,414,53,True,True,1.0,likely_body_answer_leakage,,,,
+21170,medium,Problem,Technical Support,de,431,58,True,True,1.0,likely_body_answer_leakage,,,,
+22259,low,Problem,Customer Service,de,209,28,False,False,2.2666666666666666,conservative_language_scope_exclusion,fr,0.9999961906242576,fr,non_target_language_confirmed_manually
+22428,high,Incident,Technical Support,de,799,128,True,True,1.0,likely_body_answer_leakage,,,,
+22477,medium,Problem,IT Support,de,723,88,True,True,1.0,likely_body_answer_leakage,,,,
+22947,high,Change,Service Outages and Maintenance,de,651,86,False,False,1.0540983606557377,conservative_language_scope_exclusion,pt,0.9999979775776057,,non_target_language_detected_automatically
+23452,medium,Change,Customer Service,de,13,2,False,False,14.461538461538462,reviewed_uninformative_short_text,,,,
+23913,low,Request,Product Support,de,501,65,True,True,1.0,likely_body_answer_leakage,,,,
+24424,medium,Incident,Billing and Payments,de,651,81,True,True,1.0,likely_body_answer_leakage,,,,
+24457,high,Incident,Technical Support,de,433,55,False,False,0.31725888324873097,conservative_language_scope_exclusion,pt,0.9999961830240048,,non_target_language_detected_automatically
+26344,high,Incident,Service Outages and Maintenance,de,248,33,True,True,1.0,likely_body_answer_leakage,,,,
+26588,low,Incident,Returns and Exchanges,de,448,68,True,True,1.0,likely_body_answer_leakage,,,,
+26660,low,Request,Returns and Exchanges,en,549,82,False,True,0.9599271402550091,likely_body_answer_leakage,,,,
+28149,medium,Change,Product Support,de,394,51,False,True,0.9479166666666666,likely_body_answer_leakage,,,,

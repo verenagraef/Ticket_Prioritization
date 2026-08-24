@@ -1,0 +1,405 @@
+{
+  "created_utc": "2026-08-21T09:26:31.139785+00:00",
+  "script": "03c_modeling.py",
+  "script_sha256": "e4f96dc3431bb3ee4e90f29725431bf60ce2d2d2daef342ddcbae0df57c43cc6",
+  "script_build": "2026-08-16_final_comparative_common_feature_selection_v1",
+  "analytical_design_id": "final_comparative_v2",
+  "run_id": "final_comparative_common_feature_selection_v1",
+  "data_file": "data\\processed\\customer_it_support_prepared.csv",
+  "data_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "prepared_records": 28551,
+  "semantic_groups": 20825,
+  "exact_text_groups": 28550,
+  "training_records": 22842,
+  "holdout_records": 5709,
+  "training_semantic_groups": 16661,
+  "holdout_semantic_groups": 4164,
+  "semantic_conflict_groups": 105,
+  "group_column": "semantic_group_id",
+  "exact_group_column": "text_group_id",
+  "grouping_method": "complete_linkage_within_radius_components",
+  "minimum_group_similarity": 0.9500138163566588,
+  "random_state": 42,
+  "cv_folds": 5,
+  "design_hash": "91f2eb9ec2bc62f572416c7b9973d746b8596dceebe7fcb27f24153f7ea500fc",
+  "split_source": "validated existing split",
+  "cv_fold_source": "new deterministic CV folds",
+  "primary_metric": "macro_f1",
+  "selection_tiebreakers": [
+    "weighted_f1",
+    "accuracy"
+  ],
+  "holdout_scored_in_modeling": false,
+  "holdout_used_for_parameter_tuning": false,
+  "holdout_used_for_model_selection": false,
+  "holdout_used_for_preprocessing": false,
+  "holdout_used_for_fitted_preprocessing": false,
+  "sentiment_extracted_before_split_with_fixed_pretrained_model": true,
+  "models": [
+    "logistic_regression",
+    "linear_svm",
+    "complement_naive_bayes",
+    "knn_cosine",
+    "random_forest",
+    "xgboost",
+    "lightgbm"
+  ],
+  "model_families_descriptive_only": {
+    "logistic_regression": "linear_baseline",
+    "linear_svm": "linear",
+    "complement_naive_bayes": "probabilistic",
+    "knn_cosine": "instance_based",
+    "random_forest": "bagging_ensemble",
+    "xgboost": "gradient_boosting",
+    "lightgbm": "gradient_boosting"
+  },
+  "feature_sets": {
+    "FS1": {
+      "categorical": [],
+      "sentiment": false,
+      "label": "Text"
+    },
+    "FS2": {
+      "categorical": [
+        "type"
+      ],
+      "sentiment": false,
+      "label": "Text + type"
+    },
+    "FS3": {
+      "categorical": [
+        "type",
+        "language"
+      ],
+      "sentiment": false,
+      "label": "Text + type + language"
+    },
+    "FS4": {
+      "categorical": [
+        "type",
+        "language",
+        "queue"
+      ],
+      "sentiment": false,
+      "label": "Text + type + language + queue"
+    },
+    "FS5": {
+      "categorical": [
+        "type",
+        "language",
+        "queue"
+      ],
+      "sentiment": true,
+      "label": "Text + type + language + queue + sentiment"
+    }
+  },
+  "search_budget_per_model": 12,
+  "strict_data_freeze": true,
+  "reuse_valid_results": true,
+  "resume_partial_results": true,
+  "parallel_cv_jobs": 1,
+  "tuning_source": "new tuning run",
+  "tuning_checkpointing": "after_each_completed_classifier",
+  "oof_source": "new OOF run",
+  "oof_checkpointing": "after_each_model_feature_combination",
+  "model_checkpointing": "after_each_fitted_model",
+  "parameter_hash": "5a7e0ba58368cbca1a22847a8b1baceaf1fbe87cf36516b34ecc6c973b7bbbe5",
+  "oof_signature": "e6ef9154d345beac29ddcf1e02eb2fe180a08451a0f4c2b9c6254251b05fcd8b",
+  "screening_decisions": {
+    "retained_models": [
+      "logistic_regression",
+      "linear_svm",
+      "complement_naive_bayes",
+      "knn_cosine",
+      "random_forest",
+      "xgboost",
+      "lightgbm"
+    ],
+    "excluded_after_training_only_screening": [
+      "decision_tree",
+      "adaboost",
+      "catboost",
+      "distilmbert_multilingual"
+    ],
+    "frozen_text_representation": "word_plus_character_tfidf",
+    "screening_holdout_used": false,
+    "screening_manifest_hashes": {
+      "03a_manifest": "c5e70ba16c0dc68b4e1f54f1b9f9cd6543326cdbc5dcaabf3e9e74cd98074002",
+      "03b_manifest": "f15a7a73fa6d97b3a538acd3e2739091cb04497027c47a4a15ad3d02415fbccc"
+    }
+  },
+  "selected_parameters": {
+    "logistic_regression": {
+      "classifier__C": 10.0,
+      "classifier__class_weight": "balanced"
+    },
+    "linear_svm": {
+      "classifier__C": 1.0,
+      "classifier__class_weight": "balanced"
+    },
+    "complement_naive_bayes": {
+      "classifier__alpha": 0.05
+    },
+    "knn_cosine": {
+      "classifier__n_neighbors": 5,
+      "classifier__weights": "distance"
+    },
+    "random_forest": {
+      "classifier__class_weight": "balanced_subsample",
+      "classifier__max_depth": null,
+      "classifier__min_samples_leaf": 2
+    },
+    "xgboost": {
+      "classifier__max_depth": 7,
+      "classifier__min_child_weight": 1,
+      "classifier__reg_lambda": 10.0
+    },
+    "lightgbm": {
+      "classifier__min_child_samples": 10,
+      "classifier__num_leaves": 63,
+      "classifier__reg_lambda": 0.0
+    }
+  },
+  "text_representation": {
+    "name": "word_plus_character_tfidf",
+    "shared_by_all_models": true,
+    "word_ngram_range": [
+      1,
+      2
+    ],
+    "char_analyzer": "char_wb",
+    "char_ngram_range": [
+      3,
+      5
+    ],
+    "word_max_features": 30000,
+    "char_max_features": 30000,
+    "selected_text_features": 15000,
+    "bilingual_stopwords": true,
+    "bilingual_stopword_count": 424,
+    "stopword_sha256": "4914c13bc4fb1aca29d305aaf7a977e5028c53a769b05e4d9ad0cbd8f8602c21",
+    "stemming": false,
+    "lemmatization": false
+  },
+  "technical_baseline": {
+    "model": "dummy_majority",
+    "macro_f1_cv": 0.19145992614552454,
+    "hypothesis_baseline": false
+  },
+  "common_feature_set_selection": {
+    "selected_feature_set": "FS4",
+    "primary_metric": "mean cross-validated Macro-F1 across all seven classifiers",
+    "tie_breakers": [
+      "mean cross-validated Weighted-F1 across all seven classifiers",
+      "mean cross-validated Accuracy across all seven classifiers",
+      "predefined feature-set order"
+    ],
+    "source": "training-only cross-validation",
+    "holdout_used": false,
+    "selection_artifact": "03_modeling_feature_set_selection.csv"
+  },
+  "hypothesis_operationalization": {
+    "H1": {
+      "feature_set": "FS4",
+      "feature_set_selection": "CV-selected common feature set",
+      "baseline": "logistic_regression",
+      "alternatives": [
+        "linear_svm",
+        "complement_naive_bayes",
+        "knn_cosine",
+        "random_forest",
+        "xgboost",
+        "lightgbm"
+      ],
+      "contrast": "Macro-F1(alternative) - Macro-F1(logistic_regression)",
+      "pairwise": true,
+      "family_mean_comparison": false,
+      "multiple_testing": "Holm correction in Evaluation"
+    },
+    "H2": {
+      "feature_set": "FS4",
+      "feature_set_selection": "same CV-selected common feature set as H1",
+      "baseline": "logistic_regression",
+      "comparison": "pairwise SHAP compactness against Logistic Regression",
+      "family_mean_comparison": false,
+      "eligible_alternatives": "defined in Explainability from technically comparable SHAP outputs"
+    }
+  },
+  "sentiment": {
+    "model_id": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "revision": "968fc69b266c3b535556f8342ecc49a146986b4d",
+    "text_hash": "3e5193ac52238e8dfeaadc359f0207d0bfdd675fb1bb49a99f4fec7608fe4337"
+  },
+  "figures": {
+    "grayscale_only": true,
+    "macro_f1_matrix": "03_cv_macro_f1_matrix.png",
+    "class_f1_best_feature_set": "03_cv_class_f1_best_feature_set.png"
+  },
+  "final_model": {
+    "feature_set": "FS5",
+    "model": "lightgbm"
+  },
+  "selected_models": [
+    {
+      "selection": "common_complement_naive_bayes",
+      "feature_set": "FS4",
+      "model": "complement_naive_bayes",
+      "model_family": "probabilistic",
+      "macro_f1_cv": 0.48033546348566,
+      "macro_f1_cv_std": 0.005298891588440537,
+      "weighted_f1_cv": 0.49852166736148673,
+      "accuracy_cv": 0.5021453114251634,
+      "model_artifact": "03_model_FS4_complement_naive_bayes.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_knn_cosine",
+      "feature_set": "FS4",
+      "model": "knn_cosine",
+      "model_family": "instance_based",
+      "macro_f1_cv": 0.5183844233734238,
+      "macro_f1_cv_std": 0.006534914273798155,
+      "weighted_f1_cv": 0.5432846737015098,
+      "accuracy_cv": 0.552097535414432,
+      "model_artifact": "03_model_FS4_knn_cosine.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_lightgbm",
+      "feature_set": "FS4",
+      "model": "lightgbm",
+      "model_family": "gradient_boosting",
+      "macro_f1_cv": 0.5327704892613976,
+      "macro_f1_cv_std": 0.005859476942423107,
+      "weighted_f1_cv": 0.5595409977885577,
+      "accuracy_cv": 0.5674638172942146,
+      "model_artifact": "03_model_FS4_lightgbm.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_linear_svm",
+      "feature_set": "FS4",
+      "model": "linear_svm",
+      "model_family": "linear",
+      "macro_f1_cv": 0.5168878211699612,
+      "macro_f1_cv_std": 0.01003872689598883,
+      "weighted_f1_cv": 0.5359951395028261,
+      "accuracy_cv": 0.5375634822894483,
+      "model_artifact": "03_model_FS4_linear_svm.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_logistic_regression",
+      "feature_set": "FS4",
+      "model": "logistic_regression",
+      "model_family": "linear_baseline",
+      "macro_f1_cv": 0.5173982313849791,
+      "macro_f1_cv_std": 0.008619789411006802,
+      "weighted_f1_cv": 0.53330985943367,
+      "accuracy_cv": 0.5328790633458549,
+      "model_artifact": "03_model_FS4_logistic_regression.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_random_forest",
+      "feature_set": "FS4",
+      "model": "random_forest",
+      "model_family": "bagging_ensemble",
+      "macro_f1_cv": 0.5255215936670241,
+      "macro_f1_cv_std": 0.00920794251930827,
+      "weighted_f1_cv": 0.5530868818655528,
+      "accuracy_cv": 0.5623844712645724,
+      "model_artifact": "03_model_FS4_random_forest.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "common_xgboost",
+      "feature_set": "FS4",
+      "model": "xgboost",
+      "model_family": "gradient_boosting",
+      "macro_f1_cv": 0.49506199573272563,
+      "macro_f1_cv_std": 0.008197731080999969,
+      "weighted_f1_cv": 0.5322934752326546,
+      "accuracy_cv": 0.5491197371086367,
+      "model_artifact": "03_model_FS4_xgboost.joblib",
+      "selection_rule": "Classifier evaluated on the CV-selected common feature set; feature-set rule = mean Macro-F1 across all classifiers, then mean Weighted-F1, then mean Accuracy"
+    },
+    {
+      "selection": "final_overall_model",
+      "feature_set": "FS5",
+      "model": "lightgbm",
+      "model_family": "gradient_boosting",
+      "macro_f1_cv": 0.5329635395193693,
+      "macro_f1_cv_std": 0.009737814525519688,
+      "weighted_f1_cv": 0.5592180134779823,
+      "accuracy_cv": 0.5668511164384962,
+      "model_artifact": "03_model_FS5_lightgbm.joblib",
+      "selection_rule": "Highest CV Macro-F1 across all model-feature combinations; then Weighted-F1, then Accuracy"
+    },
+    {
+      "selection": "text_only_core_model",
+      "feature_set": "FS1",
+      "model": "knn_cosine",
+      "model_family": "instance_based",
+      "macro_f1_cv": 0.4968153613304798,
+      "macro_f1_cv_std": 0.001649194601664571,
+      "weighted_f1_cv": 0.5204547741674721,
+      "accuracy_cv": 0.5258739909081387,
+      "model_artifact": "03_model_FS1_knn_cosine.joblib",
+      "selection_rule": "Highest CV Macro-F1 within FS1; then Weighted-F1, then Accuracy"
+    }
+  ],
+  "artifact_hashes": {
+    "03a_screening_manifest": "c5e70ba16c0dc68b4e1f54f1b9f9cd6543326cdbc5dcaabf3e9e74cd98074002",
+    "03b_representation_manifest": "f15a7a73fa6d97b3a538acd3e2739091cb04497027c47a4a15ad3d02415fbccc",
+    "data_preparation_summary": "5e2f5ebfde25435bc6ea0afa5fb0ce1f7fad7735b0143bb9480fd9291a628bb6",
+    "semantic_group_cohesion": "845f8bf8011495c4a17c15c2c8cd29e9169f84bd45f4bffea4aecf6f736cfdaf",
+    "split": "3ba673a54783cf18fbdac2f00ac2817fba350afe794e68535f36c55d0147e5d0",
+    "folds": "df6aaf60c13bf7a20ce69fa66f3e7316dc36077981e1d25aab6e948ef79ec7b5",
+    "design_summary": "abfe25078f9382a73b565524cd0e408509469339c78e133ff2b0160c6b399a26",
+    "search_candidates": "9a37ff8ee57cc1c3744b0916667d7e4362367b7eb4daf352f30c365002c5c994",
+    "search_summary": "49fa7fb145c09771a92a8ce5a074885961d86713e653d6aebddf7663ab3b5427",
+    "parameters": "fdd2056ff39dbd441becde713e94acaabce91237df84060dc66a527b81d26709",
+    "tuning_checkpoint": "b649f267dc082f23ec2403eaf0e6571f4090c33fee24bbe9f7104abde105ba71",
+    "dummy_baseline": "e801e569b2c49bcda398ef638d2bd2bb8acca884c100d136f6f7b0a082bf4a99",
+    "oof": "2dee0b474e77d9b31af56d97ebcc2023b258d461c7f6fd20641fd714db493db2",
+    "oof_metadata": "8e4d133d5a720ab668f8fd04c34f9b54ab1179eb7e6e0218c1a5d7e13e43ab6e",
+    "cv_fold_metrics": "d45d584113c8c530faa6a7bd3b23da59181c35a2d895237aff5c3d9e6fe5ba20",
+    "cv_fold_class_metrics": "96863a765629d663c8d19ab84e70df8df62e4477bbaaf41e4bce05fef51963d1",
+    "cv_results": "b5b7659b8d72522e443025dd417d2b5363ef0729d42851eb357f0a996d9b27a5",
+    "feature_set_selection": "5b953e07200ac6406bb8c54b22783967ce82cf1c9f94d123e251866957ab41a4",
+    "cv_class_results": "be0448b464c9df82d965309256643a9945a29cf4945753881e759a1d8dd862d1",
+    "model_selection": "9aecb9025c99e4446078efb0d53acafc4878cb1e30d6362de3d67b0eebee3ed0",
+    "fitted_model_metadata": "654a8f278beee1de35cd3745d965757544c5866620289bdbe607257af8e547ba",
+    "macro_f1_figure": "6819ac5a54f0e28c0ed86634d8436f279a8dedefb477c080d89b83542ac13253",
+    "class_f1_figure": "64c9559e6d2ebc78d7cafc84eb7a762d8c9ff39aca18181e9f8b53a864cf3e62",
+    "stopwords": "4914c13bc4fb1aca29d305aaf7a977e5028c53a769b05e4d9ad0cbd8f8602c21",
+    "sentiment_features": "fbbbef806d1ae10b454ea0a9d0245e57a19f41486730390bf2a802a7ebde72ea",
+    "sentiment_metadata": "7d27601b5630402e8125212152a22e090f7b0c5e79b46d184176036f31404eec"
+  },
+  "stale_model_artifacts": [],
+  "selected_model_hashes": {
+    "03_model_FS5_lightgbm.joblib": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66",
+    "03_model_FS1_knn_cosine.joblib": "3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb",
+    "03_model_FS4_logistic_regression.joblib": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+    "03_model_FS4_linear_svm.joblib": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+    "03_model_FS4_complement_naive_bayes.joblib": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+    "03_model_FS4_knn_cosine.joblib": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+    "03_model_FS4_random_forest.joblib": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+    "03_model_FS4_xgboost.joblib": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa",
+    "03_model_FS4_lightgbm.joblib": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d"
+  },
+  "package_versions": {
+    "python": "3.11.15",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "joblib": "1.5.3",
+    "nltk": "3.10.0",
+    "torch": "2.13.0+cpu",
+    "transformers": "5.14.1"
+  }
+}

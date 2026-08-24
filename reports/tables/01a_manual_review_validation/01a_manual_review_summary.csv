@@ -1,0 +1,12 @@
+﻿review,indicator,value
+semantic,review_records,60.0
+semantic,pairs_at_or_ab_0_95,40.0
+semantic,equivalent_pairs_at_or_ab_0_95,39.0
+semantic,equivalent_share_at_or_ab_0_95,0.975
+language,review_records,60.0
+language,manual_target_language,54.0
+language,manual_non_target_language,6.0
+language,manual_uncertain_language,0.0
+priority,review_records,30.0
+priority,not_observable_from_text,8.0
+priority,implausible,2.0

@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "signature": "9cb1edab4b9cd922a607d10b4a5447dd0a348c4cfe6fb0aa465a18eacb363e63",
+  "created_utc": "2026-08-21T09:01:46.197637+00:00",
+  "data_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "design_hash": "91f2eb9ec2bc62f572416c7b9973d746b8596dceebe7fcb27f24153f7ea500fc",
+  "parameter_hash": "5a7e0ba58368cbca1a22847a8b1baceaf1fbe87cf36516b34ecc6c973b7bbbe5",
+  "models": {
+    "03_model_FS5_lightgbm.joblib": {
+      "sha256": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66",
+      "file_sha256": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66",
+      "feature_set": "FS5",
+      "model": "lightgbm",
+      "selected_params": {
+        "classifier__min_child_samples": 10,
+        "classifier__num_leaves": 63,
+        "classifier__reg_lambda": 0.0
+      },
+      "roles": [
+        "final_overall_model"
+      ]
+    },
+    "03_model_FS1_knn_cosine.joblib": {
+      "sha256": "3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb",
+      "file_sha256": "3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb",
+      "feature_set": "FS1",
+      "model": "knn_cosine",
+      "selected_params": {
+        "classifier__n_neighbors": 5,
+        "classifier__weights": "distance"
+      },
+      "roles": [
+        "text_only_core_model"
+      ]
+    },
+    "03_model_FS4_logistic_regression.joblib": {
+      "sha256": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+      "file_sha256": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+      "feature_set": "FS4",
+      "model": "logistic_regression",
+      "selected_params": {
+        "classifier__C": 10.0,
+        "classifier__class_weight": "balanced"
+      },
+      "roles": [
+        "common_logistic_regression"
+      ]
+    },
+    "03_model_FS4_linear_svm.joblib": {
+      "sha256": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+      "file_sha256": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+      "feature_set": "FS4",
+      "model": "linear_svm",
+      "selected_params": {
+        "classifier__C": 1.0,
+        "classifier__class_weight": "balanced"
+      },
+      "roles": [
+        "common_linear_svm"
+      ]
+    },
+    "03_model_FS4_complement_naive_bayes.joblib": {
+      "sha256": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+      "file_sha256": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+      "feature_set": "FS4",
+      "model": "complement_naive_bayes",
+      "selected_params": {
+        "classifier__alpha": 0.05
+      },
+      "roles": [
+        "common_complement_naive_bayes"
+      ]
+    },
+    "03_model_FS4_knn_cosine.joblib": {
+      "sha256": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+      "file_sha256": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+      "feature_set": "FS4",
+      "model": "knn_cosine",
+      "selected_params": {
+        "classifier__n_neighbors": 5,
+        "classifier__weights": "distance"
+      },
+      "roles": [
+        "common_knn_cosine"
+      ]
+    },
+    "03_model_FS4_random_forest.joblib": {
+      "sha256": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+      "file_sha256": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+      "feature_set": "FS4",
+      "model": "random_forest",
+      "selected_params": {
+        "classifier__class_weight": "balanced_subsample",
+        "classifier__max_depth": null,
+        "classifier__min_samples_leaf": 2
+      },
+      "roles": [
+        "common_random_forest"
+      ]
+    },
+    "03_model_FS4_xgboost.joblib": {
+      "sha256": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa",
+      "file_sha256": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa",
+      "feature_set": "FS4",
+      "model": "xgboost",
+      "selected_params": {
+        "classifier__max_depth": 7,
+        "classifier__min_child_weight": 1,
+        "classifier__reg_lambda": 10.0
+      },
+      "roles": [
+        "common_xgboost"
+      ]
+    },
+    "03_model_FS4_lightgbm.joblib": {
+      "sha256": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d",
+      "file_sha256": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d",
+      "feature_set": "FS4",
+      "model": "lightgbm",
+      "selected_params": {
+        "classifier__min_child_samples": 10,
+        "classifier__num_leaves": 63,
+        "classifier__reg_lambda": 0.0
+      },
+      "roles": [
+        "common_lightgbm"
+      ]
+    }
+  },
+  "completed_utc": "2026-08-21T09:26:31.118904+00:00"
+}

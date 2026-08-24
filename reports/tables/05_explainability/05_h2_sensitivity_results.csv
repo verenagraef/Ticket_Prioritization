@@ -1,0 +1,31 @@
+analysis,scope,metric,baseline_model,alternative_model,alternative_label,positive_direction,observed_difference,ci_lower_95,ci_upper_95,iterations
+full_top_5_share,full_attribution,top_5_share,logistic_regression,linear_svm,Linear SVM,supports greater LR compactness,-0.0029747362045049494,-0.004839527944568545,-0.001136296923505143,10000
+full_top_5_share,full_attribution,top_5_share,logistic_regression,complement_naive_bayes,Complement Naive Bayes,supports greater LR compactness,0.06702545398360688,0.06297900974750519,0.07111124712973833,10000
+full_top_5_share,full_attribution,top_5_share,logistic_regression,knn_cosine,kNN (cosine),supports greater LR compactness,-0.12226372387996096,-0.13058586567640304,-0.11374449748545885,10000
+full_top_5_share,full_attribution,top_5_share,logistic_regression,random_forest,Random Forest,supports greater LR compactness,0.055063399872370196,0.04942611334845424,0.060602819081395864,10000
+full_top_5_share,full_attribution,top_5_share,logistic_regression,xgboost,XGBoost,supports greater LR compactness,-0.1443798985642682,-0.15192875564098357,-0.13679049089550974,10000
+full_top_5_share,full_attribution,top_5_share,logistic_regression,lightgbm,LightGBM,supports greater LR compactness,-0.1585520604334,-0.1681900542229414,-0.14870902374386788,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,linear_svm,Linear SVM,supports greater LR compactness,-0.011819825982418326,-0.01441989520099014,-0.009370934078469872,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,complement_naive_bayes,Complement Naive Bayes,supports greater LR compactness,0.07366583221673577,0.0681210981681943,0.07900538332760333,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,knn_cosine,kNN (cosine),supports greater LR compactness,-0.19990454597266477,-0.20885853208601474,-0.19048322401940823,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,random_forest,Random Forest,supports greater LR compactness,0.07484452697626094,0.0674339309334755,0.08188223615288734,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,xgboost,XGBoost,supports greater LR compactness,-0.18464539947380326,-0.1916883796453476,-0.17747629396617412,10000
+full_top_20_share,full_attribution,top_20_share,logistic_regression,lightgbm,LightGBM,supports greater LR compactness,-0.17269845247771992,-0.18262613639235498,-0.16293939389288425,10000
+full_k_80,full_attribution,k_80,logistic_regression,linear_svm,Linear SVM,supports greater LR compactness,-18.05666666666667,-23.290000915527344,-12.89658319950104,10000
+full_k_80,full_attribution,k_80,logistic_regression,complement_naive_bayes,Complement Naive Bayes,supports greater LR compactness,396.4166666666667,381.0397583007813,411.63349838256835,10000
+full_k_80,full_attribution,k_80,logistic_regression,knn_cosine,kNN (cosine),supports greater LR compactness,-647.33,-663.8142700195312,-631.0064865112305,10000
+full_k_80,full_attribution,k_80,logistic_regression,random_forest,Random Forest,supports greater LR compactness,-245.69,-259.2803321838379,-232.17999267578125,10000
+full_k_80,full_attribution,k_80,logistic_regression,xgboost,XGBoost,supports greater LR compactness,-606.1866666666666,-620.8475128173828,-591.5632705688477,10000
+full_k_80,full_attribution,k_80,logistic_regression,lightgbm,LightGBM,supports greater LR compactness,-362.46666666666664,-381.4336524963379,-342.9999168395996,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,linear_svm,Linear SVM,supports greater LR compactness,-0.005046725839048177,-0.006224501749966293,-0.003930469148326667,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,complement_naive_bayes,Complement Naive Bayes,supports greater LR compactness,0.03932356833389346,0.03690799474716187,0.04166318587958813,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,knn_cosine,kNN (cosine),supports greater LR compactness,-0.19664451141079695,-0.20125049352645874,-0.1919589564204216,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,random_forest,Random Forest,supports greater LR compactness,-0.002559152146364246,-0.00589902134379372,0.0006787215155782154,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,xgboost,XGBoost,supports greater LR compactness,-0.1632237255089611,-0.1671593390405178,-0.15929147675633432,10000
+full_normalized_entropy,full_attribution,normalized_entropy,logistic_regression,lightgbm,LightGBM,supports greater LR compactness,-0.10240417443374689,-0.10799646377563477,-0.09677764549851417,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,linear_svm,Linear SVM,supports greater LR compactness,-0.007585590398318267,-0.010683785565197468,-0.004670780512969941,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,complement_naive_bayes,Complement Naive Bayes,supports greater LR compactness,0.13850158183364125,0.1319251600652933,0.14476894736289977,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,knn_cosine,kNN (cosine),supports greater LR compactness,-0.12893217104409282,-0.13973593190312386,-0.11807338390499354,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,random_forest,Random Forest,supports greater LR compactness,0.14856558284135468,0.13850157856941223,0.15858322121202945,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,xgboost,XGBoost,supports greater LR compactness,-0.22381987369143289,-0.23524728044867516,-0.21218167282640935,10000
+active_top_10_share,active_features,top_10_share,logistic_regression,lightgbm,LightGBM,supports greater LR compactness,-0.24876901630603038,-0.26033698916435244,-0.23715003952383995,10000

@@ -1,0 +1,139 @@
+{
+  "created_utc": "2026-08-21T11:57:38.423393+00:00",
+  "script": "06_integrity_audit.py",
+  "script_build": "2026-08-17_final_integrity_audit_common_feature_selection_v4",
+  "overall_status": "PASS",
+  "checks_performed": 337,
+  "passed_checks": 337,
+  "failed_checks": 0,
+  "expected_builds": {
+    "modeling": "2026-08-16_final_comparative_common_feature_selection_v1",
+    "evaluation": "2026-08-16_evaluation_common_feature_selection_v1",
+    "explainability": "2026-08-16_explainability_common_feature_selection_v1"
+  },
+  "golden_results": {
+    "raw_records": 28587,
+    "prepared_records": 28551,
+    "excluded_records": 36,
+    "semantic_groups": 20825,
+    "training_records": 22842,
+    "training_groups": 16661,
+    "holdout_records": 5709,
+    "holdout_groups": 4164,
+    "language_corrections": 3330,
+    "evaluation_pipelines": 8,
+    "xai_models": 7,
+    "global_h2_groups": 300,
+    "local_cases": 12,
+    "unique_explained_groups": 312,
+    "common_features": 15016,
+    "fs5_features": 15019,
+    "knn_background_per_class": 3,
+    "knn_cycles": 3,
+    "final_cv_macro_f1": 0.533,
+    "final_holdout_macro_f1": 0.5597,
+    "xgb_rho": 0.9666
+  },
+  "expected_h1": {
+    "linear_svm": [
+      0.0009,
+      -0.0054,
+      0.0074,
+      1.0,
+      false
+    ],
+    "complement_naive_bayes": [
+      -0.0504,
+      -0.0668,
+      -0.0333,
+      1.0,
+      false
+    ],
+    "knn_cosine": [
+      0.0081,
+      -0.0122,
+      0.0282,
+      0.854715,
+      false
+    ],
+    "random_forest": [
+      0.0169,
+      -0.001,
+      0.035,
+      0.161484,
+      false
+    ],
+    "xgboost": [
+      -0.0285,
+      -0.0462,
+      -0.0103,
+      1.0,
+      false
+    ],
+    "lightgbm": [
+      0.0197,
+      0.0044,
+      0.0348,
+      0.023998,
+      true
+    ]
+  },
+  "expected_h2": {
+    "linear_svm": [
+      -0.0083,
+      -0.0106,
+      -0.0062,
+      1.0,
+      false
+    ],
+    "complement_naive_bayes": [
+      0.0775,
+      0.0727,
+      0.0823,
+      0.0006,
+      true
+    ],
+    "knn_cosine": [
+      -0.1582,
+      -0.167,
+      -0.1489,
+      1.0,
+      false
+    ],
+    "random_forest": [
+      0.0741,
+      0.0676,
+      0.0805,
+      0.0006,
+      true
+    ],
+    "xgboost": [
+      -0.163,
+      -0.17,
+      -0.1558,
+      1.0,
+      false
+    ],
+    "lightgbm": [
+      -0.1731,
+      -0.1831,
+      -0.1632,
+      1.0,
+      false
+    ]
+  },
+  "raw_sha256": "f187c090e59581c2bbf3aa1377c8db4dd647464ecf2ae51bf8966e42e0ed6bc0",
+  "prepared_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "model_hashes": {
+    "03_model_FS1_knn_cosine.joblib": "3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb",
+    "03_model_FS4_complement_naive_bayes.joblib": "4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc",
+    "03_model_FS4_knn_cosine.joblib": "25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b",
+    "03_model_FS4_lightgbm.joblib": "a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d",
+    "03_model_FS4_linear_svm.joblib": "4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374",
+    "03_model_FS4_logistic_regression.joblib": "af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37",
+    "03_model_FS4_random_forest.joblib": "c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928",
+    "03_model_FS4_xgboost.joblib": "cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa",
+    "03_model_FS5_lightgbm.joblib": "80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66"
+  },
+  "audit_results_file": "reports\\tables\\06_final_integrity_audit\\06_integrity_audit.csv"
+}

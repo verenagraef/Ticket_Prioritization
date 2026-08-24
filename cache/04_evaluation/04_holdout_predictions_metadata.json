@@ -1,0 +1,43 @@
+{
+  "signature": "33df6cde6f4193a8c9844f97df11bbc37aff14c59552306d0f17ba1827f837f5",
+  "created_utc": "2026-08-21T10:10:12.541315+00:00",
+  "holdout_records": 5709,
+  "holdout_semantic_groups": 4164,
+  "evaluated_pipelines": [
+    {
+      "feature_set": "FS4",
+      "model": "logistic_regression"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "linear_svm"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "complement_naive_bayes"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "knn_cosine"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "random_forest"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "xgboost"
+    },
+    {
+      "feature_set": "FS4",
+      "model": "lightgbm"
+    },
+    {
+      "feature_set": "FS5",
+      "model": "lightgbm"
+    }
+  ],
+  "model_training_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "model_selection_performed": false
+}

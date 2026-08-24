@@ -1,0 +1,338 @@
+﻿category,check,expected,observed,status,detail
+data,raw records,28587,28587,PASS,
+data,prepared records,28551,28551,PASS,
+data,excluded records,36,36,PASS,
+data,semantic groups,20825,20825,PASS,
+data,raw SHA-256,f187c090e59581c2bbf3aa1377c8db4dd647464ecf2ae51bf8966e42e0ed6bc0,f187c090e59581c2bbf3aa1377c8db4dd647464ecf2ae51bf8966e42e0ed6bc0,PASS,
+data,priority class counts,"{'low': 5883, 'medium': 11504, 'high': 11164}","{'medium': 11504, 'high': 11164, 'low': 5883}",PASS,
+data,exact groups nested in semantic groups,1,1,PASS,
+data,source-row mapping valid,True,True,PASS,
+data,language-label corrections,3330,3330,PASS,
+split,row order matches prepared data,True,True,PASS,
+split,semantic IDs match prepared data,True,True,PASS,
+split,exact IDs match prepared data,True,True,PASS,
+split,training records,22842,22842,PASS,
+split,training groups,16661,16661,PASS,
+split,hold-out records,5709,5709,PASS,
+split,hold-out groups,4164,4164,PASS,
+split,semantic-group overlap,0,0,PASS,
+split,exact-text-group overlap,0,0,PASS,
+modeling,script_build,2026-08-16_final_comparative_common_feature_selection_v1,2026-08-16_final_comparative_common_feature_selection_v1,PASS,
+modeling,run_id,final_comparative_common_feature_selection_v1,final_comparative_common_feature_selection_v1,PASS,
+modeling,data_sha256,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,PASS,
+modeling,prepared_records,28551,28551,PASS,
+modeling,semantic_groups,20825,20825,PASS,
+modeling,training_records,22842,22842,PASS,
+modeling,training_semantic_groups,16661,16661,PASS,
+modeling,holdout_records,5709,5709,PASS,
+modeling,holdout_semantic_groups,4164,4164,PASS,
+modeling,group_column,semantic_group_id,semantic_group_id,PASS,
+modeling,exact_group_column,text_group_id,text_group_id,PASS,
+modeling,strict_data_freeze,True,True,PASS,
+modeling,holdout_scored_in_modeling,False,False,PASS,
+modeling,holdout_used_for_parameter_tuning,False,False,PASS,
+modeling,holdout_used_for_model_selection,False,False,PASS,
+modeling,holdout_used_for_preprocessing,False,False,PASS,
+modeling,holdout_used_for_fitted_preprocessing,False,False,PASS,
+modeling,classifier order,"['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']","['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']",PASS,
+modeling,CV-selected common feature set,FS4,FS4,PASS,
+modeling,common-set selection hold-out used,False,False,PASS,
+modeling,one common feature set selected,1,1,PASS,
+modeling,selection-table common feature set,FS4,FS4,PASS,
+modeling,feature-selection row: FS4,1,1,PASS,
+modeling,mean CV Macro-F1 across models: FS4,0.5123371454393102,0.5123371454393102,PASS,atol=1e-10
+modeling,mean CV Weighted-F1 across models: FS4,0.5365760992694654,0.5365760992694654,PASS,atol=1e-10
+modeling,mean CV Accuracy across models: FS4,0.5433790597346174,0.5433790597346174,PASS,atol=1e-10
+modeling,feature-selection row: FS5,1,1,PASS,
+modeling,mean CV Macro-F1 across models: FS5,0.5118149668839163,0.5118149668839163,PASS,atol=1e-10
+modeling,mean CV Weighted-F1 across models: FS5,0.5358969702879709,0.5358969702879709,PASS,atol=1e-10
+modeling,mean CV Accuracy across models: FS5,0.5426785164969845,0.5426785164969845,PASS,atol=1e-10
+modeling,feature-selection row: FS1,1,1,PASS,
+modeling,mean CV Macro-F1 across models: FS1,0.4629822614850906,0.4629822614850906,PASS,atol=1e-10
+modeling,mean CV Weighted-F1 across models: FS1,0.49071251952090966,0.4907125195209097,PASS,atol=1e-10
+modeling,mean CV Accuracy across models: FS1,0.49956920672937877,0.4995692067293787,PASS,atol=1e-10
+modeling,feature-selection row: FS2,1,1,PASS,
+modeling,mean CV Macro-F1 across models: FS2,0.46189679825361957,0.4618967982536195,PASS,atol=1e-10
+modeling,mean CV Weighted-F1 across models: FS2,0.4889399243600222,0.4889399243600222,PASS,atol=1e-10
+modeling,mean CV Accuracy across models: FS2,0.4980684791407433,0.4980684791407433,PASS,atol=1e-10
+modeling,feature-selection row: FS3,1,1,PASS,
+modeling,mean CV Macro-F1 across models: FS3,0.4593649434395032,0.4593649434395032,PASS,atol=1e-10
+modeling,mean CV Weighted-F1 across models: FS3,0.48683941640905054,0.4868394164090505,PASS,atol=1e-10
+modeling,mean CV Accuracy across models: FS3,0.4962359736725497,0.4962359736725497,PASS,atol=1e-10
+modeling,final feature set from CV,FS5,FS5,PASS,
+modeling,final model from CV,lightgbm,lightgbm,PASS,
+modeling,CV-best Macro-F1,0.533,0.5329635395193693,PASS,atol=0.0005
+modeling,H1 feature_set,FS4,FS4,PASS,
+modeling,H1 baseline,logistic_regression,logistic_regression,PASS,
+modeling,H1 pairwise,True,True,PASS,
+modeling,H1 family_mean_comparison,False,False,PASS,
+modeling,H2 feature_set,FS4,FS4,PASS,
+modeling,one final model selected,1,1,PASS,
+modeling,selection final feature set,FS5,FS5,PASS,
+modeling,selection final model,lightgbm,lightgbm,PASS,
+modeling,final CV Macro-F1,0.533,0.5329635395193693,PASS,atol=0.0005
+modeling,selected pipeline set,"{('FS4', 'linear_svm'), ('FS1', 'knn_cosine'), ('FS4', 'random_forest'), ('FS4', 'lightgbm'), ('FS4', 'xgboost'), ('FS4', 'logistic_regression'), ('FS5', 'lightgbm'), ('FS4', 'knn_cosine'), ('FS4', 'complement_naive_bayes')}","{('FS4', 'linear_svm'), ('FS4', 'random_forest'), ('FS1', 'knn_cosine'), ('FS4', 'lightgbm'), ('FS4', 'xgboost'), ('FS4', 'logistic_regression'), ('FS5', 'lightgbm'), ('FS4', 'knn_cosine'), ('FS4', 'complement_naive_bayes')}",PASS,
+modeling,hash: split,3ba673a54783cf18fbdac2f00ac2817fba350afe794e68535f36c55d0147e5d0,3ba673a54783cf18fbdac2f00ac2817fba350afe794e68535f36c55d0147e5d0,PASS,
+modeling,hash: feature_set_selection,5b953e07200ac6406bb8c54b22783967ce82cf1c9f94d123e251866957ab41a4,5b953e07200ac6406bb8c54b22783967ce82cf1c9f94d123e251866957ab41a4,PASS,
+modeling,hash: model_selection,9aecb9025c99e4446078efb0d53acafc4878cb1e30d6362de3d67b0eebee3ed0,9aecb9025c99e4446078efb0d53acafc4878cb1e30d6362de3d67b0eebee3ed0,PASS,
+modeling,hash: fitted_model_metadata,654a8f278beee1de35cd3745d965757544c5866620289bdbe607257af8e547ba,654a8f278beee1de35cd3745d965757544c5866620289bdbe607257af8e547ba,PASS,
+modeling,hash: sentiment_features,fbbbef806d1ae10b454ea0a9d0245e57a19f41486730390bf2a802a7ebde72ea,fbbbef806d1ae10b454ea0a9d0245e57a19f41486730390bf2a802a7ebde72ea,PASS,
+modeling,hash: sentiment_metadata,7d27601b5630402e8125212152a22e090f7b0c5e79b46d184176036f31404eec,7d27601b5630402e8125212152a22e090f7b0c5e79b46d184176036f31404eec,PASS,
+modeling,model exists: 03_model_FS1_knn_cosine.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS1_knn_cosine.joblib,3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb,3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb,PASS,
+modeling,manifest model hash: 03_model_FS1_knn_cosine.joblib,3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb,3fa1713e280455131c0cdf828bb31c63be4486f58ecbddde38993fbab4c7e3bb,PASS,
+modeling,model exists: 03_model_FS4_complement_naive_bayes.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_complement_naive_bayes.joblib,4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc,4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc,PASS,
+modeling,manifest model hash: 03_model_FS4_complement_naive_bayes.joblib,4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc,4150cd73d51207945b14c31610a6ffef7b9e2fdddf00b5d00b51b9badeabd7bc,PASS,
+modeling,model exists: 03_model_FS4_knn_cosine.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_knn_cosine.joblib,25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b,25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b,PASS,
+modeling,manifest model hash: 03_model_FS4_knn_cosine.joblib,25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b,25e2bdcafd113a4b6ab496570395d72a62997711b4bb0eb8653f1fb480cb057b,PASS,
+modeling,model exists: 03_model_FS4_lightgbm.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_lightgbm.joblib,a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d,a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d,PASS,
+modeling,manifest model hash: 03_model_FS4_lightgbm.joblib,a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d,a1c0199737016338e3205d6c941c86a9833f0a1a2c8e63c8e5ec8df4b71c228d,PASS,
+modeling,model exists: 03_model_FS4_linear_svm.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_linear_svm.joblib,4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374,4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374,PASS,
+modeling,manifest model hash: 03_model_FS4_linear_svm.joblib,4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374,4c950931a7fc53edadc70e7ff71959f21e72c449d56a0aabb410e4412dfac374,PASS,
+modeling,model exists: 03_model_FS4_logistic_regression.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_logistic_regression.joblib,af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37,af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37,PASS,
+modeling,manifest model hash: 03_model_FS4_logistic_regression.joblib,af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37,af87b5163acffaea0f936588eebbd983673c619afc3727a09b0fcf128424bb37,PASS,
+modeling,model exists: 03_model_FS4_random_forest.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_random_forest.joblib,c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928,c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928,PASS,
+modeling,manifest model hash: 03_model_FS4_random_forest.joblib,c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928,c72c0a6181c45899fa7f874f8763761a9a299587074f740387ab7c234459c928,PASS,
+modeling,model exists: 03_model_FS4_xgboost.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS4_xgboost.joblib,cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa,cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa,PASS,
+modeling,manifest model hash: 03_model_FS4_xgboost.joblib,cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa,cacc66165c9c5239ceae9bad66d74e4f46fe4eec9739afc33a55be1f2b196afa,PASS,
+modeling,model exists: 03_model_FS5_lightgbm.joblib,True,True,PASS,
+modeling,metadata model hash: 03_model_FS5_lightgbm.joblib,80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66,80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66,PASS,
+modeling,manifest model hash: 03_model_FS5_lightgbm.joblib,80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66,80ffab5508e2d7d702d4103408e4dc452dc960fff6461eb776b9fd81f0886a66,PASS,
+evaluation,script_build,2026-08-16_evaluation_common_feature_selection_v1,2026-08-16_evaluation_common_feature_selection_v1,PASS,
+evaluation,run_id,evaluation_common_feature_selection_v1,evaluation_common_feature_selection_v1,PASS,
+evaluation,modeling_build,2026-08-16_final_comparative_common_feature_selection_v1,2026-08-16_final_comparative_common_feature_selection_v1,PASS,
+evaluation,modeling_run_id,final_comparative_common_feature_selection_v1,final_comparative_common_feature_selection_v1,PASS,
+evaluation,data_sha256,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,PASS,
+evaluation,training_records,22842,22842,PASS,
+evaluation,holdout_records,5709,5709,PASS,
+evaluation,holdout_semantic_groups,4164,4164,PASS,
+evaluation,model_training_performed,False,False,PASS,
+evaluation,hyperparameter_tuning_performed,False,False,PASS,
+evaluation,model_selection_performed,False,False,PASS,
+evaluation,holdout_used_for_model_selection,False,False,PASS,
+evaluation,final feature set,FS5,FS5,PASS,
+evaluation,final model,lightgbm,lightgbm,PASS,
+evaluation,common feature set inherited from Modeling,FS4,FS4,PASS,
+evaluation,feature-set selection performed in Evaluation,False,False,PASS,
+evaluation,evaluated pipeline set,"{('FS4', 'linear_svm'), ('FS5', 'lightgbm'), ('FS4', 'knn_cosine'), ('FS4', 'random_forest'), ('FS4', 'lightgbm'), ('FS4', 'complement_naive_bayes'), ('FS4', 'xgboost'), ('FS4', 'logistic_regression')}","{('FS4', 'linear_svm'), ('FS4', 'random_forest'), ('FS4', 'lightgbm'), ('FS4', 'xgboost'), ('FS4', 'logistic_regression'), ('FS5', 'lightgbm'), ('FS4', 'knn_cosine'), ('FS4', 'complement_naive_bayes')}",PASS,
+evaluation,evaluated pipeline count,8,8,PASS,
+evaluation,common-set row: logistic_regression,1,1,PASS,
+evaluation,common-set Macro-F1: logistic_regression,0.5397,0.5396890393840784,PASS,atol=0.0005
+evaluation,common-set row: linear_svm,1,1,PASS,
+evaluation,common-set Macro-F1: linear_svm,0.5406,0.5406194433746484,PASS,atol=0.0005
+evaluation,common-set row: complement_naive_bayes,1,1,PASS,
+evaluation,common-set Macro-F1: complement_naive_bayes,0.4893,0.489260807242615,PASS,atol=0.0005
+evaluation,common-set row: knn_cosine,1,1,PASS,
+evaluation,common-set Macro-F1: knn_cosine,0.5478,0.5477540231880171,PASS,atol=0.0005
+evaluation,common-set row: random_forest,1,1,PASS,
+evaluation,common-set Macro-F1: random_forest,0.5566,0.5565779854845675,PASS,atol=0.0005
+evaluation,common-set row: xgboost,1,1,PASS,
+evaluation,common-set Macro-F1: xgboost,0.5112,0.5111855010336886,PASS,atol=0.0005
+evaluation,common-set row: lightgbm,1,1,PASS,
+evaluation,common-set Macro-F1: lightgbm,0.5594,0.5593972349687143,PASS,atol=0.0005
+evaluation,final hold-out row,1,1,PASS,
+evaluation,final hold-out Macro-F1,0.5597,0.5596589801868707,PASS,atol=0.0005
+evaluation,H1 feature set,FS4,FS4,PASS,
+evaluation,H1 pairwise,True,True,PASS,
+evaluation,H1 family_mean_comparison,False,False,PASS,
+evaluation,H1 number_of_comparisons,6,6,PASS,
+evaluation,H1 supported,True,True,PASS,
+evaluation,H1 supporting alternatives,['lightgbm'],['lightgbm'],PASS,
+H1,pairwise rows,6,6,PASS,
+H1,row: linear_svm,1,1,PASS,
+H1,delta: linear_svm,0.0009,0.0009304039905699,PASS,atol=0.0005
+H1,CI lower: linear_svm,-0.0054,-0.0054442342021502,PASS,atol=0.0005
+H1,CI upper: linear_svm,0.0074,0.0073897593305446,PASS,atol=0.0005
+H1,Holm p: linear_svm,1.0,1.0,PASS,atol=0.0007
+H1,significant: linear_svm,False,False,PASS,
+H1,row: complement_naive_bayes,1,1,PASS,
+H1,delta: complement_naive_bayes,-0.0504,-0.0504282321414633,PASS,atol=0.0005
+H1,CI lower: complement_naive_bayes,-0.0668,-0.0667616026476025,PASS,atol=0.0005
+H1,CI upper: complement_naive_bayes,-0.0333,-0.0332568449899554,PASS,atol=0.0005
+H1,Holm p: complement_naive_bayes,1.0,1.0,PASS,atol=0.0007
+H1,significant: complement_naive_bayes,False,False,PASS,
+H1,row: knn_cosine,1,1,PASS,
+H1,delta: knn_cosine,0.0081,0.0080649838039387,PASS,atol=0.0005
+H1,CI lower: knn_cosine,-0.0122,-0.0122117664897814,PASS,atol=0.0005
+H1,CI upper: knn_cosine,0.0282,0.0281828617211431,PASS,atol=0.0005
+H1,Holm p: knn_cosine,0.854715,0.8547145285471452,PASS,atol=0.0007
+H1,significant: knn_cosine,False,False,PASS,
+H1,row: random_forest,1,1,PASS,
+H1,delta: random_forest,0.0169,0.016888946100489,PASS,atol=0.0005
+H1,CI lower: random_forest,-0.001,-0.0010381581902038,PASS,atol=0.0005
+H1,CI upper: random_forest,0.035,0.0349708314053714,PASS,atol=0.0005
+H1,Holm p: random_forest,0.161484,0.1614838516148385,PASS,atol=0.0007
+H1,significant: random_forest,False,False,PASS,
+H1,row: xgboost,1,1,PASS,
+H1,delta: xgboost,-0.0285,-0.0285035383503897,PASS,atol=0.0005
+H1,CI lower: xgboost,-0.0462,-0.0461769837886095,PASS,atol=0.0005
+H1,CI upper: xgboost,-0.0103,-0.0102701071184128,PASS,atol=0.0005
+H1,Holm p: xgboost,1.0,1.0,PASS,atol=0.0007
+H1,significant: xgboost,False,False,PASS,
+H1,row: lightgbm,1,1,PASS,
+H1,delta: lightgbm,0.0197,0.0197081955846358,PASS,atol=0.0005
+H1,CI lower: lightgbm,0.0044,0.0043710196157917,PASS,atol=0.0005
+H1,CI upper: lightgbm,0.0348,0.0348410160280764,PASS,atol=0.0005
+H1,Holm p: lightgbm,0.023998,0.023997600239976,PASS,atol=0.0007
+H1,significant: lightgbm,True,True,PASS,
+evaluation,final Macro-F1 interval row,1,1,PASS,
+evaluation,final interval Macro-F1,0.5597,0.5596589801868707,PASS,atol=0.0005
+evaluation,prediction rows,5709,5709,PASS,
+evaluation,prediction columns,True,True,PASS,
+evaluation,hash: holdout_results,d55ca717f60378d429a91245c6613461f53fc23d2d0b4319a32d6119467f782e,d55ca717f60378d429a91245c6613461f53fc23d2d0b4319a32d6119467f782e,PASS,
+evaluation,hash: h1_pairwise_results,78ed5530b703b776bf8c5c2d2c2cebb3b8f6a749de80f3b8e85ced4efb04c0b9,78ed5530b703b776bf8c5c2d2c2cebb3b8f6a749de80f3b8e85ced4efb04c0b9,PASS,
+evaluation,hash: final_model_intervals,37f43e7430aeb73ef3a5e44f773cb70e26aa53896b1d4c689f40237f659ae16b,37f43e7430aeb73ef3a5e44f773cb70e26aa53896b1d4c689f40237f659ae16b,PASS,
+evaluation,hash: holdout_predictions,998b1702f12439ff8004babfda5262ad047237efae56cd0803635da7baec13f5,998b1702f12439ff8004babfda5262ad047237efae56cd0803635da7baec13f5,PASS,
+explainability,script_build,2026-08-16_explainability_common_feature_selection_v1,2026-08-16_explainability_common_feature_selection_v1,PASS,
+explainability,modeling_build,2026-08-16_final_comparative_common_feature_selection_v1,2026-08-16_final_comparative_common_feature_selection_v1,PASS,
+explainability,evaluation_build,2026-08-16_evaluation_common_feature_selection_v1,2026-08-16_evaluation_common_feature_selection_v1,PASS,
+explainability,run_id,explainability_common_feature_selection_v1,explainability_common_feature_selection_v1,PASS,
+explainability,data_sha256,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49,PASS,
+explainability,feature_set,FS4,FS4,PASS,
+explainability,global_h2_groups,300,300,PASS,
+explainability,local_cases,12,12,PASS,
+explainability,unique_explained_groups,312,312,PASS,
+explainability,knn_permutation_background_groups_per_class,3,3,PASS,
+explainability,knn_permutation_cycles,3,3,PASS,
+explainability,model_training_performed,False,False,PASS,
+explainability,hyperparameter_tuning_performed,False,False,PASS,
+explainability,model_selection_performed,False,False,PASS,
+explainability,h2_model_eligibility_based_on_performance,False,False,PASS,
+explainability,all frozen classifiers,"['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']","['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']",PASS,
+explainability,H2 model set,"['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']","['logistic_regression', 'linear_svm', 'complement_naive_bayes', 'knn_cosine', 'random_forest', 'xgboost', 'lightgbm']",PASS,
+explainability,H2 model count,7,7,PASS,
+explainability,common feature set inherited from Modeling,FS4,FS4,PASS,
+explainability,feature-set selection performed in Explainability,False,False,PASS,
+explainability,H2 feature set,FS4,FS4,PASS,
+explainability,H2 baseline,logistic_regression,logistic_regression,PASS,
+explainability,H2 pairwise,True,True,PASS,
+explainability,H2 family_mean_comparison,False,False,PASS,
+explainability,H2 number_of_comparisons,6,6,PASS,
+explainability,H2 supported,True,True,PASS,
+explainability,H2 supporting alternatives,"{'complement_naive_bayes', 'random_forest'}","{'complement_naive_bayes', 'random_forest'}",PASS,
+explainability,is_global_h2_case count,300,300,PASS,
+explainability,is_local_case count,12,12,PASS,
+explainability,XAI sample column: sentiment_negative,True,True,PASS,
+explainability,XAI sample column: sentiment_neutral,True,True,PASS,
+explainability,XAI sample column: sentiment_positive,True,True,PASS,
+explainability,XAI sample column: pred_final_model,True,True,PASS,
+explainability,compactness row: logistic_regression,1,1,PASS,
+explainability,Top-10 concentration: logistic_regression,0.2657,0.2656860226992515,PASS,atol=0.0005
+explainability,compactness row: linear_svm,1,1,PASS,
+explainability,Top-10 concentration: linear_svm,0.274,0.2740285554109414,PASS,atol=0.0005
+explainability,compactness row: complement_naive_bayes,1,1,PASS,
+explainability,Top-10 concentration: complement_naive_bayes,0.1882,0.1881533894545545,PASS,atol=0.0005
+explainability,compactness row: knn_cosine,1,1,PASS,
+explainability,Top-10 concentration: knn_cosine,0.4238,0.4238417388292549,PASS,atol=0.0005
+explainability,compactness row: random_forest,1,1,PASS,
+explainability,Top-10 concentration: random_forest,0.1916,0.1915509626242293,PASS,atol=0.0005
+explainability,compactness row: xgboost,1,1,PASS,
+explainability,Top-10 concentration: xgboost,0.4286,0.4286487273938967,PASS,atol=0.0005
+explainability,compactness row: lightgbm,1,1,PASS,
+explainability,Top-10 concentration: lightgbm,0.4388,0.4388326391069309,PASS,atol=0.0005
+H2,pairwise rows,6,6,PASS,
+H2,row: linear_svm,1,1,PASS,
+H2,delta: linear_svm,-0.0083,-0.0083425327116898,PASS,atol=0.0005
+H2,CI lower: linear_svm,-0.0106,-0.0106326755369082,PASS,atol=0.0005
+H2,CI upper: linear_svm,-0.0062,-0.0061724724597297,PASS,atol=0.0005
+H2,Holm p: linear_svm,1.0,1.0,PASS,atol=0.0007
+H2,significant: linear_svm,False,False,PASS,
+H2,row: complement_naive_bayes,1,1,PASS,
+H2,delta: complement_naive_bayes,0.0775,0.077532633244697,PASS,atol=0.0005
+H2,CI lower: complement_naive_bayes,0.0727,0.0726789880543947,PASS,atol=0.0005
+H2,CI upper: complement_naive_bayes,0.0823,0.0822887418791651,PASS,atol=0.0005
+H2,Holm p: complement_naive_bayes,0.0006,0.0005999400059994,PASS,atol=0.0007
+H2,significant: complement_naive_bayes,True,True,PASS,
+H2,row: knn_cosine,1,1,PASS,
+H2,delta: knn_cosine,-0.1582,-0.1581557161300034,PASS,atol=0.0005
+H2,CI lower: knn_cosine,-0.167,-0.1669890962541103,PASS,atol=0.0005
+H2,CI upper: knn_cosine,-0.1489,-0.1489219974726438,PASS,atol=0.0005
+H2,Holm p: knn_cosine,1.0,1.0,PASS,atol=0.0007
+H2,significant: knn_cosine,False,False,PASS,
+H2,row: random_forest,1,1,PASS,
+H2,delta: random_forest,0.0741,0.0741350600750221,PASS,atol=0.0005
+H2,CI lower: random_forest,0.0676,0.0675617687404155,PASS,atol=0.0005
+H2,CI upper: random_forest,0.0805,0.0804761476814746,PASS,atol=0.0005
+H2,Holm p: random_forest,0.0006,0.0005999400059994,PASS,atol=0.0007
+H2,significant: random_forest,True,True,PASS,
+H2,row: xgboost,1,1,PASS,
+H2,delta: xgboost,-0.163,-0.1629627046946452,PASS,atol=0.0005
+H2,CI lower: xgboost,-0.17,-0.1700251266360282,PASS,atol=0.0005
+H2,CI upper: xgboost,-0.1558,-0.1557890474796295,PASS,atol=0.0005
+H2,Holm p: xgboost,1.0,1.0,PASS,atol=0.0007
+H2,significant: xgboost,False,False,PASS,
+H2,row: lightgbm,1,1,PASS,
+H2,delta: lightgbm,-0.1731,-0.1731466164076794,PASS,atol=0.0005
+H2,CI lower: lightgbm,-0.1831,-0.1830719228833913,PASS,atol=0.0005
+H2,CI upper: lightgbm,-0.1632,-0.1631951838731765,PASS,atol=0.0005
+H2,Holm p: lightgbm,1.0,1.0,PASS,atol=0.0007
+H2,significant: lightgbm,False,False,PASS,
+explainability,common-set validation rows,7,7,PASS,
+explainability,common-set transformed feature counts,"{'logistic_regression': 15016, 'linear_svm': 15016, 'complement_naive_bayes': 15016, 'knn_cosine': 15016, 'random_forest': 15016, 'xgboost': 15016, 'lightgbm': 15016}","{'logistic_regression': 15016, 'linear_svm': 15016, 'complement_naive_bayes': 15016, 'knn_cosine': 15016, 'random_forest': 15016, 'xgboost': 15016, 'lightgbm': 15016}",PASS,
+explainability,common-set additivity <= 0.001,True,True,PASS,max=0.00047669
+explainability,common-set prediction reconstruction,True,True,PASS,
+explainability,XGB sensitivity row,1,1,PASS,
+explainability,XGB exact/approximate rho,0.9666,0.9665861172465536,PASS,atol=0.0005
+explainability,final model feature_set,FS5,FS5,PASS,
+explainability,final model model,lightgbm,lightgbm,PASS,
+explainability,final model global_groups,300,300,PASS,
+explainability,final model local_cases,12,12,PASS,
+explainability,final model feature groups,"{'text', 'language', 'queue', 'sentiment', 'type'}","{'type', 'text', 'language', 'queue', 'sentiment'}",PASS,
+explainability,final FS5 validation rows,1,1,PASS,
+explainability,final-model feature set,FS5,FS5,PASS,
+explainability,final-model classifier,lightgbm,lightgbm,PASS,
+explainability,final FS5 transformed features,15019,15019,PASS,
+explainability,final FS5 additivity <= 0.001,True,True,PASS,max=0.00019726
+explainability,final FS5 prediction reconstruction,True,True,PASS,
+explainability,final FS5 feature groups,"{'text', 'language', 'queue', 'sentiment', 'type'}","{'type', 'text', 'language', 'queue', 'sentiment'}",PASS,
+explainability,final FS5 class outputs,"{'high', 'predicted_class', 'medium', 'low'}","{'high', 'predicted_class', 'medium', 'low'}",PASS,
+explainability,sentiment group rows,4,4,PASS,
+explainability,sentiment SHAP shares valid,True,True,PASS,
+explainability,faithfulness summary present,True,True,PASS,
+explainability,hash: xai_sample,0e2618cfb4cc47e9a21fbcd17cb973dc8bfc9e1a2e04f16ba1d8e242e0b54e8d,0e2618cfb4cc47e9a21fbcd17cb973dc8bfc9e1a2e04f16ba1d8e242e0b54e8d,PASS,
+explainability,hash: compactness_summary,4d0fdbca36ec4dadd9afa7692260f53dd27beb2a2e98e61bab0e5bd0c60d5f94,4d0fdbca36ec4dadd9afa7692260f53dd27beb2a2e98e61bab0e5bd0c60d5f94,PASS,
+explainability,hash: h2_pairwise_results,8643e212753f92b4fd0243f591110c9c77698729d077ef3a5e37a86b24a20ec7,8643e212753f92b4fd0243f591110c9c77698729d077ef3a5e37a86b24a20ec7,PASS,
+explainability,hash: faithfulness_summary,5e4db9792c2866b582d884df1b3aff1d3b41c70cb851e6933dc735483d1b6109,5e4db9792c2866b582d884df1b3aff1d3b41c70cb851e6933dc735483d1b6109,PASS,
+explainability,hash: validation_summary,9d9b3cb6d8a60048780d316d051d7d5b6843bfb64fa046e43222b571ecc33e39,9d9b3cb6d8a60048780d316d051d7d5b6843bfb64fa046e43222b571ecc33e39,PASS,
+explainability,hash: xgboost_sensitivity_summary,1e5adb92c39d7b042b1e8a81b899e7f5f01f19c07322cdf3958403f59cd150d7,1e5adb92c39d7b042b1e8a81b899e7f5f01f19c07322cdf3958403f59cd150d7,PASS,
+explainability,hash: final_model_feature_group_summary,da726e5befd8dd4a6452684317d8518e1cbb8473b775cd4929e10fc8175950e6,da726e5befd8dd4a6452684317d8518e1cbb8473b775cd4929e10fc8175950e6,PASS,
+explainability,hash: final_model_validation,b44da48e1771cb7dd5444c8ae78c9415c067bc0a07011ec4d747f5e242904e59,b44da48e1771cb7dd5444c8ae78c9415c067bc0a07011ec4d747f5e242904e59,PASS,
+figures,04_common_feature_set_holdout_macro_f1.png,True,True,PASS,
+figures,04_H1_pairwise_macro_f1_differences.png,True,True,PASS,
+figures,04_final_model_confusion_matrix.png,True,True,PASS,
+figures,05_h2_compactness_by_model.png,True,True,PASS,
+figures,05_h2_pairwise_differences.png,True,True,PASS,
+figures,05_feature_group_shares_by_model.png,True,True,PASS,
+figures,05_top_features_FS5_lightgbm_low.png,True,True,PASS,
+figures,05_top_features_FS5_lightgbm_medium.png,True,True,PASS,
+figures,05_top_features_FS5_lightgbm_high.png,True,True,PASS,
+figures,XAI figure hash: 05_h2_compactness_by_model.png,dafb7ffe90e6a5b9ce739749d14e64a7c8934af247173c2088363e2aa43819c3,dafb7ffe90e6a5b9ce739749d14e64a7c8934af247173c2088363e2aa43819c3,PASS,
+figures,XAI figure hash: 05_h2_pairwise_differences.png,f6ac5bb2510cda45ad8f157cc0d7d714e0704eb69605eae19c06d585662c5039,f6ac5bb2510cda45ad8f157cc0d7d714e0704eb69605eae19c06d585662c5039,PASS,
+figures,XAI figure hash: 05_feature_group_shares_by_model.png,6d727e23649d483ee9dd36697a43b4a3d5d8e03025b2313b57d2621341bf7b4f,6d727e23649d483ee9dd36697a43b4a3d5d8e03025b2313b57d2621341bf7b4f,PASS,
+figures,XAI figure hash: 05_top_features_FS5_lightgbm_low.png,8a87ad61f99efd48a1f37c81b614398f2d6918fa87d071e75741f75d86d7a4f9,8a87ad61f99efd48a1f37c81b614398f2d6918fa87d071e75741f75d86d7a4f9,PASS,
+figures,XAI figure hash: 05_top_features_FS5_lightgbm_medium.png,59d5d39ee1b011a02841148277c2710f566cc25b1b765d689c3160c22a9f651d,59d5d39ee1b011a02841148277c2710f566cc25b1b765d689c3160c22a9f651d,PASS,
+figures,XAI figure hash: 05_top_features_FS5_lightgbm_high.png,c4a31470e634d17debd4032b79a5cc70baac454651e5c44b0d5524ede3d22bf4,c4a31470e634d17debd4032b79a5cc70baac454651e5c44b0d5524ede3d22bf4,PASS,
+knn_sensitivity,reference XAI build,2026-08-16_explainability_common_feature_selection_v1,2026-08-16_explainability_common_feature_selection_v1,PASS,
+knn_sensitivity,reference XAI run ID,explainability_common_feature_selection_v1,explainability_common_feature_selection_v1,PASS,
+knn_sensitivity,reference XAI manifest hash,c8111aa451cf6ff6871755727869c57e68954c2aa1f619cac0f904f3e933341c,c8111aa451cf6ff6871755727869c57e68954c2aa1f619cac0f904f3e933341c,PASS,
+knn_sensitivity,model,knn_cosine,knn_cosine,PASS,
+knn_sensitivity,feature set,FS4,FS4,PASS,
+knn_sensitivity,current 05 background groups/class,3,3,PASS,
+knn_sensitivity,current 05 permutation cycles,3,3,PASS,
+knn_sensitivity,sensitivity groups/class,30,30,PASS,
+knn_sensitivity,sensitivity groups,90,90,PASS,
+knn_sensitivity,sample hash,dffe4ad39abde2d88850b35df033fc099dd7b34ab8fef03f43a5c73f62fdfeb0,dffe4ad39abde2d88850b35df033fc099dd7b34ab8fef03f43a5c73f62fdfeb0,PASS,
+knn_sensitivity,summary hash,e95794d50b8528396a0718263b24c5eae9cd7d741e7c3450f87ff3167de3e972,e95794d50b8528396a0718263b24c5eae9cd7d741e7c3450f87ff3167de3e972,PASS,
+knn_sensitivity,comparison hash,d646e883a5205071d4d364e3e3db4784783719d6934f0f3bd20ff65ee2b58a64,d646e883a5205071d4d364e3e3db4784783719d6934f0f3bd20ff65ee2b58a64,PASS,
+knn_sensitivity,configuration design,"{'reference': (3, 3), 'reduced_background': (1, 3), 'reduced_cycles': (3, 1)}","{'reference': (3, 3), 'reduced_background': (1, 3), 'reduced_cycles': (3, 1)}",PASS,
+knn_sensitivity,summary rows,3,3,PASS,
+knn_sensitivity,comparison rows,2,2,PASS,
+knn_sensitivity,sample semantic groups,90,90,PASS,
+knn_sensitivity,max additivity error <= 1e-4,True,True,PASS,

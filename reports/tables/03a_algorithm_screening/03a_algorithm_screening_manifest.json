@@ -1,0 +1,235 @@
+{
+  "created_utc": "2026-08-20T14:03:36.985651+00:00",
+  "script": "03a_algorithm_screening_explorativ.py",
+  "screening_build": "2026-08-11_controlled_training_only_screening_v3",
+  "purpose": "algorithm screening",
+  "random_state": 42,
+  "data": {
+    "path": "data\\processed\\customer_it_support_prepared.csv",
+    "sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+    "prepared_records": 28551
+  },
+  "frozen_split": {
+    "path": "cache\\03_tickets_modeling\\03_split_assignments.parquet",
+    "sha256": "3ba673a54783cf18fbdac2f00ac2817fba350afe794e68535f36c55d0147e5d0",
+    "source": "new deterministic split",
+    "training_records": 22842,
+    "holdout_records": 5709,
+    "holdout_predictions_generated": false,
+    "holdout_used_for_model_selection": false
+  },
+  "screening": {
+    "splitter": "StratifiedGroupKFold",
+    "outer_n_splits": 5,
+    "selected_outer_folds": [
+      0,
+      1
+    ],
+    "screening_records": 9139,
+    "screening_semantic_groups": 6674,
+    "unused_training_records": 13703,
+    "shared_cv_folds": 2,
+    "primary_metric": "macro_f1",
+    "same_records_for_all_algorithms": true,
+    "same_group_disjoint_folds_for_all_algorithms": true,
+    "same_information_scope": "ticket text only",
+    "search_budget_per_substantive_algorithm": 2,
+    "class_weighting_in_screening": "none"
+  },
+  "classical_representation": {
+    "text_column": "text_clean",
+    "tfidf_max_features": 30000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "bilingual_stopwords": true,
+    "feature_selection": "chi2 SelectPercentile 50%",
+    "fit_inside_each_fold": true
+  },
+  "transformer": {
+    "enabled": true,
+    "model_id": "distilbert/distilbert-base-multilingual-cased",
+    "model_revision": "45c032ab32cc946ad88a166f7cb282f58c753c2e",
+    "text_column": "text",
+    "learning_rates": [
+      2e-05,
+      3e-05
+    ],
+    "epochs": 1,
+    "batch_size": 8,
+    "max_length": 160,
+    "freeze_lower_layers": 0,
+    "loss": "standard cross entropy"
+  },
+  "search_space": {
+    "dummy_majority": [
+      {
+        "strategy": "most_frequent"
+      }
+    ],
+    "complement_naive_bayes": [
+      {
+        "alpha": 0.5
+      },
+      {
+        "alpha": 1.0
+      }
+    ],
+    "logistic_regression": [
+      {
+        "C": 0.3
+      },
+      {
+        "C": 1.0
+      }
+    ],
+    "linear_svm": [
+      {
+        "C": 0.3
+      },
+      {
+        "C": 1.0
+      }
+    ],
+    "decision_tree": [
+      {
+        "max_depth": 20,
+        "min_samples_leaf": 5
+      },
+      {
+        "max_depth": 40,
+        "min_samples_leaf": 3
+      }
+    ],
+    "knn_cosine": [
+      {
+        "n_neighbors": 7,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 15,
+        "weights": "distance"
+      }
+    ],
+    "random_forest": [
+      {
+        "n_estimators": 250,
+        "max_depth": 30,
+        "min_samples_leaf": 5,
+        "max_samples": 0.5
+      },
+      {
+        "n_estimators": 350,
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_samples": 0.75
+      }
+    ],
+    "adaboost": [
+      {
+        "n_estimators": 100,
+        "learning_rate": 0.5,
+        "base_depth": 1
+      },
+      {
+        "n_estimators": 200,
+        "learning_rate": 0.2,
+        "base_depth": 2
+      }
+    ],
+    "xgboost": [
+      {
+        "n_estimators": 250,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "min_child_weight": 5,
+        "reg_lambda": 5.0
+      },
+      {
+        "n_estimators": 350,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "min_child_weight": 10,
+        "reg_lambda": 10.0
+      }
+    ],
+    "lightgbm": [
+      {
+        "n_estimators": 250,
+        "num_leaves": 31,
+        "learning_rate": 0.05
+      },
+      {
+        "n_estimators": 350,
+        "num_leaves": 63,
+        "learning_rate": 0.03
+      }
+    ],
+    "catboost": [
+      {
+        "iterations": 250,
+        "depth": 5,
+        "learning_rate": 0.05
+      },
+      {
+        "iterations": 350,
+        "depth": 7,
+        "learning_rate": 0.03
+      }
+    ],
+    "distilmbert_multilingual": [
+      {
+        "learning_rate": 2e-05,
+        "epochs": 1,
+        "batch_size": 8,
+        "max_length": 160,
+        "freeze_lower_layers": 0
+      },
+      {
+        "learning_rate": 3e-05,
+        "epochs": 1,
+        "batch_size": 8,
+        "max_length": 160,
+        "freeze_lower_layers": 0
+      }
+    ]
+  },
+  "package_versions": {
+    "python": "3.11.15",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit_learn": "1.9.0",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "torch": "2.13.0+cpu",
+    "transformers": "5.14.1"
+  },
+  "successful_algorithms": [
+    "linear_svm",
+    "complement_naive_bayes",
+    "lightgbm",
+    "knn_cosine",
+    "logistic_regression",
+    "xgboost",
+    "random_forest",
+    "decision_tree",
+    "catboost",
+    "distilmbert_multilingual",
+    "adaboost",
+    "dummy_majority"
+  ],
+  "failed_evaluations": [],
+  "outputs": {
+    "summary": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_summary.csv",
+    "candidate_results": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_candidate_results.csv",
+    "fold_results": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_fold_results.csv",
+    "class_results": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_class_results.csv",
+    "screening_pool": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_pool.csv",
+    "failed_evaluations": "reports\\tables\\03a_algorithm_screening\\03a_algorithm_screening_failed_evaluations.csv",
+    "figure": "reports\\figures\\03a_algorithm_screening\\03a_algorithm_screening_macro_f1.png"
+  }
+}

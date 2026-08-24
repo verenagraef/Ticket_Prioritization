@@ -1,0 +1,25 @@
+feature_set,model,model_label,evaluation_role,priority,precision,recall,f1,support
+FS4,complement_naive_bayes,Complement Naive Bayes,H1_common_feature_comparison,high,0.5777335984095427,0.6509856630824373,0.6121761112281442,2232
+FS4,complement_naive_bayes,Complement Naive Bayes,H1_common_feature_comparison,low,0.36524537409493163,0.38605442176870747,0.3753617197188921,1176
+FS4,complement_naive_bayes,Complement Naive Bayes,H1_common_feature_comparison,medium,0.5233213736545361,0.4437201216862234,0.480244590780809,2301
+FS4,knn_cosine,kNN (cosine),H1_common_feature_comparison,high,0.5797995373939862,0.6738351254480287,0.6232905097389142,2232
+FS4,knn_cosine,kNN (cosine),H1_common_feature_comparison,low,0.5880721220527045,0.36054421768707484,0.44702161307327365,1176
+FS4,knn_cosine,kNN (cosine),H1_common_feature_comparison,medium,0.5618212197159566,0.5845284658843981,0.5729499467518637,2301
+FS4,lightgbm,LightGBM,H1_common_feature_comparison,high,0.6504937741519966,0.678763440860215,0.6643279982459986,2232
+FS4,lightgbm,LightGBM,H1_common_feature_comparison,low,0.568685376661743,0.3273809523809524,0.41554236373448467,1176
+FS4,lightgbm,LightGBM,H1_common_feature_comparison,medium,0.5538290788013318,0.6505867014341591,0.5983213429256594,2301
+FS4,linear_svm,Linear SVM,H1_common_feature_comparison,high,0.6232006773920407,0.6594982078853047,0.6408358728776665,2232
+FS4,linear_svm,Linear SVM,H1_common_feature_comparison,low,0.4473214285714286,0.4260204081632653,0.436411149825784,1176
+FS4,linear_svm,Linear SVM,H1_common_feature_comparison,medium,0.553659631791648,0.5358539765319427,0.5446113074204947,2301
+FS4,logistic_regression,Logistic Regression,H1_common_feature_comparison,high,0.6323205636283575,0.6433691756272402,0.6377970242060849,2232
+FS4,logistic_regression,Logistic Regression,H1_common_feature_comparison,low,0.42890995260663506,0.461734693877551,0.44471744471744473,1176
+FS4,logistic_regression,Logistic Regression,H1_common_feature_comparison,medium,0.5524861878453039,0.5215123859191656,0.5365526492287056,2301
+FS4,random_forest,Random Forest,H1_common_feature_comparison,high,0.645021645021645,0.6675627240143369,0.6560986349625716,2232
+FS4,random_forest,Random Forest,H1_common_feature_comparison,low,0.5800933125972006,0.3171768707482993,0.41011544804837824,1176
+FS4,random_forest,Random Forest,H1_common_feature_comparison,medium,0.5537010159651669,0.6631899174272056,0.6035198734427526,2301
+FS4,xgboost,XGBoost,H1_common_feature_comparison,high,0.6190271201033147,0.6442652329749103,0.6313940724478594,2232
+FS4,xgboost,XGBoost,H1_common_feature_comparison,low,0.576017130620985,0.22874149659863946,0.3274497869750456,1176
+FS4,xgboost,XGBoost,H1_common_feature_comparison,medium,0.513874614594039,0.651890482398957,0.5747126436781609,2301
+FS5,lightgbm,LightGBM,final_overall_model,high,0.6457361052184981,0.681899641577061,0.6633253432120289,2232
+FS5,lightgbm,LightGBM,final_overall_model,low,0.5674486803519062,0.32908163265306123,0.41657696447793324,1176
+FS5,lightgbm,LightGBM,final_overall_model,medium,0.5576779026217229,0.6471099521946979,0.5990746328706498,2301

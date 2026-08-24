@@ -1,0 +1,15 @@
+﻿indicator,value
+semantic_grouping_method,complete_linkage_within_radius_components
+candidate_radius_components,19653
+candidate_similarity_edges,12304
+semantic_groups,20825
+multi_record_semantic_groups,5653
+records_in_semantic_groups,13379
+largest_semantic_group,6
+minimum_within_group_similarity,0.9500138163566589
+minimum_pair_share_at_or_ab_threshold,1.0
+groups_below_similarity_threshold,0
+semantic_priority_conflict_groups,105
+semantic_similarity_threshold,0.95
+manual_equivalent_share_at_threshold,0.975
+target_used_for_grouping,False

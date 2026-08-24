@@ -1,0 +1,9 @@
+{
+  "signature": "0b16ceacf3ccc44fcb6cb47cd84d500173c22317ec61f3992c58a27bc25026ba",
+  "created_utc": "2026-08-21T10:10:16.236880+00:00",
+  "iterations": 10000,
+  "random_state": 42,
+  "sampling_unit": "semantic_group_id",
+  "holdout_semantic_groups": 4164,
+  "paired_across_models": true
+}

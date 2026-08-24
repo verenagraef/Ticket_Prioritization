@@ -1,0 +1,139 @@
+﻿model,model_family,candidate_id,candidate_number,fold,priority,precision,recall,f1,support
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,0,low,0.0,0.0,0.0,942
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,0,medium,0.40293280805427883,1.0,0.5744149765990639,1841
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,0,high,0.0,0.0,0.0,1786
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,1,low,0.0,0.0,0.0,942
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,1,medium,0.40284463894967176,1.0,0.5743253782561223,1841
+dummy_majority,naive baseline,dummy_majority__candidate_01,1,1,high,0.0,0.0,0.0,1787
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,0,low,0.2931596091205212,0.1910828025477707,0.23136246786632392,942
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,0,medium,0.4445606694560669,0.4617055947854427,0.4529709565680789,1841
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,0,high,0.45961820851688695,0.5257558790593505,0.4904674849830243,1786
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,1,low,0.30944625407166126,0.20169851380042464,0.2442159383033419,942
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,1,medium,0.45863495346432265,0.48180336773492666,0.4699337748344371,1841
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_01,1,1,high,0.4723046488625124,0.5344152210408506,0.5014439485429246,1787
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,0,low,0.3127962085308057,0.14012738853503184,0.1935483870967742,942
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,0,medium,0.44260700389105057,0.49429657794676807,0.4670259173723377,1841
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,0,high,0.4562410329985653,0.5341545352743561,0.4921330925973691,1786
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,1,low,0.30455635491606714,0.13481953290870488,0.18690213392200147,942
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,1,medium,0.4478616049975973,0.5062466051059207,0.4752677205507394,1841
+complement_naive_bayes,probabilistic,complement_naive_bayes__candidate_02,2,1,high,0.4734555984555985,0.548964745383324,0.5084218709510235,1787
+logistic_regression,linear,logistic_regression__candidate_01,1,0,low,0.5,0.0021231422505307855,0.004228329809725159,942
+logistic_regression,linear,logistic_regression__candidate_01,1,0,medium,0.4219871552701171,0.6067354698533406,0.4977718360071301,1841
+logistic_regression,linear,logistic_regression__candidate_01,1,0,high,0.45828988529718456,0.4921612541993281,0.474622030237581,1786
+logistic_regression,linear,logistic_regression__candidate_01,1,1,low,0.0,0.0,0.0,942
+logistic_regression,linear,logistic_regression__candidate_01,1,1,medium,0.437890625,0.6089082020640956,0.5094296750738468,1841
+logistic_regression,linear,logistic_regression__candidate_01,1,1,high,0.4773067331670823,0.5355344152210408,0.504746835443038,1787
+logistic_regression,linear,logistic_regression__candidate_02,2,0,low,0.32456140350877194,0.03927813163481953,0.07007575757575757,942
+logistic_regression,linear,logistic_regression__candidate_02,2,0,medium,0.43028846153846156,0.5833785985877241,0.49527323034355547,1841
+logistic_regression,linear,logistic_regression__candidate_02,2,0,high,0.46299132210311383,0.5078387458006719,0.4843791722296395,1786
+logistic_regression,linear,logistic_regression__candidate_02,2,1,low,0.4112903225806452,0.054140127388535034,0.09568480300187618,942
+logistic_regression,linear,logistic_regression__candidate_02,2,1,medium,0.44238683127572015,0.5839217816404129,0.5033949894638258,1841
+logistic_regression,linear,logistic_regression__candidate_02,2,1,high,0.4756944444444444,0.5366536094012311,0.504338679989482,1787
+linear_svm,linear,linear_svm__candidate_01,1,0,low,0.375,0.09554140127388536,0.15228426395939088,942
+linear_svm,linear,linear_svm__candidate_01,1,0,medium,0.4375804375804376,0.5540467137425312,0.48897411313518696,1841
+linear_svm,linear,linear_svm__candidate_01,1,0,high,0.46596596596596596,0.5212765957446809,0.49207188160676535,1786
+linear_svm,linear,linear_svm__candidate_01,1,1,low,0.3775933609958506,0.09660297239915075,0.15384615384615385,942
+linear_svm,linear,linear_svm__candidate_01,1,1,medium,0.4440589765828274,0.5562194459532862,0.4938509766095973,1841
+linear_svm,linear,linear_svm__candidate_01,1,1,high,0.47652001977261493,0.5394515948517068,0.5060367454068242,1787
+linear_svm,linear,linear_svm__candidate_02,2,0,low,0.35664335664335667,0.1624203821656051,0.22319474835886213,942
+linear_svm,linear,linear_svm__candidate_02,2,0,medium,0.4514338575393155,0.530146659424226,0.4876342742942793,1841
+linear_svm,linear,linear_svm__candidate_02,2,0,high,0.4737108190091001,0.524636058230683,0.49787460148777896,1786
+linear_svm,linear,linear_svm__candidate_02,2,1,low,0.34285714285714286,0.15286624203821655,0.21145374449339208,942
+linear_svm,linear,linear_svm__candidate_02,2,1,medium,0.4395505617977528,0.5312330255296035,0.48106246925725527,1841
+linear_svm,linear,linear_svm__candidate_02,2,1,high,0.4794805194805195,0.5165081141578064,0.4973060344827586,1787
+decision_tree,single tree,decision_tree__candidate_01,1,0,low,0.2463768115942029,0.10828025477707007,0.1504424778761062,942
+decision_tree,single tree,decision_tree__candidate_01,1,0,medium,0.4172087522176227,0.7664312873438349,0.5403025081370859,1841
+decision_tree,single tree,decision_tree__candidate_01,1,0,high,0.4476067270375162,0.1937290033594625,0.2704181320828449,1786
+decision_tree,single tree,decision_tree__candidate_01,1,1,low,0.2869198312236287,0.07218683651804671,0.11535199321458864,942
+decision_tree,single tree,decision_tree__candidate_01,1,1,medium,0.42637151106833493,0.24063009234111896,0.3076388888888889,1841
+decision_tree,single tree,decision_tree__candidate_01,1,1,high,0.412568306010929,0.7604924454392837,0.5349340680968313,1787
+decision_tree,single tree,decision_tree__candidate_02,2,0,low,0.25618374558303886,0.15392781316348195,0.19230769230769232,942
+decision_tree,single tree,decision_tree__candidate_02,2,0,medium,0.4160780356542213,0.6719174361759913,0.5139177399252182,1841
+decision_tree,single tree,decision_tree__candidate_02,2,0,high,0.4349514563106796,0.25083986562150057,0.3181818181818182,1786
+decision_tree,single tree,decision_tree__candidate_02,2,1,low,0.2692307692307692,0.14861995753715498,0.19151846785225718,942
+decision_tree,single tree,decision_tree__candidate_02,2,1,medium,0.4397781299524564,0.30146659424225963,0.35771833709313566,1841
+decision_tree,single tree,decision_tree__candidate_02,2,1,high,0.42109038737446197,0.6569669837716844,0.513224043715847,1787
+knn_cosine,instance based,knn_cosine__candidate_01,1,0,low,0.3094812164579606,0.18365180467091294,0.23051299133910727,942
+knn_cosine,instance based,knn_cosine__candidate_01,1,0,medium,0.44512771996215705,0.5111352525801195,0.4758533501896334,1841
+knn_cosine,instance based,knn_cosine__candidate_01,1,0,high,0.46044303797468356,0.4888017917133259,0.47419880499728406,1786
+knn_cosine,instance based,knn_cosine__candidate_01,1,1,low,0.3193717277486911,0.1942675159235669,0.24158415841584158,942
+knn_cosine,instance based,knn_cosine__candidate_01,1,1,medium,0.441726618705036,0.5002715915263444,0.46917982679572084,1841
+knn_cosine,instance based,knn_cosine__candidate_01,1,1,high,0.46077405857740583,0.4930050363738109,0.4763449580967829,1787
+knn_cosine,instance based,knn_cosine__candidate_02,2,0,low,0.30423940149625933,0.12951167728237792,0.18168279970215934,942
+knn_cosine,instance based,knn_cosine__candidate_02,2,0,medium,0.43152796125055043,0.532319391634981,0.4766536964980545,1841
+knn_cosine,instance based,knn_cosine__candidate_02,2,0,high,0.45018450184501846,0.47816349384098544,0.4637523757806136,1786
+knn_cosine,instance based,knn_cosine__candidate_02,2,1,low,0.3451086956521739,0.13481953290870488,0.19389312977099238,942
+knn_cosine,instance based,knn_cosine__candidate_02,2,1,medium,0.4369063772048847,0.5247148288973384,0.4768015794669299,1841
+knn_cosine,instance based,knn_cosine__candidate_02,2,1,high,0.4575590155700653,0.5097929490766648,0.4822657490735839,1787
+random_forest,bagging ensemble,random_forest__candidate_01,1,0,low,0.0,0.0,0.0,942
+random_forest,bagging ensemble,random_forest__candidate_01,1,0,medium,0.41602634467618005,0.6175991309071157,0.49715784871010055,1841
+random_forest,bagging ensemble,random_forest__candidate_01,1,0,high,0.4444444444444444,0.4568868980963046,0.45057979017117616,1786
+random_forest,bagging ensemble,random_forest__candidate_01,1,1,low,0.0,0.0,0.0,942
+random_forest,bagging ensemble,random_forest__candidate_01,1,1,medium,0.42550872093023256,0.6360673546985334,0.5099063792728065,1841
+random_forest,bagging ensemble,random_forest__candidate_01,1,1,high,0.47110621904237754,0.4790151091214326,0.4750277469478357,1787
+random_forest,bagging ensemble,random_forest__candidate_02,2,0,low,0.3728813559322034,0.02335456475583864,0.04395604395604396,942
+random_forest,bagging ensemble,random_forest__candidate_02,2,0,medium,0.42221331194867684,0.5719717544812601,0.48581314878892734,1841
+random_forest,bagging ensemble,random_forest__candidate_02,2,0,high,0.45337301587301587,0.5117581187010078,0.4807995791688585,1786
+random_forest,bagging ensemble,random_forest__candidate_02,2,1,low,0.36633663366336633,0.03927813163481953,0.07094918504314478,942
+random_forest,bagging ensemble,random_forest__candidate_02,2,1,medium,0.44050020169423154,0.5931558935361216,0.5055555555555555,1841
+random_forest,bagging ensemble,random_forest__candidate_02,2,1,high,0.4748743718592965,0.5288192501398993,0.5003971405877681,1787
+adaboost,boosting ensemble,adaboost__candidate_01,1,0,low,0.0,0.0,0.0,942
+adaboost,boosting ensemble,adaboost__candidate_01,1,0,medium,0.4063047285464098,0.7561108093427485,0.5285741408771597,1841
+adaboost,boosting ensemble,adaboost__candidate_01,1,0,high,0.43919510061242345,0.2810750279955207,0.34277910549675655,1786
+adaboost,boosting ensemble,adaboost__candidate_01,1,1,low,0.0,0.0,0.0,942
+adaboost,boosting ensemble,adaboost__candidate_01,1,1,medium,0.41596739391033327,0.9424225964149918,0.5771789753825682,1841
+adaboost,boosting ensemble,adaboost__candidate_01,1,1,high,0.6390977443609023,0.14269725797425853,0.23330283623055809,1787
+adaboost,boosting ensemble,adaboost__candidate_02,2,0,low,0.0,0.0,0.0,942
+adaboost,boosting ensemble,adaboost__candidate_02,2,0,medium,0.4138881234499862,0.8158609451385117,0.5491773308957952,1841
+adaboost,boosting ensemble,adaboost__candidate_02,2,0,high,0.46382978723404256,0.24412094064949608,0.31988261188554656,1786
+adaboost,boosting ensemble,adaboost__candidate_02,2,1,low,0.0,0.0,0.0,942
+adaboost,boosting ensemble,adaboost__candidate_02,2,1,medium,0.4179786693753174,0.8940793047256925,0.5696487281536599,1841
+adaboost,boosting ensemble,adaboost__candidate_02,2,1,high,0.5714285714285714,0.20145495243424735,0.29788994621431525,1787
+xgboost,gradient boosted trees,xgboost__candidate_01,1,0,low,0.3069306930693069,0.032908704883227176,0.059443911792905084,942
+xgboost,gradient boosted trees,xgboost__candidate_01,1,0,medium,0.4133432724562057,0.6023900054318305,0.4902740937223696,1841
+xgboost,gradient boosted trees,xgboost__candidate_01,1,0,high,0.44313725490196076,0.4428891377379619,0.4430131615793895,1786
+xgboost,gradient boosted trees,xgboost__candidate_01,1,1,low,0.21138211382113822,0.027600849256900213,0.048826291079812206,942
+xgboost,gradient boosted trees,xgboost__candidate_01,1,1,medium,0.4333715158457426,0.6165127648017382,0.5089686098654709,1841
+xgboost,gradient boosted trees,xgboost__candidate_01,1,1,high,0.4721006564551422,0.4829322887520985,0.4774550484094053,1787
+xgboost,gradient boosted trees,xgboost__candidate_02,2,0,low,0.27346938775510204,0.07112526539278131,0.11288963774220724,942
+xgboost,gradient boosted trees,xgboost__candidate_02,2,0,medium,0.4190283400809717,0.5621944595328626,0.4801670146137787,1841
+xgboost,gradient boosted trees,xgboost__candidate_02,2,0,high,0.45685005393743255,0.4742441209406495,0.4653846153846154,1786
+xgboost,gradient boosted trees,xgboost__candidate_02,2,1,low,0.25853658536585367,0.05626326963906582,0.09241499564080209,942
+xgboost,gradient boosted trees,xgboost__candidate_02,2,1,medium,0.4306569343065693,0.576860401955459,0.4931506849315068,1841
+xgboost,gradient boosted trees,xgboost__candidate_02,2,1,high,0.4755134281200632,0.5053161723559038,0.4899620184481823,1787
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,0,low,0.2864,0.19002123142250532,0.2284620293554563,942
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,0,medium,0.4225216554379211,0.47691472026072784,0.44807348813472825,1841
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,0,high,0.4490889603429796,0.46920492721164614,0.4589266155531216,1786
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,1,low,0.3132137030995106,0.20382165605095542,0.24694533762057877,942
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,1,medium,0.4434654919236417,0.49212384573601303,0.466529351184346,1841
+lightgbm,gradient boosted trees,lightgbm__candidate_01,1,1,high,0.48119122257053293,0.5153889199776162,0.4977033234261011,1787
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,0,low,0.28056426332288403,0.19002123142250532,0.22658227848101264,942
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,0,medium,0.43398058252427185,0.485605649103748,0.45834401435529354,1841
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,0,high,0.46018172100481025,0.4820828667413214,0.47087776866283837,1786
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,1,low,0.308411214953271,0.21019108280254778,0.25,942
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,1,medium,0.44960861056751467,0.4991852254209669,0.4731016731016731,1841
+lightgbm,gradient boosted trees,lightgbm__candidate_02,2,1,high,0.4819532908704883,0.5081141578063794,0.4946880958866794,1787
+catboost,gradient boosted trees,catboost__candidate_01,1,0,low,0.391304347826087,0.009554140127388535,0.01865284974093264,942
+catboost,gradient boosted trees,catboost__candidate_01,1,0,medium,0.42043366409408306,0.621401412275937,0.5015344147303814,1841
+catboost,gradient boosted trees,catboost__candidate_01,1,0,high,0.44602739726027396,0.45576707726763716,0.4508446413735807,1786
+catboost,gradient boosted trees,catboost__candidate_01,1,1,low,0.28,0.0074309978768577496,0.014477766287487074,942
+catboost,gradient boosted trees,catboost__candidate_01,1,1,medium,0.4336996336996337,0.6431287343834873,0.5180485670531613,1841
+catboost,gradient boosted trees,catboost__candidate_01,1,1,high,0.48980716253443524,0.4974818130945719,0.49361465852304276,1787
+catboost,gradient boosted trees,catboost__candidate_02,2,0,low,0.36666666666666664,0.01167728237791932,0.02263374485596708,942
+catboost,gradient boosted trees,catboost__candidate_02,2,0,medium,0.4171260565968394,0.6165127648017382,0.4975887768522578,1841
+catboost,gradient boosted trees,catboost__candidate_02,2,0,high,0.4389438943894389,0.44680851063829785,0.4428412874583796,1786
+catboost,gradient boosted trees,catboost__candidate_02,2,1,low,0.24390243902439024,0.010615711252653927,0.02034587995930824,942
+catboost,gradient boosted trees,catboost__candidate_02,2,1,medium,0.43828811616354607,0.6230309614340033,0.5145805293853746,1841
+catboost,gradient boosted trees,catboost__candidate_02,2,1,high,0.48221757322175735,0.5159485170677113,0.4985131116517978,1787
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,0,low,0.0,0.0,0.0,942
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,0,medium,0.4204647006255585,0.5111352525801195,0.4613875949987742,1841
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,0,high,0.435006435006435,0.5677491601343785,0.49259169298032546,1786
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,1,low,0.0,0.0,0.0,942
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,1,medium,0.43523316062176165,0.5019011406844106,0.4661957618567104,1841
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_01,1,1,high,0.4446260727421332,0.6088416340235031,0.5139348134152102,1787
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,0,low,0.0,0.0,0.0,942
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,0,medium,0.4110236220472441,0.7088538837588267,0.5203349282296651,1841
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,0,high,0.4332855093256815,0.3381858902575588,0.379874213836478,1786
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,1,low,0.0,0.0,0.0,942
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,1,medium,0.4157068062827225,0.21564367191743616,0.28397711015736765,1841
+distilmbert_multilingual,transformer,distilmbert_multilingual__candidate_02,2,1,high,0.39391424619640386,0.7968662562954673,0.5272121436504998,1787

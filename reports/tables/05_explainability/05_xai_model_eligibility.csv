@@ -1,0 +1,8 @@
+model,included_in_h2,shap_method
+logistic_regression,True,LinearExplainer
+linear_svm,True,LinearExplainer
+complement_naive_bayes,True,LinearExplainer (ComplementNB score)
+knn_cosine,True,PermutationExplainer
+random_forest,True,TreeExplainer approximate=True
+xgboost,True,TreeExplainer approximate=True
+lightgbm,True,LightGBM native TreeSHAP

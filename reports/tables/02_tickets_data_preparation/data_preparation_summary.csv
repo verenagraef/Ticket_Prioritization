@@ -1,0 +1,43 @@
+﻿indicator,value
+source_file,aa_dataset-tickets-multi-lang-5-2-50-version.csv
+source_sha256,f187c090e59581c2bbf3aa1377c8db4dd647464ecf2ae51bf8966e42e0ed6bc0
+source_identity_validated,True
+raw_records,28587
+raw_variables,16
+records_without_usable_text_removed,0
+uninformative_short_records_removed,3
+body_answer_leakage_records_removed,20
+non_target_language_records_removed,13
+unique_records_removed,36
+final_prepared_records,28551
+final_variables,14
+language_label_mismatches_retained,3325
+uncertain_language_cases_retained,37
+lower_confidence_non_target_cases_retained,2
+corrected_de_en_labels,3330
+unique_text_groups,28550
+duplicate_text_groups_retained,1
+records_in_duplicate_text_groups,2
+semantic_group_threshold,0.95
+semantic_grouping_method,complete_linkage_within_radius_components
+semantic_candidate_radius_components,19653
+semantic_candidate_similarity_edges,12304
+semantic_groups,20825
+multi_record_semantic_groups,5653
+records_in_semantic_groups,13379
+largest_semantic_group,6
+minimum_within_group_similarity,0.9500138163566589
+minimum_pair_share_at_or_ab_threshold,1.0
+semantic_groups_below_similarity_threshold,0
+semantic_priority_conflict_groups,105
+semantic_grouping_target_blind,True
+manual_semantic_equivalent_share,0.975
+priority_not_observable_in_review,8
+priority_implausible_in_review,2
+unique_ticket_types,4
+unique_queues,10
+primary_modeling_features,"text_clean, type, language, queue"
+split_control_column,semantic_group_id
+exact_duplicate_control_column,text_group_id
+excluded_raw_columns,"answer, version, tag_1 to tag_8; raw declared language replaced by corrected language"
+deferred_to_modeling,"split, TF-IDF, stopwords, one-hot encoding, resampling, feature selection, tuning"

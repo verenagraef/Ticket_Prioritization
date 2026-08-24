@@ -1,0 +1,29 @@
+model,model_label,model_family,feature_group,features
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,language,2
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,queue,10
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,text,15000
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,type,4
+knn_cosine,kNN (cosine),instance_based,language,2
+knn_cosine,kNN (cosine),instance_based,queue,10
+knn_cosine,kNN (cosine),instance_based,text,15000
+knn_cosine,kNN (cosine),instance_based,type,4
+lightgbm,LightGBM,gradient_boosting,language,2
+lightgbm,LightGBM,gradient_boosting,queue,10
+lightgbm,LightGBM,gradient_boosting,text,15000
+lightgbm,LightGBM,gradient_boosting,type,4
+linear_svm,Linear SVM,linear,language,2
+linear_svm,Linear SVM,linear,queue,10
+linear_svm,Linear SVM,linear,text,15000
+linear_svm,Linear SVM,linear,type,4
+logistic_regression,Logistic Regression,linear_baseline,language,2
+logistic_regression,Logistic Regression,linear_baseline,queue,10
+logistic_regression,Logistic Regression,linear_baseline,text,15000
+logistic_regression,Logistic Regression,linear_baseline,type,4
+random_forest,Random Forest,bagging_ensemble,language,2
+random_forest,Random Forest,bagging_ensemble,queue,10
+random_forest,Random Forest,bagging_ensemble,text,15000
+random_forest,Random Forest,bagging_ensemble,type,4
+xgboost,XGBoost,gradient_boosting,language,2
+xgboost,XGBoost,gradient_boosting,queue,10
+xgboost,XGBoost,gradient_boosting,text,15000
+xgboost,XGBoost,gradient_boosting,type,4

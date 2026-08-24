@@ -1,0 +1,42 @@
+{
+  "script": "01_data_understanding.py",
+  "raw_data": "aa_dataset-tickets-multi-lang-5-2-50-version.csv",
+  "raw_sha256": "f187c090e59581c2bbf3aa1377c8db4dd647464ecf2ae51bf8966e42e0ed6bc0",
+  "raw_records": 28587,
+  "raw_variables": 16,
+  "random_state": 42,
+  "language_detection": {
+    "method": "langdetect",
+    "confidence_threshold": 0.8,
+    "non_target_confidence_threshold": 0.99,
+    "artifact": "cache\\01_tickets_data_understanding\\language_detection_detailed.parquet",
+    "sha256": "e7f970cf63289badca9630c333c8cb9d073d444f68aab14ea910d813cb2eb717"
+  },
+  "semantic_embeddings": {
+    "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "normalized_embeddings": true,
+    "artifact": "cache\\01_tickets_data_understanding\\multilingual_embeddings.npy",
+    "source_row_ids_artifact": "cache\\01_tickets_data_understanding\\multilingual_embedding_source_rows.npy",
+    "embeddings_sha256": "4651345d109ddbb9e090a58ed880c8dae5f0147a456b8a30b440f7ab42fddafc",
+    "source_row_ids_sha256": "89d3b3946c9e985d520be49541345cd9ba4eaf33abd282efac5d7083aafba33d"
+  },
+  "review_templates": {
+    "semantic": {
+      "records": 60,
+      "path": "reports\\tables\\01_tickets_data_understanding\\semantic_pair_review_sample.csv",
+      "sha256": "9064e6010fd0c7d9900ad1a161dab4e1acda7ef067c79fd3026609ffe8d2f7d9",
+      "pair_identity_sha256": "493ec5afb1f9a19febc20c985d8c8d4f82aa70372504578333258792a86ed6b8"
+    },
+    "language": {
+      "records": 60,
+      "path": "reports\\tables\\01_tickets_data_understanding\\language_label_manual_review_sample.csv",
+      "sha256": "37ccba65ae9b2d06e83560f3f24f5f1b39578ccd8112567df69ef77c8339c3ea"
+    },
+    "priority": {
+      "records": 30,
+      "path": "reports\\tables\\01_tickets_data_understanding\\priority_label_plausibility_review_sample.csv",
+      "sha256": "0d6038d4895704dca74a432b7cc942e930b465eb4caaf5881fa1a246f1ac282d"
+    }
+  }
+}

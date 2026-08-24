@@ -1,0 +1,6 @@
+﻿answer_coverage_threshold,primary_threshold,exact_body_answer_matches,additional_answer_in_body_cases,total_likely_leakage_cases,total_exclusion_records,expected_prepared_records
+0.5,False,15,5,20,23,28564
+0.6,False,15,5,20,23,28564
+0.7,True,15,5,20,23,28564
+0.8,False,15,4,19,22,28565
+0.9,False,15,4,19,22,28565

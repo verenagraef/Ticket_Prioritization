@@ -1,0 +1,17 @@
+﻿variable,role,dtype,unique_values,missing_records,blank_string_records,missing_share
+subject,early_text_predictor,str,24749,3838,0,0.13425683002763494
+body,early_text_predictor,str,28587,0,0,0.0
+answer,post_ticket_information_excluded,str,28580,7,0,0.00024486654773148636
+type,early_context_predictor,str,4,0,0,0.0
+queue,early_context_predictor,str,10,0,0,0.0
+priority,target,str,3,0,0,0.0
+language,early_context_predictor,str,2,0,0,0.0
+version,dataset_context_excluded,int64,3,0,0,0.0
+tag_1,auxiliary_tag_excluded,str,116,0,0,0.0
+tag_2,auxiliary_tag_excluded,str,256,13,0,0.00045475216007276033
+tag_3,auxiliary_tag_excluded,str,392,136,0,0.004757407213068878
+tag_4,auxiliary_tag_excluded,str,554,3058,0,0.10697170042326931
+tag_5,auxiliary_tag_excluded,str,602,14042,0,0.4912022947493616
+tag_6,auxiliary_tag_excluded,str,575,22713,0,0.7945219855178928
+tag_7,auxiliary_tag_excluded,str,427,26547,0,0.9286388918039669
+tag_8,auxiliary_tag_excluded,str,224,28022,0,0.98023577150453

@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-08-20T14:55:43.150152+00:00",
+  "script": "03b_representation_screening_explorativ_FINAL_BW.py",
+  "build": "2026-08-11_word_char_representation_screening_v1",
+  "purpose": "training-only text representation ablation",
+  "data_sha256": "930d6819d8d0f15795aaadc5344dc8346aab1079925d1d819f88ca85da587a49",
+  "split_path": "cache\\03_tickets_modeling\\03_split_assignments.parquet",
+  "split_sha256": "3ba673a54783cf18fbdac2f00ac2817fba350afe794e68535f36c55d0147e5d0",
+  "source_03a_pool_sha256": "da22363ad67bc127954c6005d6262ed144e31f9e64b8aa027343f7bc283d5ae1",
+  "screening_records": 9139,
+  "semantic_groups": 6674,
+  "holdout_scored": false,
+  "shared_cv_folds": 2,
+  "models_and_frozen_03a_parameters": {
+    "logistic_regression": {
+      "C": 1.0
+    },
+    "linear_svm": {
+      "C": 1.0
+    },
+    "complement_naive_bayes": {
+      "alpha": 0.5
+    }
+  },
+  "representations": {
+    "word": {
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ]
+    },
+    "char": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        3,
+        5
+      ]
+    },
+    "word_char": {
+      "components": [
+        "word",
+        "char"
+      ]
+    }
+  },
+  "common_selected_feature_budget": 15000,
+  "primary_metric": "macro_f1"
+}

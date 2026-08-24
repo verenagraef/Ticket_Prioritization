@@ -1,0 +1,6 @@
+{
+  "records": 28551,
+  "text_hash": "3e5193ac52238e8dfeaadc359f0207d0bfdd675fb1bb49a99f4fec7608fe4337",
+  "model_id": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+  "revision": "968fc69b266c3b535556f8342ecc49a146986b4d"
+}

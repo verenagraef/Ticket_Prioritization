@@ -1,0 +1,1401 @@
+model,model_label,model_family,class_output,rank,feature_index,feature_name,feature_label,feature_group,mean_abs_shap,share_of_total_abs_shap
+logistic_regression,Logistic Regression,linear_baseline,low,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.390775591135025,0.03840044513344765
+logistic_regression,Logistic Regression,linear_baseline,low,2,15010,categorical__queue_IT Support,IT Support,queue,0.2459334284067154,0.024167204275727272
+logistic_regression,Logistic Regression,linear_baseline,low,3,15001,categorical__type_Incident,Incident,type,0.1373535692691803,0.013497358188033104
+logistic_regression,Logistic Regression,linear_baseline,low,4,15003,categorical__type_Request,Request,type,0.13256199657917023,0.013026503846049309
+logistic_regression,Logistic Regression,linear_baseline,low,5,15011,categorical__queue_Product Support,Product Support,queue,0.08456689119338989,0.008310156874358654
+logistic_regression,Logistic Regression,linear_baseline,low,6,15007,categorical__queue_Customer Service,Customer Service,queue,0.06943861395120621,0.006823542062193155
+logistic_regression,Logistic Regression,linear_baseline,low,7,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.05176963284611702,0.005087259691208601
+logistic_regression,Logistic Regression,linear_baseline,low,8,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.04600042104721069,0.0045203352347016335
+logistic_regression,Logistic Regression,linear_baseline,low,9,15002,categorical__type_Problem,Problem,type,0.044659148901700974,0.004388532135635614
+logistic_regression,Logistic Regression,linear_baseline,low,10,11145,text__word__would,would,text,0.03509732708334923,0.0034489179961383343
+logistic_regression,Logistic Regression,linear_baseline,low,11,15000,categorical__type_Change,Change,type,0.03242121636867523,0.0031859439332038164
+logistic_regression,Logistic Regression,linear_baseline,low,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.03236044943332672,0.0031799725256860256
+logistic_regression,Logistic Regression,linear_baseline,low,13,2023,text__word__could,could,text,0.03208159655332565,0.003152570454403758
+logistic_regression,Logistic Regression,linear_baseline,low,14,2189,text__word__customer,customer,text,0.03201516345143318,0.003146042348816991
+logistic_regression,Logistic Regression,linear_baseline,low,15,15005,categorical__language_en,en,language,0.031060758978128433,0.003052255604416132
+logistic_regression,Logistic Regression,linear_baseline,low,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.02642427198588848,0.0025966407265514135
+logistic_regression,Logistic Regression,linear_baseline,low,17,15004,categorical__language_de,de,language,0.024654245004057884,0.0024227050598710775
+logistic_regression,Logistic Regression,linear_baseline,low,18,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.02454255148768425,0.0024117291904985905
+logistic_regression,Logistic Regression,linear_baseline,low,19,1957,text__word__content,content,text,0.024256853386759758,0.002383654471486807
+logistic_regression,Logistic Regression,linear_baseline,low,20,12401,text__char__dic,[char] dic,text,0.0234136413782835,0.0023007942363619804
+logistic_regression,Logistic Regression,linear_baseline,low,21,13509,text__char__mpa,[char] mpa,text,0.02255723439157009,0.0022166376002132893
+logistic_regression,Logistic Regression,linear_baseline,low,22,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.021666867658495903,0.0021291435696184635
+logistic_regression,Logistic Regression,linear_baseline,low,23,1335,text__word__brand growth,brand growth,text,0.020779352635145187,0.0020419300999492407
+logistic_regression,Logistic Regression,linear_baseline,low,24,14439,text__char__sta,[char] sta,text,0.02020975761115551,0.0019859573803842068
+logistic_regression,Logistic Regression,linear_baseline,low,25,13072,text__char__ies ,[char] ies ,text,0.019701741635799408,0.0019360361620783806
+logistic_regression,Logistic Regression,linear_baseline,low,26,13785,text__char__one,[char] one,text,0.019405608996748924,0.0019069359404966235
+logistic_regression,Logistic Regression,linear_baseline,low,27,4630,text__word__information,information,text,0.018539972603321075,0.0018218723125755787
+logistic_regression,Logistic Regression,linear_baseline,low,28,14564,text__char__tent,[char] tent,text,0.01831158623099327,0.0017994293011724949
+logistic_regression,Logistic Regression,linear_baseline,low,29,6591,text__word__online,online,text,0.018108705058693886,0.0017794928280636668
+logistic_regression,Logistic Regression,linear_baseline,low,30,12581,text__char__em ,[char] em ,text,0.01700197160243988,0.001670737168751657
+logistic_regression,Logistic Regression,linear_baseline,low,31,14056,text__char__rate,[char] rate,text,0.01678985171020031,0.0016498926561325788
+logistic_regression,Logistic Regression,linear_baseline,low,32,13855,text__char__ou ,[char] ou ,text,0.0167186688631773,0.0016428977251052856
+logistic_regression,Logistic Regression,linear_baseline,low,33,14939,text__char__you ,[char] you ,text,0.0167186688631773,0.0016428977251052856
+logistic_regression,Logistic Regression,linear_baseline,low,34,11769,text__char__ you ,[char]  you ,text,0.0167186688631773,0.0016428977251052856
+logistic_regression,Logistic Regression,linear_baseline,low,35,8382,text__word__saas,saas,text,0.016689922660589218,0.001640072907321155
+logistic_regression,Logistic Regression,linear_baseline,low,36,12325,text__char__cti,[char] cti,text,0.01630690135061741,0.0016024344367906451
+logistic_regression,Logistic Regression,linear_baseline,low,37,12118,text__char__bee,[char] bee,text,0.015971731394529343,0.0015694982139393687
+logistic_regression,Logistic Regression,linear_baseline,low,38,13045,text__char__ice ,[char] ice ,text,0.01587178185582161,0.0015596764860674739
+logistic_regression,Logistic Regression,linear_baseline,low,39,872,text__word__audience,audience,text,0.015647277235984802,0.001537614967674017
+logistic_regression,Logistic Regression,linear_baseline,low,40,11317,text__char__ a ,[char]  a ,text,0.015520728193223476,0.001525179366581142
+logistic_regression,Logistic Regression,linear_baseline,low,41,12308,text__char__cre,[char] cre,text,0.015391920693218708,0.0015125218778848648
+logistic_regression,Logistic Regression,linear_baseline,low,42,13923,text__char__per,[char] per,text,0.014906181953847408,0.0014647896168753505
+logistic_regression,Logistic Regression,linear_baseline,low,43,13517,text__char__mpt,[char] mpt,text,0.014646835625171661,0.0014393043238669634
+logistic_regression,Logistic Regression,linear_baseline,low,44,10999,text__word__website,website,text,0.014542734250426292,0.0014290745602920651
+logistic_regression,Logistic Regression,linear_baseline,low,45,11872,text__char__ache ,[char] ache ,text,0.014427137561142445,0.0014177152188494802
+logistic_regression,Logistic Regression,linear_baseline,low,46,4689,text__word__informationen,informationen,text,0.014405783265829086,0.0014156168326735497
+logistic_regression,Logistic Regression,linear_baseline,low,47,5787,text__word__look forward,look forward,text,0.014115450903773308,0.001387086696922779
+logistic_regression,Logistic Regression,linear_baseline,low,48,1458,text__word__campaigns,campaigns,text,0.0140104154124856,0.0013767650816589594
+logistic_regression,Logistic Regression,linear_baseline,low,49,13577,text__char__nfor,[char] nfor,text,0.013901433907449245,0.001366055803373456
+logistic_regression,Logistic Regression,linear_baseline,low,50,6390,text__word__network,network,text,0.013600747101008892,0.0013365080812945962
+logistic_regression,Logistic Regression,linear_baseline,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.08053848892450333,0.010069658979773521
+logistic_regression,Logistic Regression,linear_baseline,medium,2,15004,categorical__language_de,de,language,0.07457569986581802,0.009324136190116405
+logistic_regression,Logistic Regression,linear_baseline,medium,3,15001,categorical__type_Incident,Incident,type,0.07303595542907715,0.009131623432040215
+logistic_regression,Logistic Regression,linear_baseline,medium,4,15011,categorical__queue_Product Support,Product Support,queue,0.05831136181950569,0.007290620356798172
+logistic_regression,Logistic Regression,linear_baseline,medium,5,15010,categorical__queue_IT Support,IT Support,queue,0.056884728372097015,0.00711224926635623
+logistic_regression,Logistic Regression,linear_baseline,medium,6,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.04968968778848648,0.0062126596458256245
+logistic_regression,Logistic Regression,linear_baseline,medium,7,15002,categorical__type_Problem,Problem,type,0.03473443165421486,0.004342816770076752
+logistic_regression,Logistic Regression,linear_baseline,medium,8,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.02751046232879162,0.00343960989266634
+logistic_regression,Logistic Regression,linear_baseline,medium,9,15007,categorical__queue_Customer Service,Customer Service,queue,0.023065192624926567,0.0028838214930146933
+logistic_regression,Logistic Regression,linear_baseline,medium,10,1927,text__word__connectivity,connectivity,text,0.021532149985432625,0.002692146459594369
+logistic_regression,Logistic Regression,linear_baseline,medium,11,12581,text__char__em ,[char] em ,text,0.021435284987092018,0.0026800355408340693
+logistic_regression,Logistic Regression,linear_baseline,medium,12,15005,categorical__language_en,en,language,0.02130153588950634,0.0026633129455149174
+logistic_regression,Logistic Regression,linear_baseline,medium,13,9329,text__word__strategies,strategies,text,0.019759606570005417,0.0024705268442630768
+logistic_regression,Logistic Regression,linear_baseline,medium,14,8641,text__word__seo,seo,text,0.01941044256091118,0.0024268710985779762
+logistic_regression,Logistic Regression,linear_baseline,medium,15,114,text__word__access logs,access logs,text,0.01808871328830719,0.0022616165224462748
+logistic_regression,Logistic Regression,linear_baseline,medium,16,13071,text__char__ies,[char] ies,text,0.0176547784358263,0.0022073620930314064
+logistic_regression,Logistic Regression,linear_baseline,medium,17,7513,text__word__project,project,text,0.016425667330622673,0.00205368734896183
+logistic_regression,Logistic Regression,linear_baseline,medium,18,13785,text__char__one,[char] one,text,0.016070643439888954,0.002009298885241151
+logistic_regression,Logistic Regression,linear_baseline,medium,19,12755,text__char__eve,[char] eve,text,0.01565215364098549,0.0019569755531847477
+logistic_regression,Logistic Regression,linear_baseline,medium,20,14353,text__char__serv,[char] serv,text,0.015317611396312714,0.0019151479937136173
+logistic_regression,Logistic Regression,linear_baseline,medium,21,13509,text__char__mpa,[char] mpa,text,0.01526673510670662,0.0019087869441136718
+logistic_regression,Logistic Regression,linear_baseline,medium,22,12912,text__char__grati,[char] grati,text,0.015039831399917603,0.0018804173450917006
+logistic_regression,Logistic Regression,linear_baseline,medium,23,6390,text__word__network,network,text,0.015000840649008751,0.0018755424534901977
+logistic_regression,Logistic Regression,linear_baseline,medium,24,13439,text__char__mat,[char] mat,text,0.014700929634273052,0.0018380448454990983
+logistic_regression,Logistic Regression,linear_baseline,medium,25,409,text__word__aktualisieren,aktualisieren,text,0.014187898486852646,0.0017739009344950318
+logistic_regression,Logistic Regression,linear_baseline,medium,26,8688,text__word__service,service,text,0.01385524868965149,0.0017323100473731756
+logistic_regression,Logistic Regression,linear_baseline,medium,27,11710,text__char__ sy,[char]  sy,text,0.01338693592697382,0.0016737572150304914
+logistic_regression,Logistic Regression,linear_baseline,medium,28,9621,text__word__system,system,text,0.013385836035013199,0.0016736197285354137
+logistic_regression,Logistic Regression,linear_baseline,medium,29,1957,text__word__content,content,text,0.013206754811108112,0.0016512293368577957
+logistic_regression,Logistic Regression,linear_baseline,medium,30,3511,text__word__experiencing crashes,experiencing crashes,text,0.01314597763121128,0.0016436304431408644
+logistic_regression,Logistic Regression,linear_baseline,medium,31,5704,text__word__likely,likely,text,0.012992926873266697,0.001624494674615562
+logistic_regression,Logistic Regression,linear_baseline,medium,32,1041,text__word__beeinträchtigen,beeinträchtigen,text,0.012502939440310001,0.0015632319264113903
+logistic_regression,Logistic Regression,linear_baseline,medium,33,12697,text__char__erv,[char] erv,text,0.012282933108508587,0.001535724732093513
+logistic_regression,Logistic Regression,linear_baseline,medium,34,3000,text__word__due outdated,due outdated,text,0.012055464088916779,0.0015072844689711928
+logistic_regression,Logistic Regression,linear_baseline,medium,35,8382,text__word__saas,saas,text,0.011852833442389965,0.001481949700973928
+logistic_regression,Logistic Regression,linear_baseline,medium,36,10230,text__word__unauthorized,unauthorized,text,0.011785400100052357,0.0014735185541212559
+logistic_regression,Logistic Regression,linear_baseline,medium,37,8659,text__word__server overload,server overload,text,0.011663262732326984,0.0014582478906959295
+logistic_regression,Logistic Regression,linear_baseline,medium,38,11028,text__word__weiterhin,weiterhin,text,0.011291176080703735,0.0014117262326180935
+logistic_regression,Logistic Regression,linear_baseline,medium,39,14512,text__char__tai,[char] tai,text,0.011199777014553547,0.001400298671796918
+logistic_regression,Logistic Regression,linear_baseline,medium,40,7526,text__word__project management,project management,text,0.011063957586884499,0.0013833172852173448
+logistic_regression,Logistic Regression,linear_baseline,medium,41,14068,text__char__rd ,[char] rd ,text,0.01098250225186348,0.001373132923617959
+logistic_regression,Logistic Regression,linear_baseline,medium,42,14640,text__char__trat,[char] trat,text,0.010927952826023102,0.001366312731988728
+logistic_regression,Logistic Regression,linear_baseline,medium,43,12324,text__char__cted ,[char] cted ,text,0.010879871435463428,0.001360301161184907
+logistic_regression,Logistic Regression,linear_baseline,medium,44,6094,text__word__meeting expectations,meeting expectations,text,0.010791467502713203,0.0013492479920387268
+logistic_regression,Logistic Regression,linear_baseline,medium,45,11504,text__char__ i ,[char]  i ,text,0.010776367038488388,0.0013473600847646594
+logistic_regression,Logistic Regression,linear_baseline,medium,46,10454,text__word__updates,updates,text,0.010702543891966343,0.001338129979558289
+logistic_regression,Logistic Regression,linear_baseline,medium,47,12401,text__char__dic,[char] dic,text,0.01034019235521555,0.0012928254436701536
+logistic_regression,Logistic Regression,linear_baseline,medium,48,1458,text__word__campaigns,campaigns,text,0.010217558592557907,0.0012774927308782935
+logistic_regression,Logistic Regression,linear_baseline,medium,49,14542,text__char__teg,[char] teg,text,0.010134585201740265,0.0012671186123043299
+logistic_regression,Logistic Regression,linear_baseline,medium,50,7633,text__word__provide details,provide details,text,0.01009065005928278,0.0012616254389286041
+logistic_regression,Logistic Regression,linear_baseline,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.47145888209342957,0.04799534007906914
+logistic_regression,Logistic Regression,linear_baseline,high,2,15001,categorical__type_Incident,Incident,type,0.20999011397361755,0.021377362310886383
+logistic_regression,Logistic Regression,linear_baseline,high,3,15010,categorical__queue_IT Support,IT Support,queue,0.18907766044139862,0.019248437136411667
+logistic_regression,Logistic Regression,linear_baseline,high,4,15003,categorical__type_Request,Request,type,0.1354597806930542,0.013790043070912361
+logistic_regression,Logistic Regression,linear_baseline,high,5,15007,categorical__queue_Customer Service,Customer Service,queue,0.09256145358085632,0.009422918781638145
+logistic_regression,Logistic Regression,linear_baseline,high,6,15002,categorical__type_Problem,Problem,type,0.07934140413999557,0.008077094331383705
+logistic_regression,Logistic Regression,linear_baseline,high,7,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.07423372566699982,0.0075571234337985516
+logistic_regression,Logistic Regression,linear_baseline,high,8,15004,categorical__language_de,de,language,0.04988028481602669,0.005077900364995003
+logistic_regression,Logistic Regression,linear_baseline,high,9,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.04728541150689125,0.004813737701624632
+logistic_regression,Logistic Regression,linear_baseline,high,10,11145,text__word__would,would,text,0.03857292979955673,0.003926792182028294
+logistic_regression,Logistic Regression,linear_baseline,high,11,12581,text__char__em ,[char] em ,text,0.03846016898751259,0.003915312699973583
+logistic_regression,Logistic Regression,linear_baseline,high,12,15000,categorical__type_Change,Change,type,0.03796533867716789,0.003864938160404563
+logistic_regression,Logistic Regression,linear_baseline,high,13,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.03440926596522331,0.0035029237624257803
+logistic_regression,Logistic Regression,linear_baseline,high,14,15009,categorical__queue_Human Resources,Human Resources,queue,0.03422548249363899,0.0034842141903936863
+logistic_regression,Logistic Regression,linear_baseline,high,15,12401,text__char__dic,[char] dic,text,0.03374511003494263,0.003435311373323202
+logistic_regression,Logistic Regression,linear_baseline,high,16,2189,text__word__customer,customer,text,0.030764738097786903,0.0031319044064730406
+logistic_regression,Logistic Regression,linear_baseline,high,17,2023,text__word__could,could,text,0.029666678979992867,0.0030201200861483812
+logistic_regression,Logistic Regression,linear_baseline,high,18,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.027310244739055634,0.002780230948701501
+logistic_regression,Logistic Regression,linear_baseline,high,19,15011,categorical__queue_Product Support,Product Support,queue,0.026210227981209755,0.002668247325345874
+logistic_regression,Logistic Regression,linear_baseline,high,20,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.024258488789200783,0.002469556638970971
+logistic_regression,Logistic Regression,linear_baseline,high,21,7513,text__word__project,project,text,0.023456167429685593,0.0023878789506852627
+logistic_regression,Logistic Regression,linear_baseline,high,22,6591,text__word__online,online,text,0.022716594859957695,0.002312589203938842
+logistic_regression,Logistic Regression,linear_baseline,high,23,14056,text__char__rate,[char] rate,text,0.022332044318318367,0.002273441292345524
+logistic_regression,Logistic Regression,linear_baseline,high,24,114,text__word__access logs,access logs,text,0.022113462910056114,0.00225118943490088
+logistic_regression,Logistic Regression,linear_baseline,high,25,11028,text__word__weiterhin,weiterhin,text,0.020323028787970543,0.002068920060992241
+logistic_regression,Logistic Regression,linear_baseline,high,26,14840,text__char__ver,[char] ver,text,0.02011038176715374,0.002047272166237235
+logistic_regression,Logistic Regression,linear_baseline,high,27,12647,text__char__era,[char] era,text,0.019973529502749443,0.0020333402790129185
+logistic_regression,Logistic Regression,linear_baseline,high,28,4630,text__word__information,information,text,0.01994883082807064,0.0020308259408921003
+logistic_regression,Logistic Regression,linear_baseline,high,29,8641,text__word__seo,seo,text,0.019920695573091507,0.002027961891144514
+logistic_regression,Logistic Regression,linear_baseline,high,30,14448,text__char__ste,[char] ste,text,0.019910592585802078,0.0020269332453608513
+logistic_regression,Logistic Regression,linear_baseline,high,31,11701,text__char__ str,[char]  str,text,0.019695211201906204,0.002005007117986679
+logistic_regression,Logistic Regression,linear_baseline,high,32,6636,text__word__optimization,optimization,text,0.018279969692230225,0.0018609330290928483
+logistic_regression,Logistic Regression,linear_baseline,high,33,409,text__word__aktualisieren,aktualisieren,text,0.017622411251068115,0.0017939923563972116
+logistic_regression,Logistic Regression,linear_baseline,high,34,4689,text__word__informationen,informationen,text,0.01748334802687168,0.0017798355547711253
+logistic_regression,Logistic Regression,linear_baseline,high,35,13045,text__char__ice ,[char] ice ,text,0.01689717173576355,0.0017201617592945695
+logistic_regression,Logistic Regression,linear_baseline,high,36,14439,text__char__sta,[char] sta,text,0.01575457863509655,0.001603843760676682
+logistic_regression,Logistic Regression,linear_baseline,high,37,1335,text__word__brand growth,brand growth,text,0.015753578394651413,0.0016037418972700834
+logistic_regression,Logistic Regression,linear_baseline,high,38,7526,text__word__project management,project management,text,0.015645412728190422,0.0015927305212244391
+logistic_regression,Logistic Regression,linear_baseline,high,39,10999,text__word__website,website,text,0.015511145815253258,0.0015790618490427732
+logistic_regression,Logistic Regression,linear_baseline,high,40,2635,text__word__details,details,text,0.015175997279584408,0.0015449431957677007
+logistic_regression,Logistic Regression,linear_baseline,high,41,13072,text__char__ies ,[char] ies ,text,0.014864496886730194,0.0015132318949326873
+logistic_regression,Logistic Regression,linear_baseline,high,42,14564,text__char__tent,[char] tent,text,0.014809665270149708,0.0015076498966664076
+logistic_regression,Logistic Regression,linear_baseline,high,43,14055,text__char__rat,[char] rat,text,0.014670518226921558,0.0014934844803065062
+logistic_regression,Logistic Regression,linear_baseline,high,44,2717,text__word__devices,devices,text,0.014606455340981483,0.0014869627775624394
+logistic_regression,Logistic Regression,linear_baseline,high,45,8688,text__word__service,service,text,0.014551221393048763,0.0014813399175181985
+logistic_regression,Logistic Regression,linear_baseline,high,46,12325,text__char__cti,[char] cti,text,0.014005670323967934,0.0014258017763495445
+logistic_regression,Logistic Regression,linear_baseline,high,47,5707,text__word__likely due,likely due,text,0.013813052326440811,0.0014061930123716593
+logistic_regression,Logistic Regression,linear_baseline,high,48,11620,text__char__ plat,[char]  plat,text,0.013537834398448467,0.0013781753368675709
+logistic_regression,Logistic Regression,linear_baseline,high,49,12160,text__char__bran,[char] bran,text,0.013521709479391575,0.0013765337644144893
+logistic_regression,Logistic Regression,linear_baseline,high,50,2255,text__word__dashboard,dashboard,text,0.013314098119735718,0.0013553985627368093
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.29799970984458923,0.0323762483894825
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,2,15010,categorical__queue_IT Support,IT Support,queue,0.1437094658613205,0.015613348223268986
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,3,15001,categorical__type_Incident,Incident,type,0.13527265191078186,0.014696728438138962
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,4,15003,categorical__type_Request,Request,type,0.08058399707078934,0.008755067363381386
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,5,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.06204628571867943,0.006741033401340246
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,6,15004,categorical__language_de,de,language,0.05480322986841202,0.005954109597951174
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,7,15011,categorical__queue_Product Support,Product Support,queue,0.05472563952207565,0.005945679731667042
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,8,15002,categorical__type_Problem,Problem,type,0.0522230789065361,0.005673788487911224
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,9,15007,categorical__queue_Customer Service,Customer Service,queue,0.05094574764370918,0.005535012576729059
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,10,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.03209872171282768,0.0034873730037361383
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,11,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.029264748096466064,0.0031794754322618246
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,12,12581,text__char__em ,[char] em ,text,0.026287466287612915,0.0028560080099850893
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,13,11145,text__word__would,would,text,0.023285355418920517,0.0025298427790403366
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,14,15000,categorical__type_Change,Change,type,0.022871538996696472,0.0024848836474120617
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,15,12401,text__char__dic,[char] dic,text,0.020628826692700386,0.0022412235848605633
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,16,15005,categorical__language_en,en,language,0.019658589735627174,0.002135812072083354
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,17,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.019582200795412064,0.002127512823790312
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,18,2189,text__word__customer,customer,text,0.019425110891461372,0.002110445639118552
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,19,2023,text__word__could,could,text,0.019413001835346222,0.002109130145981908
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,20,15009,categorical__queue_Human Resources,Human Resources,queue,0.018862880766391754,0.002049362054094672
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,21,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.0165974460542202,0.0018032334046438336
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,22,6591,text__word__online,online,text,0.01599796861410141,0.0017381029902026057
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,23,114,text__word__access logs,access logs,text,0.015659745782613754,0.0017013567266985774
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,24,1957,text__word__content,content,text,0.015384095720946789,0.0016714086523279548
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,25,1927,text__word__connectivity,connectivity,text,0.015018342062830925,0.001631671329960227
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,26,7513,text__word__project,project,text,0.014973795041441917,0.001626831479370594
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,27,8641,text__word__seo,seo,text,0.014362771064043045,0.001560446573421359
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,28,13509,text__char__mpa,[char] mpa,text,0.014281605370342731,0.0015516283456236124
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,29,1335,text__word__brand growth,brand growth,text,0.013899561949074268,0.0015101211611181498
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,30,14056,text__char__rate,[char] rate,text,0.013824750669300556,0.0015019932761788368
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,31,9329,text__word__strategies,strategies,text,0.013804716989398003,0.0014998166589066386
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,32,14840,text__char__ver,[char] ver,text,0.013539154082536697,0.0014709645183756948
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,33,12647,text__char__era,[char] era,text,0.013309082947671413,0.0014459684025496244
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,34,409,text__word__aktualisieren,aktualisieren,text,0.01326580811291933,0.0014412668533623219
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,35,11028,text__word__weiterhin,weiterhin,text,0.013230975717306137,0.0014374824240803719
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,36,14448,text__char__ste,[char] ste,text,0.013012832030653954,0.0014137821272015572
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,37,13785,text__char__one,[char] one,text,0.012751863338053226,0.0013854291755706072
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,38,11701,text__char__ str,[char]  str,text,0.01260766014456749,0.001369762234389782
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,39,6636,text__word__optimization,optimization,text,0.012573382817208767,0.0013660381082445383
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,40,13071,text__char__ies,[char] ies,text,0.012454843148589134,0.0013531593140214682
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,41,13072,text__char__ies ,[char] ies ,text,0.012232141569256783,0.0013289639027789235
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,42,4630,text__word__information,information,text,0.012015100568532944,0.0013053833972662687
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,43,14439,text__char__sta,[char] sta,text,0.01187373511493206,0.0012900247238576412
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,44,12755,text__char__eve,[char] eve,text,0.011871863156557083,0.0012898213462904096
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,45,8688,text__word__service,service,text,0.011551765725016594,0.0012550442479550838
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,46,13045,text__char__ice ,[char] ice ,text,0.011348803527653217,0.001232993439771235
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,47,4689,text__word__informationen,informationen,text,0.011150947771966457,0.0012114973505958915
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,48,8382,text__word__saas,saas,text,0.01114718709141016,0.001211088732816279
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,49,14939,text__char__you ,[char] you ,text,0.01075983326882124,0.001169004593975842
+logistic_regression,Logistic Regression,linear_baseline,predicted_class,50,11769,text__char__ you ,[char]  you ,text,0.01075983326882124,0.001169004593975842
+linear_svm,Linear SVM,linear,low,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.18105171620845795,0.03702940419316292
+linear_svm,Linear SVM,linear,low,2,15010,categorical__queue_IT Support,IT Support,queue,0.11022891849279404,0.02254444919526577
+linear_svm,Linear SVM,linear,low,3,15003,categorical__type_Request,Request,type,0.07314006239175797,0.01495889201760292
+linear_svm,Linear SVM,linear,low,4,15004,categorical__language_de,de,language,0.05177908390760422,0.010590060614049435
+linear_svm,Linear SVM,linear,low,5,15005,categorical__language_en,en,language,0.044998373836278915,0.00920324306935072
+linear_svm,Linear SVM,linear,low,6,15011,categorical__queue_Product Support,Product Support,queue,0.04455791041254997,0.009113158099353313
+linear_svm,Linear SVM,linear,low,7,15001,categorical__type_Incident,Incident,type,0.04011649638414383,0.008204782381653786
+linear_svm,Linear SVM,linear,low,8,15007,categorical__queue_Customer Service,Customer Service,queue,0.030473507940769196,0.006232561077922583
+linear_svm,Linear SVM,linear,low,9,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.02807033807039261,0.005741055589169264
+linear_svm,Linear SVM,linear,low,10,15000,categorical__type_Change,Change,type,0.021280277520418167,0.004352325573563576
+linear_svm,Linear SVM,linear,low,11,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.020829103887081146,0.004260049667209387
+linear_svm,Linear SVM,linear,low,12,2189,text__word__customer,customer,text,0.01529367920011282,0.0031279230024665594
+linear_svm,Linear SVM,linear,low,13,2023,text__word__could,could,text,0.015165355987846851,0.003101677866652608
+linear_svm,Linear SVM,linear,low,14,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.014958593063056469,0.003059390000998974
+linear_svm,Linear SVM,linear,low,15,11145,text__word__would,would,text,0.014955248683691025,0.0030587059445679188
+linear_svm,Linear SVM,linear,low,16,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.014738926663994789,0.003014462999999523
+linear_svm,Linear SVM,linear,low,17,1957,text__word__content,content,text,0.01240937877446413,0.0025380146689713
+linear_svm,Linear SVM,linear,low,18,15009,categorical__queue_Human Resources,Human Resources,queue,0.010656800121068954,0.002179570496082306
+linear_svm,Linear SVM,linear,low,19,13509,text__char__mpa,[char] mpa,text,0.010634191334247589,0.00217494647949934
+linear_svm,Linear SVM,linear,low,20,12401,text__char__dic,[char] dic,text,0.010305723175406456,0.0021077669225633144
+linear_svm,Linear SVM,linear,low,21,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.010275782085955143,0.002101643243804574
+linear_svm,Linear SVM,linear,low,22,1335,text__word__brand growth,brand growth,text,0.00991897378116846,0.0020286673679947853
+linear_svm,Linear SVM,linear,low,23,13785,text__char__one,[char] one,text,0.009909844025969505,0.0020268000662326813
+linear_svm,Linear SVM,linear,low,24,14439,text__char__sta,[char] sta,text,0.009469729848206043,0.0019367862259969115
+linear_svm,Linear SVM,linear,low,25,8382,text__word__saas,saas,text,0.009301054291427135,0.0019022880587726831
+linear_svm,Linear SVM,linear,low,26,12581,text__char__em ,[char] em ,text,0.008737349882721901,0.001786996959708631
+linear_svm,Linear SVM,linear,low,27,11769,text__char__ you ,[char]  you ,text,0.008455628529191017,0.001729378243908286
+linear_svm,Linear SVM,linear,low,28,14939,text__char__you ,[char] you ,text,0.008455628529191017,0.001729378243908286
+linear_svm,Linear SVM,linear,low,29,13855,text__char__ou ,[char] ou ,text,0.008455628529191017,0.001729378243908286
+linear_svm,Linear SVM,linear,low,30,14564,text__char__tent,[char] tent,text,0.008337614126503468,0.0017052415059879422
+linear_svm,Linear SVM,linear,low,31,13072,text__char__ies ,[char] ies ,text,0.008279741741716862,0.0016934052109718323
+linear_svm,Linear SVM,linear,low,32,6390,text__word__network,network,text,0.008219066075980663,0.0016809955704957247
+linear_svm,Linear SVM,linear,low,33,10999,text__word__website,website,text,0.008195028640329838,0.0016760793514549732
+linear_svm,Linear SVM,linear,low,34,872,text__word__audience,audience,text,0.008005013689398766,0.001637216773815453
+linear_svm,Linear SVM,linear,low,35,13923,text__char__per,[char] per,text,0.00797188002616167,0.0016304401215165854
+linear_svm,Linear SVM,linear,low,36,12325,text__char__cti,[char] cti,text,0.007964138872921467,0.001628856873139739
+linear_svm,Linear SVM,linear,low,37,6591,text__word__online,online,text,0.0077007063664495945,0.0015749785816296935
+linear_svm,Linear SVM,linear,low,38,14056,text__char__rate,[char] rate,text,0.007585940416902304,0.001551506225951016
+linear_svm,Linear SVM,linear,low,39,5787,text__word__look forward,look forward,text,0.007429808843880892,0.0015195736195892096
+linear_svm,Linear SVM,linear,low,40,12308,text__char__cre,[char] cre,text,0.007385290693491697,0.0015104685444384813
+linear_svm,Linear SVM,linear,low,41,1458,text__word__campaigns,campaigns,text,0.007349712774157524,0.0015031920047476888
+linear_svm,Linear SVM,linear,low,42,12118,text__char__bee,[char] bee,text,0.007228655740618706,0.001478432910516858
+linear_svm,Linear SVM,linear,low,43,13045,text__char__ice ,[char] ice ,text,0.0071890633553266525,0.001470335409976542
+linear_svm,Linear SVM,linear,low,44,14636,text__char__tra,[char] tra,text,0.007146167103201151,0.0014615620020776987
+linear_svm,Linear SVM,linear,low,45,11872,text__char__ache ,[char] ache ,text,0.006952804513275623,0.0014220147859305143
+linear_svm,Linear SVM,linear,low,46,4630,text__word__information,information,text,0.00683639757335186,0.0013982068048790097
+linear_svm,Linear SVM,linear,low,47,11317,text__char__ a ,[char]  a ,text,0.006815003696829081,0.0013938312185928226
+linear_svm,Linear SVM,linear,low,48,12647,text__char__era,[char] era,text,0.00663200905546546,0.001356404391117394
+linear_svm,Linear SVM,linear,low,49,15002,categorical__type_Problem,Problem,type,0.006514026317745447,0.0013322741724550724
+linear_svm,Linear SVM,linear,low,50,10887,text__word__verzögerungen,verzögerungen,text,0.006513438653200865,0.0013321539154276252
+linear_svm,Linear SVM,linear,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.08315563946962357,0.020684542134404182
+linear_svm,Linear SVM,linear,medium,2,15005,categorical__language_en,en,language,0.05056845396757126,0.012578645721077919
+linear_svm,Linear SVM,linear,medium,3,15011,categorical__queue_Product Support,Product Support,queue,0.04156319797039032,0.010338634252548218
+linear_svm,Linear SVM,linear,medium,4,15003,categorical__type_Request,Request,type,0.03809696063399315,0.009476425126194954
+linear_svm,Linear SVM,linear,medium,5,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.026662861928343773,0.006632251664996147
+linear_svm,Linear SVM,linear,medium,6,15001,categorical__type_Incident,Incident,type,0.023576198145747185,0.005864459555596113
+linear_svm,Linear SVM,linear,medium,7,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.01917879283428192,0.004770627245306969
+linear_svm,Linear SVM,linear,medium,8,15000,categorical__type_Change,Change,type,0.01779763586819172,0.004427071660757065
+linear_svm,Linear SVM,linear,medium,9,15007,categorical__queue_Customer Service,Customer Service,queue,0.016506735235452652,0.004105966538190842
+linear_svm,Linear SVM,linear,medium,10,15004,categorical__language_de,de,language,0.016353553161025047,0.004067863337695599
+linear_svm,Linear SVM,linear,medium,11,12581,text__char__em ,[char] em ,text,0.01217974629253149,0.0030296500772237778
+linear_svm,Linear SVM,linear,medium,12,114,text__word__access logs,access logs,text,0.010562635958194733,0.002627402078360319
+linear_svm,Linear SVM,linear,medium,13,1927,text__word__connectivity,connectivity,text,0.010309884324669838,0.002564531285315752
+linear_svm,Linear SVM,linear,medium,14,7513,text__word__project,project,text,0.009991016238927841,0.002485214499756694
+linear_svm,Linear SVM,linear,medium,15,8641,text__word__seo,seo,text,0.009519963525235653,0.002368042478337884
+linear_svm,Linear SVM,linear,medium,16,9329,text__word__strategies,strategies,text,0.009486563503742218,0.002359734382480383
+linear_svm,Linear SVM,linear,medium,17,13439,text__char__mat,[char] mat,text,0.009047145023941994,0.002250431338325143
+linear_svm,Linear SVM,linear,medium,18,9014,text__word__software,software,text,0.00867348350584507,0.002157484879717231
+linear_svm,Linear SVM,linear,medium,19,409,text__word__aktualisieren,aktualisieren,text,0.008604839444160461,0.0021404100116342306
+linear_svm,Linear SVM,linear,medium,20,13071,text__char__ies,[char] ies,text,0.0085751349106431,0.002133021131157875
+linear_svm,Linear SVM,linear,medium,21,9621,text__word__system,system,text,0.008427423425018787,0.002096278825774789
+linear_svm,Linear SVM,linear,medium,22,12912,text__char__grati,[char] grati,text,0.00792108103632927,0.0019703286234289408
+linear_svm,Linear SVM,linear,medium,23,12401,text__char__dic,[char] dic,text,0.007919639348983765,0.001969970064237714
+linear_svm,Linear SVM,linear,medium,24,11710,text__char__ sy,[char]  sy,text,0.00789669156074524,0.0019642619881778955
+linear_svm,Linear SVM,linear,medium,25,8688,text__word__service,service,text,0.007419975474476814,0.001845681224949658
+linear_svm,Linear SVM,linear,medium,26,15010,categorical__queue_IT Support,IT Support,queue,0.007384851574897766,0.0018369442550465465
+linear_svm,Linear SVM,linear,medium,27,14353,text__char__serv,[char] serv,text,0.0071488660760223866,0.0017782441573217511
+linear_svm,Linear SVM,linear,medium,28,6390,text__word__network,network,text,0.00710693746805191,0.0017678146250545979
+linear_svm,Linear SVM,linear,medium,29,11028,text__word__weiterhin,weiterhin,text,0.007095216307789087,0.0017648990033194423
+linear_svm,Linear SVM,linear,medium,30,14055,text__char__rat,[char] rat,text,0.00683120870962739,0.0016992284217849374
+linear_svm,Linear SVM,linear,medium,31,13785,text__char__one,[char] one,text,0.006610525771975517,0.0016443347558379173
+linear_svm,Linear SVM,linear,medium,32,11504,text__char__ i ,[char]  i ,text,0.006312060169875622,0.0015700928634032607
+linear_svm,Linear SVM,linear,medium,33,12755,text__char__eve,[char] eve,text,0.006251363083720207,0.0015549948439002037
+linear_svm,Linear SVM,linear,medium,34,13509,text__char__mpa,[char] mpa,text,0.0062299673445522785,0.0015496726846322417
+linear_svm,Linear SVM,linear,medium,35,11701,text__char__ str,[char]  str,text,0.006049962714314461,0.0015048974892124534
+linear_svm,Linear SVM,linear,medium,36,3511,text__word__experiencing crashes,experiencing crashes,text,0.006015737075358629,0.0014963840367272496
+linear_svm,Linear SVM,linear,medium,37,12697,text__char__erv,[char] erv,text,0.005967110861092806,0.001484288484789431
+linear_svm,Linear SVM,linear,medium,38,1041,text__word__beeinträchtigen,beeinträchtigen,text,0.00586846936494112,0.0014597519766539335
+linear_svm,Linear SVM,linear,medium,39,14640,text__char__trat,[char] trat,text,0.005860601086169481,0.001457794802263379
+linear_svm,Linear SVM,linear,medium,40,14068,text__char__rd ,[char] rd ,text,0.005843014921993017,0.0014534202637150884
+linear_svm,Linear SVM,linear,medium,41,5704,text__word__likely,likely,text,0.005833136383444071,0.0014509630855172873
+linear_svm,Linear SVM,linear,medium,42,6636,text__word__optimization,optimization,text,0.005754648242145777,0.0014314395375549793
+linear_svm,Linear SVM,linear,medium,43,6995,text__word__platform,platform,text,0.005736088380217552,0.0014268228551372886
+linear_svm,Linear SVM,linear,medium,44,14840,text__char__ver,[char] ver,text,0.005553113296627998,0.0013813087716698647
+linear_svm,Linear SVM,linear,medium,45,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.005386016797274351,0.0013397443108260632
+linear_svm,Linear SVM,linear,medium,46,8410,text__word__saas project,saas project,text,0.005321466363966465,0.0013236877275630832
+linear_svm,Linear SVM,linear,medium,47,14512,text__char__tai,[char] tai,text,0.005224072374403477,0.0012994614662602544
+linear_svm,Linear SVM,linear,medium,48,7633,text__word__provide details,provide details,text,0.0051564062014222145,0.0012826297897845507
+linear_svm,Linear SVM,linear,medium,49,2717,text__word__devices,devices,text,0.005082323681563139,0.0012642021756619215
+linear_svm,Linear SVM,linear,medium,50,8709,text__word__services,services,text,0.005056230816990137,0.0012577116722241044
+linear_svm,Linear SVM,linear,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.21393366158008575,0.045962654054164886
+linear_svm,Linear SVM,linear,high,2,15001,categorical__type_Incident,Incident,type,0.11931683868169785,0.02563466876745224
+linear_svm,Linear SVM,linear,high,3,15010,categorical__queue_IT Support,IT Support,queue,0.06481710821390152,0.01392565481364727
+linear_svm,Linear SVM,linear,high,4,15004,categorical__language_de,de,language,0.0623631551861763,0.013398434966802597
+linear_svm,Linear SVM,linear,high,5,15002,categorical__type_Problem,Problem,type,0.05233060568571091,0.011242987588047981
+linear_svm,Linear SVM,linear,high,6,15007,categorical__queue_Customer Service,Customer Service,queue,0.0474872887134552,0.010202423669397831
+linear_svm,Linear SVM,linear,high,7,15003,categorical__type_Request,Request,type,0.04695426672697067,0.010087906382977962
+linear_svm,Linear SVM,linear,high,8,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.038531266152858734,0.008278263732790947
+linear_svm,Linear SVM,linear,high,9,15005,categorical__language_en,en,language,0.03441314399242401,0.0073935044929385185
+linear_svm,Linear SVM,linear,high,10,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.020100777968764305,0.00431855907663703
+linear_svm,Linear SVM,linear,high,11,12581,text__char__em ,[char] em ,text,0.019021524116396904,0.004086686298251152
+linear_svm,Linear SVM,linear,high,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.018626976758241653,0.004001919645816088
+linear_svm,Linear SVM,linear,high,13,11145,text__word__would,would,text,0.015677552670240402,0.0033682493958622217
+linear_svm,Linear SVM,linear,high,14,12401,text__char__dic,[char] dic,text,0.015539992600679398,0.0033386952709406614
+linear_svm,Linear SVM,linear,high,15,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.015362354926764965,0.0033005308359861374
+linear_svm,Linear SVM,linear,high,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.015349372290074825,0.003297741524875164
+linear_svm,Linear SVM,linear,high,17,2023,text__word__could,could,text,0.012577781453728676,0.002702278085052967
+linear_svm,Linear SVM,linear,high,18,114,text__word__access logs,access logs,text,0.011986068449914455,0.0025751511566340923
+linear_svm,Linear SVM,linear,high,19,2189,text__word__customer,customer,text,0.011821511201560497,0.0025397969875484705
+linear_svm,Linear SVM,linear,high,20,7513,text__word__project,project,text,0.01094094105064869,0.0023506104480475187
+linear_svm,Linear SVM,linear,high,21,8641,text__word__seo,seo,text,0.010747420601546764,0.00230903341434896
+linear_svm,Linear SVM,linear,high,22,15000,categorical__type_Change,Change,type,0.010604494251310825,0.0022783263120800257
+linear_svm,Linear SVM,linear,high,23,14056,text__char__rate,[char] rate,text,0.01016551349312067,0.002184013370424509
+linear_svm,Linear SVM,linear,high,24,11028,text__word__weiterhin,weiterhin,text,0.01015285775065422,0.002181294374167919
+linear_svm,Linear SVM,linear,high,25,6591,text__word__online,online,text,0.010040630586445332,0.0021571828983724117
+linear_svm,Linear SVM,linear,high,26,11701,text__char__ str,[char]  str,text,0.009981255047023296,0.00214442634023726
+linear_svm,Linear SVM,linear,high,27,409,text__word__aktualisieren,aktualisieren,text,0.009650234133005142,0.0020733079873025417
+linear_svm,Linear SVM,linear,high,28,6636,text__word__optimization,optimization,text,0.008940520696341991,0.0019208294106647372
+linear_svm,Linear SVM,linear,high,29,14840,text__char__ver,[char] ver,text,0.008376440033316612,0.0017996393144130707
+linear_svm,Linear SVM,linear,high,30,12647,text__char__era,[char] era,text,0.008337662555277348,0.001791308168321848
+linear_svm,Linear SVM,linear,high,31,14448,text__char__ste,[char] ste,text,0.008285765536129475,0.0017801582580432296
+linear_svm,Linear SVM,linear,high,32,2635,text__word__details,details,text,0.0077629899606108665,0.0016678423853591084
+linear_svm,Linear SVM,linear,high,33,9014,text__word__software,software,text,0.0076782251708209515,0.0016496310709044337
+linear_svm,Linear SVM,linear,high,34,1927,text__word__connectivity,connectivity,text,0.0076529765501618385,0.0016442065825685859
+linear_svm,Linear SVM,linear,high,35,14564,text__char__tent,[char] tent,text,0.007625754456967115,0.0016383579932153225
+linear_svm,Linear SVM,linear,high,36,7526,text__word__project management,project management,text,0.00747504411265254,0.0016059785848483443
+linear_svm,Linear SVM,linear,high,37,7625,text__word__provide,provide,text,0.007474068086594343,0.001605768920853734
+linear_svm,Linear SVM,linear,high,38,13439,text__char__mat,[char] mat,text,0.00724026421085,0.0015555372228845954
+linear_svm,Linear SVM,linear,high,39,10999,text__word__website,website,text,0.007221624255180359,0.0015515325358137488
+linear_svm,Linear SVM,linear,high,40,8688,text__word__service,service,text,0.00721123768016696,0.0015493009705096483
+linear_svm,Linear SVM,linear,high,41,4689,text__word__informationen,informationen,text,0.007176843471825123,0.0015419115079566836
+linear_svm,Linear SVM,linear,high,42,2255,text__word__dashboard,dashboard,text,0.006776714231818914,0.00145594566129148
+linear_svm,Linear SVM,linear,high,43,14055,text__char__rat,[char] rat,text,0.006762285251170397,0.0014528456376865506
+linear_svm,Linear SVM,linear,high,44,5707,text__word__likely due,likely due,text,0.0066171023063361645,0.001421653782017529
+linear_svm,Linear SVM,linear,high,45,12755,text__char__eve,[char] eve,text,0.006598415784537792,0.0014176390832290053
+linear_svm,Linear SVM,linear,high,46,13045,text__char__ice ,[char] ice ,text,0.0065575879998505116,0.0014088674215599895
+linear_svm,Linear SVM,linear,high,47,12871,text__char__gent,[char] gent,text,0.0064469208009541035,0.0013850909890607
+linear_svm,Linear SVM,linear,high,48,3511,text__word__experiencing crashes,experiencing crashes,text,0.006401657126843929,0.0013753663515672088
+linear_svm,Linear SVM,linear,high,49,2717,text__word__devices,devices,text,0.006257475819438696,0.0013443896314129233
+linear_svm,Linear SVM,linear,high,50,1335,text__word__brand growth,brand growth,text,0.006219993811100721,0.0013363368343561888
+linear_svm,Linear SVM,linear,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.1556326448917389,0.03478950262069702
+linear_svm,Linear SVM,linear,predicted_class,2,15001,categorical__type_Incident,Incident,type,0.06325779855251312,0.014140397310256958
+linear_svm,Linear SVM,linear,predicted_class,3,15003,categorical__type_Request,Request,type,0.04908616840839386,0.010972526855766773
+linear_svm,Linear SVM,linear,predicted_class,4,15010,categorical__queue_IT Support,IT Support,queue,0.04732510820031166,0.010578867048025131
+linear_svm,Linear SVM,linear,predicted_class,5,15005,categorical__language_en,en,language,0.04341438412666321,0.009704679250717163
+linear_svm,Linear SVM,linear,predicted_class,6,15004,categorical__language_de,de,language,0.04049798846244812,0.00905275996774435
+linear_svm,Linear SVM,linear,predicted_class,7,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.03304215148091316,0.0073861111886799335
+linear_svm,Linear SVM,linear,predicted_class,8,15011,categorical__queue_Product Support,Product Support,queue,0.030337316915392876,0.00678148353472352
+linear_svm,Linear SVM,linear,predicted_class,9,15007,categorical__queue_Customer Service,Customer Service,queue,0.027309754863381386,0.00610471423715353
+linear_svm,Linear SVM,linear,predicted_class,10,15002,categorical__type_Problem,Problem,type,0.021675074473023415,0.004845160059630871
+linear_svm,Linear SVM,linear,predicted_class,11,15000,categorical__type_Change,Change,type,0.015824871137738228,0.0035374287981539965
+linear_svm,Linear SVM,linear,predicted_class,12,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.01576123759150505,0.0035232044756412506
+linear_svm,Linear SVM,linear,predicted_class,13,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.015627199783921242,0.003493242198601365
+linear_svm,Linear SVM,linear,predicted_class,14,12581,text__char__em ,[char] em ,text,0.014246569946408272,0.003184621687978506
+linear_svm,Linear SVM,linear,predicted_class,15,12401,text__char__dic,[char] dic,text,0.011052632704377174,0.0024706616532057524
+linear_svm,Linear SVM,linear,predicted_class,16,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.010916825383901596,0.002440303796902299
+linear_svm,Linear SVM,linear,predicted_class,17,11145,text__word__would,would,text,0.010369845665991306,0.002318034181371331
+linear_svm,Linear SVM,linear,predicted_class,18,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.009360017254948616,0.002092301147058606
+linear_svm,Linear SVM,linear,predicted_class,19,114,text__word__access logs,access logs,text,0.008844968862831593,0.0019771691877394915
+linear_svm,Linear SVM,linear,predicted_class,20,2189,text__word__customer,customer,text,0.00862041674554348,0.001926973694935441
+linear_svm,Linear SVM,linear,predicted_class,21,1927,text__word__connectivity,connectivity,text,0.008097226731479168,0.0018100219313055277
+linear_svm,Linear SVM,linear,predicted_class,22,7513,text__word__project,project,text,0.008013494312763214,0.001791304675862193
+linear_svm,Linear SVM,linear,predicted_class,23,2023,text__word__could,could,text,0.007991389371454716,0.0017863634275272489
+linear_svm,Linear SVM,linear,predicted_class,24,409,text__word__aktualisieren,aktualisieren,text,0.00772483367472887,0.0017267786897718906
+linear_svm,Linear SVM,linear,predicted_class,25,8641,text__word__seo,seo,text,0.007640345022082329,0.0017078923992812634
+linear_svm,Linear SVM,linear,predicted_class,26,9329,text__word__strategies,strategies,text,0.007503880653530359,0.0016773877432569861
+linear_svm,Linear SVM,linear,predicted_class,27,6591,text__word__online,online,text,0.007437328342348337,0.0016625107964500785
+linear_svm,Linear SVM,linear,predicted_class,28,15009,categorical__queue_Human Resources,Human Resources,queue,0.0073884716257452965,0.00165158964227885
+linear_svm,Linear SVM,linear,predicted_class,29,11028,text__word__weiterhin,weiterhin,text,0.007364295888692141,0.001646185526624322
+linear_svm,Linear SVM,linear,predicted_class,30,14056,text__char__rate,[char] rate,text,0.007200703024864197,0.001609616563655436
+linear_svm,Linear SVM,linear,predicted_class,31,9014,text__word__software,software,text,0.007040473632514477,0.0015737995272502303
+linear_svm,Linear SVM,linear,predicted_class,32,11701,text__char__ str,[char]  str,text,0.0070004393346607685,0.0015648504486307502
+linear_svm,Linear SVM,linear,predicted_class,33,13439,text__char__mat,[char] mat,text,0.006956940516829491,0.0015551268588751554
+linear_svm,Linear SVM,linear,predicted_class,34,6636,text__word__optimization,optimization,text,0.006803169380873442,0.0015207534888759255
+linear_svm,Linear SVM,linear,predicted_class,35,13071,text__char__ies,[char] ies,text,0.006565474439412355,0.0014676201390102506
+linear_svm,Linear SVM,linear,predicted_class,36,14840,text__char__ver,[char] ver,text,0.006458301562815905,0.0014436631463468075
+linear_svm,Linear SVM,linear,predicted_class,37,1957,text__word__content,content,text,0.006210610270500183,0.0013882952043786645
+linear_svm,Linear SVM,linear,predicted_class,38,8688,text__word__service,service,text,0.006209914572536945,0.0013881396735087037
+linear_svm,Linear SVM,linear,predicted_class,39,12647,text__char__era,[char] era,text,0.006179493851959705,0.001381339505314827
+linear_svm,Linear SVM,linear,predicted_class,40,14055,text__char__rat,[char] rat,text,0.005857502110302448,0.0013093628222122788
+linear_svm,Linear SVM,linear,predicted_class,41,13509,text__char__mpa,[char] mpa,text,0.005845162086188793,0.0013066043611615896
+linear_svm,Linear SVM,linear,predicted_class,42,11710,text__char__ sy,[char]  sy,text,0.005792926996946335,0.001294927904382348
+linear_svm,Linear SVM,linear,predicted_class,43,12912,text__char__grati,[char] grati,text,0.0057721128687262535,0.0012902752496302128
+linear_svm,Linear SVM,linear,predicted_class,44,4689,text__word__informationen,informationen,text,0.0056905243545770645,0.0012720372760668397
+linear_svm,Linear SVM,linear,predicted_class,45,14448,text__char__ste,[char] ste,text,0.00568297179415822,0.0012703489046543837
+linear_svm,Linear SVM,linear,predicted_class,46,2635,text__word__details,details,text,0.005446248222142458,0.001217432669363916
+linear_svm,Linear SVM,linear,predicted_class,47,9621,text__word__system,system,text,0.00539880245923996,0.0012068268842995167
+linear_svm,Linear SVM,linear,predicted_class,48,12755,text__char__eve,[char] eve,text,0.005300990305840969,0.001184962340630591
+linear_svm,Linear SVM,linear,predicted_class,49,3511,text__word__experiencing crashes,experiencing crashes,text,0.005229511298239231,0.0011689842212945223
+linear_svm,Linear SVM,linear,predicted_class,50,1335,text__word__brand growth,brand growth,text,0.005072398576885462,0.001133863814175129
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,1,15004,categorical__language_de,de,language,1.5594648122787476,0.013125677593052387
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,2,15001,categorical__type_Incident,Incident,type,1.5345510244369507,0.01291598379611969
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,3,15015,categorical__queue_Technical Support,Technical Support,queue,1.4458303451538086,0.012169240973889828
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,4,15003,categorical__type_Request,Request,type,1.3578044176101685,0.011428345926105976
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,5,15002,categorical__type_Problem,Problem,type,1.3255985975265503,0.01115727610886097
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,6,15005,categorical__language_en,en,language,1.2013659477233887,0.010111636482179165
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,7,15011,categorical__queue_Product Support,Product Support,queue,1.1130815744400024,0.009368566796183586
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,8,15007,categorical__queue_Customer Service,Customer Service,queue,1.107177495956421,0.009318873286247253
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,9,15010,categorical__queue_IT Support,IT Support,queue,0.9458498954772949,0.007961013354361057
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,10,15000,categorical__type_Change,Change,type,0.787336528301239,0.0066268411464989185
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.6679246425628662,0.005621776916086674
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.6451759338378906,0.00543030584231019
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,13,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.43622076511383057,0.0036715755704790354
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,14,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.3631480634212494,0.003056538524106145
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,15,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.2786804437637329,0.002345592947676778
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.19544342160224915,0.001645004958845675
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,17,9621,text__word__system,system,text,0.16949178278446198,0.0014265755889937282
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,18,9014,text__word__software,software,text,0.16540175676345825,0.0013921507634222507
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,19,2785,text__word__digital,digital,text,0.14261706173419952,0.0012003768933936954
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,20,4895,text__word__integration,integration,text,0.13259725272655487,0.0011160423746332526
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,21,5944,text__word__marketing,marketing,text,0.1279730349779129,0.0010771213565021753
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,22,4630,text__word__information,information,text,0.12765197455883026,0.0010744190076366067
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,23,8382,text__word__saas,saas,text,0.12532274425029755,0.0010548144346103072
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,24,9329,text__word__strategies,strategies,text,0.124725341796875,0.0010497862240299582
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,25,2023,text__word__could,could,text,0.12445167452096939,0.0010474828304722905
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,26,11145,text__word__would,would,text,0.1195034310221672,0.0010058344341814518
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,27,7625,text__word__provide,provide,text,0.11426446586847305,0.0009617392788641155
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,28,2189,text__word__customer,customer,text,0.11410396546125412,0.0009603883372619748
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,29,1330,text__word__brand,brand,text,0.11274465173482895,0.0009489473304711282
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,30,6995,text__word__platform,platform,text,0.11113069206476212,0.000935362942982465
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,31,5513,text__word__könnten,könnten,text,0.1087181568145752,0.0009150572004728019
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,32,10454,text__word__updates,updates,text,0.10851431638002396,0.0009133414714597166
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,33,7513,text__word__project,project,text,0.10258893668651581,0.0008634688565507531
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,34,2635,text__word__details,details,text,0.09733731299638748,0.0008192670647986233
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,35,8143,text__word__resolve,resolve,text,0.09443265199661255,0.000794819148723036
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,36,7807,text__word__recent,recent,text,0.09345702826976776,0.0007866075611673295
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,37,2798,text__word__digital strategies,digital strategies,text,0.09286358207464218,0.0007816126453690231
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,38,14487,text__char__syst,[char] syst,text,0.09134470671415329,0.0007688286132179201
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,39,14488,text__char__syste,[char] syste,text,0.09134470671415329,0.0007688286132179201
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,40,14486,text__char__sys,[char] sys,text,0.09134470671415329,0.0007688286132179201
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,41,14952,text__char__ystem,[char] ystem,text,0.09131442755460739,0.0007685737800784409
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,42,14951,text__char__yste,[char] yste,text,0.09130727499723434,0.0007685135351493955
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,43,14950,text__char__yst,[char] yst,text,0.09126096218824387,0.000768123718444258
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,44,14451,text__char__stem,[char] stem,text,0.09086932986974716,0.0007648274768143892
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,45,11712,text__char__ syst,[char]  syst,text,0.09063475579023361,0.0007628531311638653
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,46,11711,text__char__ sys,[char]  sys,text,0.09063475579023361,0.0007628531311638653
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,47,14938,text__char__you,[char] you,text,0.0892079770565033,0.000750844192225486
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,48,11710,text__char__ sy,[char]  sy,text,0.0889461487531662,0.0007486404501833022
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,49,11767,text__char__ yo,[char]  yo,text,0.08882858604192734,0.0007476509781554341
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,low,50,11768,text__char__ you,[char]  you,text,0.08882858604192734,0.0007476509781554341
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,1,15004,categorical__language_de,de,language,1.5624693632125854,0.013143973425030708
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,2,15001,categorical__type_Incident,Incident,type,1.5349040031433105,0.01291208527982235
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,3,15015,categorical__queue_Technical Support,Technical Support,queue,1.429010272026062,0.01202127430588007
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,4,15003,categorical__type_Request,Request,type,1.3632779121398926,0.0114683136343956
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,5,15002,categorical__type_Problem,Problem,type,1.327463984489441,0.011167035438120365
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,6,15005,categorical__language_en,en,language,1.2055597305297852,0.010141539387404919
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,7,15011,categorical__queue_Product Support,Product Support,queue,1.1704983711242676,0.00984659232199192
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,8,15007,categorical__queue_Customer Service,Customer Service,queue,1.0841174125671387,0.009119929745793343
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,9,15010,categorical__queue_IT Support,IT Support,queue,0.9868553876876831,0.008301731199026108
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,10,15000,categorical__type_Change,Change,type,0.7924289107322693,0.006666155997663736
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.686657726764679,0.005776375997811556
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.6267871856689453,0.0052727265283465385
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,13,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.4282330274581909,0.0036024281289428473
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,14,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.34795576333999634,0.0029271109960973263
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,15,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.25040775537490845,0.0021065070759505033
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.1834641396999359,0.001543356804177165
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,17,9621,text__word__system,system,text,0.1688414216041565,0.0014203459722921252
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,18,9014,text__word__software,software,text,0.1659916639328003,0.0013963730307295918
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,19,2785,text__word__digital,digital,text,0.14435167610645294,0.0012143307831138372
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,20,4895,text__word__integration,integration,text,0.1327865868806839,0.001117041683755815
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,21,5944,text__word__marketing,marketing,text,0.12987181544303894,0.0010925217065960169
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,22,4630,text__word__information,information,text,0.12772251665592194,0.0010744411265477538
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,23,9329,text__word__strategies,strategies,text,0.12667760252952576,0.0010656509548425674
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,24,2023,text__word__could,could,text,0.12461993843317032,0.0010483412770554423
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,25,8382,text__word__saas,saas,text,0.1242605447769165,0.0010453179711475968
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,26,11145,text__word__would,would,text,0.11993859708309174,0.0010089604184031487
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,27,2189,text__word__customer,customer,text,0.11440552026033401,0.0009624144295230508
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,28,7625,text__word__provide,provide,text,0.11431825160980225,0.0009616803145036101
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,29,1330,text__word__brand,brand,text,0.11347673088312149,0.0009546012151986361
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,30,6995,text__word__platform,platform,text,0.11195860803127289,0.0009418302797712386
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,31,5513,text__word__könnten,könnten,text,0.10827425867319107,0.0009108363883569837
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,32,10454,text__word__updates,updates,text,0.10785651952028275,0.0009073222172446549
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,33,7513,text__word__project,project,text,0.10179635137319565,0.0008563422597944736
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,34,2635,text__word__details,details,text,0.09695272147655487,0.0008155961404554546
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,35,2798,text__word__digital strategies,digital strategies,text,0.09442495554685593,0.0007943317759782076
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,36,8143,text__word__resolve,resolve,text,0.09428015351295471,0.0007931136642582715
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,37,7807,text__word__recent,recent,text,0.09320860356092453,0.0007840994512662292
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,38,14488,text__char__syste,[char] syste,text,0.09109458327293396,0.0007663156720809639
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,39,14487,text__char__syst,[char] syst,text,0.09109458327293396,0.0007663156720809639
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,40,14486,text__char__sys,[char] sys,text,0.09109458327293396,0.0007663156720809639
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,41,14952,text__char__ystem,[char] ystem,text,0.09105967730283737,0.0007660220144316554
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,42,14951,text__char__yste,[char] yste,text,0.09105276316404343,0.0007659638649784029
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,43,14950,text__char__yst,[char] yst,text,0.09101738780736923,0.0007656663074158132
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,44,14451,text__char__stem,[char] stem,text,0.09058775752782822,0.0007620520773343742
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,45,11712,text__char__ syst,[char]  syst,text,0.09043217450380325,0.0007607432780787349
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,46,11711,text__char__ sys,[char]  sys,text,0.09043217450380325,0.0007607432780787349
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,47,14938,text__char__you,[char] you,text,0.08923009037971497,0.00075063097756356
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,48,11767,text__char__ yo,[char]  yo,text,0.08885287493467331,0.0007474577287212014
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,49,11768,text__char__ you,[char]  you,text,0.08885287493467331,0.0007474577287212014
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,medium,50,11710,text__char__ sy,[char]  sy,text,0.08877076953649521,0.0007467670366168022
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,1.6581443548202515,0.0139039047062397
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,2,15001,categorical__type_Incident,Incident,type,1.5689971446990967,0.013156385160982609
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,3,15004,categorical__language_de,de,language,1.563064694404602,0.013106640428304672
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,4,15002,categorical__type_Problem,Problem,type,1.321064829826355,0.01107741892337799
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,5,15003,categorical__type_Request,Request,type,1.309552788734436,0.010980887338519096
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,6,15005,categorical__language_en,en,language,1.1955660581588745,0.010025084018707275
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,7,15011,categorical__queue_Product Support,Product Support,queue,1.0688085556030273,0.008962194435298443
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,8,15010,categorical__queue_IT Support,IT Support,queue,1.0150012969970703,0.008511008694767952
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,9,15007,categorical__queue_Customer Service,Customer Service,queue,0.9818862676620483,0.008233332075178623
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,10,15000,categorical__type_Change,Change,type,0.7965812087059021,0.0066795083694159985
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.6480470299720764,0.005434016697108746
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.5886105298995972,0.004935628734529018
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,13,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.422213613986969,0.00354035384953022
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,14,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.397655189037323,0.003334426088258624
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,15,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.23780100047588348,0.0019940135534852743
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,16,9621,text__word__system,system,text,0.17488917708396912,0.0014664841582998633
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,17,15009,categorical__queue_Human Resources,Human Resources,queue,0.17066434025764465,0.0014310579281300306
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,18,9014,text__word__software,software,text,0.1666519194841385,0.0013974129687994719
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,19,2785,text__word__digital,digital,text,0.14203715324401855,0.0011910126777365804
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,20,4895,text__word__integration,integration,text,0.13014550507068634,0.001091298647224903
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,21,5944,text__word__marketing,marketing,text,0.12782348692417145,0.0010718279518187046
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,22,4630,text__word__information,information,text,0.1255510151386261,0.0010527728591114283
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,23,8382,text__word__saas,saas,text,0.12356763333082199,0.0010361417662352324
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,24,2023,text__word__could,could,text,0.12287577241659164,0.0010303403250873089
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,25,9329,text__word__strategies,strategies,text,0.12283794581890106,0.0010300230933353305
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,26,11145,text__word__would,would,text,0.11812975257635117,0.000990543863736093
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,27,2189,text__word__customer,customer,text,0.11304358392953873,0.0009478952852077782
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,28,7625,text__word__provide,provide,text,0.11302483826875687,0.0009477380663156509
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,29,6995,text__word__platform,platform,text,0.11275579780340195,0.0009454821120016277
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,30,1330,text__word__brand,brand,text,0.11114313453435898,0.0009319595992565155
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,31,10454,text__word__updates,updates,text,0.11043187230825424,0.0009259954676963389
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,32,5513,text__word__könnten,könnten,text,0.10757537931203842,0.0009020431898534298
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,33,7513,text__word__project,project,text,0.10141003876924515,0.0008503454155288637
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,34,8143,text__word__resolve,resolve,text,0.09532003849744797,0.0007992794271558523
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,35,7807,text__word__recent,recent,text,0.09450308233499527,0.0007924290839582682
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,36,2635,text__word__details,details,text,0.09391560405492783,0.0007875029696151614
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,37,14488,text__char__syste,[char] syste,text,0.09332002699375153,0.0007825089269317687
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,38,14487,text__char__syst,[char] syst,text,0.09332002699375153,0.0007825089269317687
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,39,14486,text__char__sys,[char] sys,text,0.09332002699375153,0.0007825089269317687
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,40,14952,text__char__ystem,[char] ystem,text,0.0932939276099205,0.000782290066126734
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,41,14951,text__char__yste,[char] yste,text,0.0932883620262146,0.0007822433835826814
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,42,14950,text__char__yst,[char] yst,text,0.09323558211326599,0.0007818008307367563
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,43,14451,text__char__stem,[char] stem,text,0.09279465675354004,0.0007781035965308547
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,44,11711,text__char__ sys,[char]  sys,text,0.09278271347284317,0.0007780034211464226
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,45,11712,text__char__ syst,[char]  syst,text,0.09278271347284317,0.0007780034211464226
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,46,2798,text__word__digital strategies,digital strategies,text,0.09091407805681229,0.0007623345009051263
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,47,11710,text__char__ sy,[char]  sy,text,0.09075284004211426,0.0007609825115650892
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,48,14551,text__char__tem,[char] tem,text,0.08968307822942734,0.0007520123035646975
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,49,14938,text__char__you,[char] you,text,0.08799699693918228,0.0007378741283901036
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,high,50,11767,text__char__ yo,[char]  yo,text,0.08762600272893906,0.0007347632781602442
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,1,15004,categorical__language_de,de,language,1.5620427131652832,0.013048912398517132
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,2,15001,categorical__type_Incident,Incident,type,1.550505518913269,0.012952533550560474
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,3,15015,categorical__queue_Technical Support,Technical Support,queue,1.5417044162750244,0.01287901122123003
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,4,15003,categorical__type_Request,Request,type,1.3449976444244385,0.011235772632062435
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,5,15002,categorical__type_Problem,Problem,type,1.3243769407272339,0.011063512414693832
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,6,15005,categorical__language_en,en,language,1.2002638578414917,0.010026702657341957
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,7,15011,categorical__queue_Product Support,Product Support,queue,1.1266810894012451,0.009412011131644249
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,8,15007,categorical__queue_Customer Service,Customer Service,queue,1.0629934072494507,0.008879980072379112
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,9,15010,categorical__queue_IT Support,IT Support,queue,0.9959936738014221,0.008320281282067299
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,10,15000,categorical__type_Change,Change,type,0.7929247617721558,0.006623894441872835
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.6734625101089478,0.005625936668366194
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,12,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.6191237568855286,0.005172004457563162
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,13,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.4225533902645111,0.0035299048759043217
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,14,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.4066590368747711,0.003397127613425255
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,15,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.2613700330257416,0.0021834196522831917
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,16,15009,categorical__queue_Human Resources,Human Resources,queue,0.18278993666172028,0.0015269812429323792
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,17,9621,text__word__system,system,text,0.17203208804130554,0.0014371129218488932
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,18,9014,text__word__software,software,text,0.16616322100162506,0.0013880858896300197
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,19,2785,text__word__digital,digital,text,0.14334270358085632,0.0011974489316344261
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,20,4895,text__word__integration,integration,text,0.13178619742393494,0.0011009088484570384
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,21,5944,text__word__marketing,marketing,text,0.1288030743598938,0.0010759885190054774
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,22,4630,text__word__information,information,text,0.12699651718139648,0.0010608970187604427
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,23,9329,text__word__strategies,strategies,text,0.1253543347120285,0.0010471786372363567
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,24,8382,text__word__saas,saas,text,0.12424203008413315,0.0010378867154940963
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,25,2023,text__word__could,could,text,0.12397949397563934,0.0010356935672461987
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,26,11145,text__word__would,would,text,0.11918940395116806,0.00099567836150527
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,27,7625,text__word__provide,provide,text,0.11385496705770493,0.0009511157986707985
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,28,2189,text__word__customer,customer,text,0.113823801279068,0.0009508554358035326
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,29,1330,text__word__brand,brand,text,0.11281145364046097,0.0009423985611647367
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,30,6995,text__word__platform,platform,text,0.1121411919593811,0.0009367993916384876
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,31,10454,text__word__updates,updates,text,0.10940588265657425,0.000913949275854975
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,32,5513,text__word__könnten,könnten,text,0.10819537192583084,0.0009038369753398001
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,33,7513,text__word__project,project,text,0.10198753327131271,0.0008519782568328083
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,34,2635,text__word__details,details,text,0.09623044729232788,0.0008038849919103086
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,35,8143,text__word__resolve,resolve,text,0.09488240629434586,0.0007926237885840237
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,36,7807,text__word__recent,recent,text,0.09392692893743515,0.0007846420048736036
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,37,2798,text__word__digital strategies,digital strategies,text,0.09328673779964447,0.000779294001404196
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,38,14486,text__char__sys,[char] sys,text,0.09216557443141937,0.0007699280977249146
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,39,14487,text__char__syst,[char] syst,text,0.09216557443141937,0.0007699280977249146
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,40,14488,text__char__syste,[char] syste,text,0.09216557443141937,0.0007699280977249146
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,41,14952,text__char__ystem,[char] ystem,text,0.09213555604219437,0.0007696772809140384
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,42,14951,text__char__yste,[char] yste,text,0.09212937206029892,0.0007696256507188082
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,43,14950,text__char__yst,[char] yst,text,0.09208356589078903,0.000769242993555963
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,44,14451,text__char__stem,[char] stem,text,0.09165506809949875,0.0007656634552404284
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,45,11711,text__char__ sys,[char]  sys,text,0.09159303456544876,0.0007651452324353158
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,46,11712,text__char__ syst,[char]  syst,text,0.09159303456544876,0.0007651452324353158
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,47,11710,text__char__ sy,[char]  sy,text,0.08972950279712677,0.0007495777099393308
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,48,14938,text__char__you,[char] you,text,0.08879517763853073,0.000741772644687444
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,49,14551,text__char__tem,[char] tem,text,0.08870913088321686,0.0007410537800751626
+complement_naive_bayes,Complement Naive Bayes,naive_bayes,predicted_class,50,11768,text__char__ you,[char]  you,text,0.0884244367480278,0.0007386755314655602
+knn_cosine,kNN (cosine),instance_based,low,1,15010,categorical__queue_IT Support,IT Support,queue,0.03102840669453144,0.03989947587251663
+knn_cosine,kNN (cosine),instance_based,low,2,15004,categorical__language_de,de,language,0.028640292584896088,0.03682859614491463
+knn_cosine,kNN (cosine),instance_based,low,3,15001,categorical__type_Incident,Incident,type,0.026126453652977943,0.03359604626893997
+knn_cosine,kNN (cosine),instance_based,low,4,15005,categorical__language_en,en,language,0.024685461074113846,0.03174307197332382
+knn_cosine,kNN (cosine),instance_based,low,5,15007,categorical__queue_Customer Service,Customer Service,queue,0.02108512446284294,0.02711339294910431
+knn_cosine,kNN (cosine),instance_based,low,6,15011,categorical__queue_Product Support,Product Support,queue,0.020543992519378662,0.026417551562190056
+knn_cosine,kNN (cosine),instance_based,low,7,7834,text__word__rechnung,rechnung,text,0.02023214101791382,0.026016540825366974
+knn_cosine,kNN (cosine),instance_based,low,8,15003,categorical__type_Request,Request,type,0.01843317784368992,0.023703251034021378
+knn_cosine,kNN (cosine),instance_based,low,9,15002,categorical__type_Problem,Problem,type,0.017119593918323517,0.022014111280441284
+knn_cosine,kNN (cosine),instance_based,low,10,15015,categorical__queue_Technical Support,Technical Support,queue,0.016917992383241653,0.021754872053861618
+knn_cosine,kNN (cosine),instance_based,low,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.015690742060542107,0.02017674781382084
+knn_cosine,kNN (cosine),instance_based,low,12,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.01396931055933237,0.01796315796673298
+knn_cosine,kNN (cosine),instance_based,low,13,5671,text__word__letzte,letzte,text,0.012781478464603424,0.016435721889138222
+knn_cosine,kNN (cosine),instance_based,low,14,2434,text__word__datenanalyse investitionsoptimierung,datenanalyse investitionsoptimierung,text,0.00834688264876604,0.010733269155025482
+knn_cosine,kNN (cosine),instance_based,low,15,1212,text__word__betrag,betrag,text,0.007686486933380365,0.009884065017104149
+knn_cosine,kNN (cosine),instance_based,low,16,15000,categorical__type_Change,Change,type,0.005377339664846659,0.006914729252457619
+knn_cosine,kNN (cosine),instance_based,low,17,9086,text__word__softwareintegration,softwareintegration,text,0.004630721639841795,0.005954652093350887
+knn_cosine,kNN (cosine),instance_based,low,18,903,text__word__aufgrund fehlern,aufgrund fehlern,text,0.004575849045068026,0.00588409136980772
+knn_cosine,kNN (cosine),instance_based,low,19,157,text__word__accuracy,accuracy,text,0.003965426702052355,0.005099148023873568
+knn_cosine,kNN (cosine),instance_based,low,20,9338,text__word__strategies data,strategies data,text,0.003785789478570223,0.004868152551352978
+knn_cosine,kNN (cosine),instance_based,low,21,2485,text__word__datensysteme,datensysteme,text,0.003690429963171482,0.0047455294989049435
+knn_cosine,kNN (cosine),instance_based,low,22,6072,text__word__medizinische datensysteme,medizinische datensysteme,text,0.003678759792819619,0.004730522632598877
+knn_cosine,kNN (cosine),instance_based,low,23,10352,text__word__unstimmigkeiten,unstimmigkeiten,text,0.0036743711680173874,0.0047248792834579945
+knn_cosine,kNN (cosine),instance_based,low,24,3296,text__word__erforderlich,erforderlich,text,0.0036318227648735046,0.004670166410505772
+knn_cosine,kNN (cosine),instance_based,low,25,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.0035337540321052074,0.004544059745967388
+knn_cosine,kNN (cosine),instance_based,low,26,2752,text__word__dienstleistungen,dienstleistungen,text,0.003494194010272622,0.004493189509958029
+knn_cosine,kNN (cosine),instance_based,low,27,3699,text__word__fehlern,fehlern,text,0.0033936018589884043,0.004363837651908398
+knn_cosine,kNN (cosine),instance_based,low,28,11175,text__word__wurden,wurden,text,0.0033931806683540344,0.004363296087831259
+knn_cosine,kNN (cosine),instance_based,low,29,4210,text__word__hilfe,hilfe,text,0.0029936872888356447,0.0038495869375765324
+knn_cosine,kNN (cosine),instance_based,low,30,9138,text__word__sources,sources,text,0.0028998067136853933,0.0037288658786565065
+knn_cosine,kNN (cosine),instance_based,low,31,15009,categorical__queue_Human Resources,Human Resources,queue,0.0028391366358846426,0.003650850150734186
+knn_cosine,kNN (cosine),instance_based,low,32,2366,text__word__data sources,data sources,text,0.002762872725725174,0.00355278211645782
+knn_cosine,kNN (cosine),instance_based,low,33,9329,text__word__strategies,strategies,text,0.0027318468783050776,0.0035128858871757984
+knn_cosine,kNN (cosine),instance_based,low,34,5058,text__word__interessiert,interessiert,text,0.002677840180695057,0.0034434387926012278
+knn_cosine,kNN (cosine),instance_based,low,35,604,text__word__angriffs,angriffs,text,0.002634296426549554,0.003387445816770196
+knn_cosine,kNN (cosine),instance_based,low,36,4692,text__word__informationen dienstleistungen,informationen dienstleistungen,text,0.002594133373349905,0.0033358000218868256
+knn_cosine,kNN (cosine),instance_based,low,37,2242,text__word__daran interessiert,daran interessiert,text,0.0025424298364669085,0.0032693143002688885
+knn_cosine,kNN (cosine),instance_based,low,38,10887,text__word__verzögerungen,verzögerungen,text,0.002500695874914527,0.003215648466721177
+knn_cosine,kNN (cosine),instance_based,low,39,3237,text__word__enhancing,enhancing,text,0.0024457734543830156,0.003145023714751005
+knn_cosine,kNN (cosine),instance_based,low,40,6844,text__word__passwörter,passwörter,text,0.002443915233016014,0.0031426341738551855
+knn_cosine,kNN (cosine),instance_based,low,41,5066,text__word__interessiert mehr,interessiert mehr,text,0.0024317700881510973,0.0031270168256014585
+knn_cosine,kNN (cosine),instance_based,low,42,11050,text__word__werkzeug,werkzeug,text,0.0024294767063111067,0.0031240677926689386
+knn_cosine,kNN (cosine),instance_based,low,43,1041,text__word__beeinträchtigen,beeinträchtigen,text,0.002394485054537654,0.0030790718737989664
+knn_cosine,kNN (cosine),instance_based,low,44,4689,text__word__informationen,informationen,text,0.0023746767546981573,0.0030536004342138767
+knn_cosine,kNN (cosine),instance_based,low,45,10852,text__word__versucht,versucht,text,0.002289737109094858,0.0029443763196468353
+knn_cosine,kNN (cosine),instance_based,low,46,11028,text__word__weiterhin,weiterhin,text,0.0022581303492188454,0.002903733169659972
+knn_cosine,kNN (cosine),instance_based,low,47,6966,text__word__phishing angriffs,phishing angriffs,text,0.002127907006070018,0.002736278809607029
+knn_cosine,kNN (cosine),instance_based,low,48,7807,text__word__recent,recent,text,0.002098910976201296,0.002698992844671011
+knn_cosine,kNN (cosine),instance_based,low,49,9014,text__word__software,software,text,0.002051612827926874,0.002638172125443816
+knn_cosine,kNN (cosine),instance_based,low,50,5513,text__word__könnten,könnten,text,0.0019974156748503447,0.002568479860201478
+knn_cosine,kNN (cosine),instance_based,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.0495382621884346,0.043189164251089096
+knn_cosine,kNN (cosine),instance_based,medium,2,15004,categorical__language_de,de,language,0.04155408591032028,0.03622828423976898
+knn_cosine,kNN (cosine),instance_based,medium,3,15011,categorical__queue_Product Support,Product Support,queue,0.03794495761394501,0.033081721514463425
+knn_cosine,kNN (cosine),instance_based,medium,4,15001,categorical__type_Incident,Incident,type,0.03686331585049629,0.03213870897889137
+knn_cosine,kNN (cosine),instance_based,medium,5,15005,categorical__language_en,en,language,0.033367037773132324,0.029090533033013344
+knn_cosine,kNN (cosine),instance_based,medium,6,15007,categorical__queue_Customer Service,Customer Service,queue,0.030310729518532753,0.026425939053297043
+knn_cosine,kNN (cosine),instance_based,medium,7,15003,categorical__type_Request,Request,type,0.03001423180103302,0.02616744115948677
+knn_cosine,kNN (cosine),instance_based,medium,8,15002,categorical__type_Problem,Problem,type,0.025001460686326027,0.02179713547229767
+knn_cosine,kNN (cosine),instance_based,medium,9,15010,categorical__queue_IT Support,IT Support,queue,0.02464163675904274,0.02148342877626419
+knn_cosine,kNN (cosine),instance_based,medium,10,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.01632206328213215,0.014230136759579182
+knn_cosine,kNN (cosine),instance_based,medium,11,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.01543511264026165,0.013456863351166248
+knn_cosine,kNN (cosine),instance_based,medium,12,7834,text__word__rechnung,rechnung,text,0.014977307058870792,0.01305773202329874
+knn_cosine,kNN (cosine),instance_based,medium,13,1212,text__word__betrag,betrag,text,0.010985649190843105,0.009577667340636253
+knn_cosine,kNN (cosine),instance_based,medium,14,5671,text__word__letzte,letzte,text,0.010211322456598282,0.008902582339942455
+knn_cosine,kNN (cosine),instance_based,medium,15,2434,text__word__datenanalyse investitionsoptimierung,datenanalyse investitionsoptimierung,text,0.008254462853074074,0.007196525111794472
+knn_cosine,kNN (cosine),instance_based,medium,16,15000,categorical__type_Change,Change,type,0.006232121959328651,0.005433378741145134
+knn_cosine,kNN (cosine),instance_based,medium,17,903,text__word__aufgrund fehlern,aufgrund fehlern,text,0.005960789043456316,0.0051968214102089405
+knn_cosine,kNN (cosine),instance_based,medium,18,9338,text__word__strategies data,strategies data,text,0.005814697593450546,0.005069453734904528
+knn_cosine,kNN (cosine),instance_based,medium,19,157,text__word__accuracy,accuracy,text,0.005067950580269098,0.004418414086103439
+knn_cosine,kNN (cosine),instance_based,medium,20,9329,text__word__strategies,strategies,text,0.004880920983850956,0.00425535487011075
+knn_cosine,kNN (cosine),instance_based,medium,21,11050,text__word__werkzeug,werkzeug,text,0.004768122918903828,0.004157013725489378
+knn_cosine,kNN (cosine),instance_based,medium,22,11175,text__word__wurden,wurden,text,0.004723445978015661,0.004118063021451235
+knn_cosine,kNN (cosine),instance_based,medium,23,3596,text__word__facing connectivity,facing connectivity,text,0.004575394559651613,0.00398898683488369
+knn_cosine,kNN (cosine),instance_based,medium,24,6072,text__word__medizinische datensysteme,medizinische datensysteme,text,0.004499085247516632,0.003922457341104746
+knn_cosine,kNN (cosine),instance_based,medium,25,2485,text__word__datensysteme,datensysteme,text,0.004372912459075451,0.003812455805018544
+knn_cosine,kNN (cosine),instance_based,medium,26,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.0042380644008517265,0.003694890532642603
+knn_cosine,kNN (cosine),instance_based,medium,27,10352,text__word__unstimmigkeiten,unstimmigkeiten,text,0.00421794643625617,0.0036773509345948696
+knn_cosine,kNN (cosine),instance_based,medium,28,9086,text__word__softwareintegration,softwareintegration,text,0.004172422457486391,0.0036376616917550564
+knn_cosine,kNN (cosine),instance_based,medium,29,2752,text__word__dienstleistungen,dienstleistungen,text,0.004139986354857683,0.0036093827802687883
+knn_cosine,kNN (cosine),instance_based,medium,30,8763,text__word__sessions,sessions,text,0.004135103430598974,0.003605125704780221
+knn_cosine,kNN (cosine),instance_based,medium,31,3699,text__word__fehlern,fehlern,text,0.004100065678358078,0.003574578557163477
+knn_cosine,kNN (cosine),instance_based,medium,32,604,text__word__angriffs,angriffs,text,0.00389579008333385,0.0033964840695261955
+knn_cosine,kNN (cosine),instance_based,medium,33,10887,text__word__verzögerungen,verzögerungen,text,0.0037972573190927505,0.0033105798065662384
+knn_cosine,kNN (cosine),instance_based,medium,34,4210,text__word__hilfe,hilfe,text,0.0037337958347052336,0.003255251795053482
+knn_cosine,kNN (cosine),instance_based,medium,35,6966,text__word__phishing angriffs,phishing angriffs,text,0.0037064829375594854,0.00323143950663507
+knn_cosine,kNN (cosine),instance_based,medium,36,5058,text__word__interessiert,interessiert,text,0.003703927155584097,0.0032292113173753023
+knn_cosine,kNN (cosine),instance_based,medium,37,4689,text__word__informationen,informationen,text,0.0036265687085688114,0.0031617674976587296
+knn_cosine,kNN (cosine),instance_based,medium,38,3237,text__word__enhancing,enhancing,text,0.0034809326753020287,0.00303479703143239
+knn_cosine,kNN (cosine),instance_based,medium,39,2366,text__word__data sources,data sources,text,0.0034557711333036423,0.0030128604266792536
+knn_cosine,kNN (cosine),instance_based,medium,40,3296,text__word__erforderlich,erforderlich,text,0.0034240607637912035,0.002985214116051793
+knn_cosine,kNN (cosine),instance_based,medium,41,1927,text__word__connectivity,connectivity,text,0.0034024182241410017,0.0029663455206900835
+knn_cosine,kNN (cosine),instance_based,medium,42,9138,text__word__sources,sources,text,0.0033675229642540216,0.002935922471806407
+knn_cosine,kNN (cosine),instance_based,medium,43,1934,text__word__connectivity problems,connectivity problems,text,0.0031960513442754745,0.0027864277362823486
+knn_cosine,kNN (cosine),instance_based,medium,44,5513,text__word__könnten,könnten,text,0.0031769447959959507,0.0027697698678821325
+knn_cosine,kNN (cosine),instance_based,medium,45,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.003132827114313841,0.0027313067112118006
+knn_cosine,kNN (cosine),instance_based,medium,46,9014,text__word__software,software,text,0.0031104139052331448,0.0027117659337818623
+knn_cosine,kNN (cosine),instance_based,medium,47,5066,text__word__interessiert mehr,interessiert mehr,text,0.0030022200662642717,0.0026174387894570827
+knn_cosine,kNN (cosine),instance_based,medium,48,7807,text__word__recent,recent,text,0.0029602274298667908,0.0025808282662183046
+knn_cosine,kNN (cosine),instance_based,medium,49,6844,text__word__passwörter,passwörter,text,0.0028459869790822268,0.002481229603290558
+knn_cosine,kNN (cosine),instance_based,medium,50,10852,text__word__versucht,versucht,text,0.0027991270180791616,0.0024403752759099007
+knn_cosine,kNN (cosine),instance_based,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.05839328095316887,0.05486654117703438
+knn_cosine,kNN (cosine),instance_based,high,2,15001,categorical__type_Incident,Incident,type,0.042664624750614166,0.04008783772587776
+knn_cosine,kNN (cosine),instance_based,high,3,15011,categorical__queue_Product Support,Product Support,queue,0.03963208943605423,0.037238456308841705
+knn_cosine,kNN (cosine),instance_based,high,4,15010,categorical__queue_IT Support,IT Support,queue,0.03891531378030777,0.03656497225165367
+knn_cosine,kNN (cosine),instance_based,high,5,15007,categorical__queue_Customer Service,Customer Service,queue,0.03710833191871643,0.03486712649464607
+knn_cosine,kNN (cosine),instance_based,high,6,15004,categorical__language_de,de,language,0.035062067210674286,0.0329444482922554
+knn_cosine,kNN (cosine),instance_based,high,7,15005,categorical__language_en,en,language,0.031097011640667915,0.029218867421150208
+knn_cosine,kNN (cosine),instance_based,high,8,15003,categorical__type_Request,Request,type,0.029328346252441406,0.027557022869586945
+knn_cosine,kNN (cosine),instance_based,high,9,15002,categorical__type_Problem,Problem,type,0.026197543367743492,0.02461530826985836
+knn_cosine,kNN (cosine),instance_based,high,10,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.01907947286963463,0.0179271437227726
+knn_cosine,kNN (cosine),instance_based,high,11,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.017227385193109512,0.016186915338039398
+knn_cosine,kNN (cosine),instance_based,high,12,15000,categorical__type_Change,Change,type,0.007109796162694693,0.006680390797555447
+knn_cosine,kNN (cosine),instance_based,high,13,7834,text__word__rechnung,rechnung,text,0.006859736517071724,0.00644543394446373
+knn_cosine,kNN (cosine),instance_based,high,14,604,text__word__angriffs,angriffs,text,0.006506556645035744,0.006113584619015455
+knn_cosine,kNN (cosine),instance_based,high,15,11050,text__word__werkzeug,werkzeug,text,0.006048185750842094,0.005682897754013538
+knn_cosine,kNN (cosine),instance_based,high,16,6966,text__word__phishing angriffs,phishing angriffs,text,0.0058148521929979324,0.0054636565037071705
+knn_cosine,kNN (cosine),instance_based,high,17,3596,text__word__facing connectivity,facing connectivity,text,0.00551601592451334,0.005182868801057339
+knn_cosine,kNN (cosine),instance_based,high,18,1212,text__word__betrag,betrag,text,0.004989135544747114,0.004687810316681862
+knn_cosine,kNN (cosine),instance_based,high,19,11175,text__word__wurden,wurden,text,0.004847720265388489,0.004554935730993748
+knn_cosine,kNN (cosine),instance_based,high,20,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.004277609754353762,0.004019258078187704
+knn_cosine,kNN (cosine),instance_based,high,21,10893,text__word__verzögerungen unserer,verzögerungen unserer,text,0.004185274243354797,0.003932499326765537
+knn_cosine,kNN (cosine),instance_based,high,22,2752,text__word__dienstleistungen,dienstleistungen,text,0.0041799964383244514,0.00392754003405571
+knn_cosine,kNN (cosine),instance_based,high,23,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.004176669288426638,0.003924414049834013
+knn_cosine,kNN (cosine),instance_based,high,24,9329,text__word__strategies,strategies,text,0.004101303871721029,0.003853600239381194
+knn_cosine,kNN (cosine),instance_based,high,25,8763,text__word__sessions,sessions,text,0.004037073813378811,0.0037932496052235365
+knn_cosine,kNN (cosine),instance_based,high,26,6072,text__word__medizinische datensysteme,medizinische datensysteme,text,0.0036935852840542793,0.0034705062862485647
+knn_cosine,kNN (cosine),instance_based,high,27,4689,text__word__informationen,informationen,text,0.0036757420748472214,0.0034537408500909805
+knn_cosine,kNN (cosine),instance_based,high,28,10891,text__word__verzögerungen könnten,verzögerungen könnten,text,0.0036323536187410355,0.003412972902879119
+knn_cosine,kNN (cosine),instance_based,high,29,1927,text__word__connectivity,connectivity,text,0.0035049801226705313,0.0032932923641055822
+knn_cosine,kNN (cosine),instance_based,high,30,10887,text__word__verzögerungen,verzögerungen,text,0.0034456963185220957,0.003237589029595256
+knn_cosine,kNN (cosine),instance_based,high,31,1934,text__word__connectivity problems,connectivity problems,text,0.0033689006231725216,0.0031654315534979105
+knn_cosine,kNN (cosine),instance_based,high,32,2485,text__word__datensysteme,datensysteme,text,0.003321386408060789,0.003120786976069212
+knn_cosine,kNN (cosine),instance_based,high,33,6844,text__word__passwörter,passwörter,text,0.0032422118820250034,0.0030463943257927895
+knn_cosine,kNN (cosine),instance_based,high,34,9338,text__word__strategies data,strategies data,text,0.003035101108253002,0.0028517921455204487
+knn_cosine,kNN (cosine),instance_based,high,35,6965,text__word__phishing,phishing,text,0.002931470749899745,0.002754420740529895
+knn_cosine,kNN (cosine),instance_based,high,36,3237,text__word__enhancing,enhancing,text,0.0029009946156293154,0.0027257853653281927
+knn_cosine,kNN (cosine),instance_based,high,37,15009,categorical__queue_Human Resources,Human Resources,queue,0.002815788611769676,0.0026457253843545914
+knn_cosine,kNN (cosine),instance_based,high,38,3910,text__word__gab,gab,text,0.0027784842532128096,0.0026106741279363632
+knn_cosine,kNN (cosine),instance_based,high,39,3688,text__word__fehler,fehler,text,0.00274708797223866,0.0025811740197241306
+knn_cosine,kNN (cosine),instance_based,high,40,5671,text__word__letzte,letzte,text,0.002725824248045683,0.0025611945893615484
+knn_cosine,kNN (cosine),instance_based,high,41,5513,text__word__könnten,könnten,text,0.0026906465645879507,0.002528141485527158
+knn_cosine,kNN (cosine),instance_based,high,42,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0026766611263155937,0.002515000756829977
+knn_cosine,kNN (cosine),instance_based,high,43,1045,text__word__beeinträchtigt,beeinträchtigt,text,0.0026369858533143997,0.0024777217768132687
+knn_cosine,kNN (cosine),instance_based,high,44,6431,text__word__neu,neu,text,0.0025859824381768703,0.00242979871109128
+knn_cosine,kNN (cosine),instance_based,high,45,9014,text__word__software,software,text,0.0024634338915348053,0.002314651617780328
+knn_cosine,kNN (cosine),instance_based,high,46,10852,text__word__versucht,versucht,text,0.002413047943264246,0.0022673087660223246
+knn_cosine,kNN (cosine),instance_based,high,47,4210,text__word__hilfe,hilfe,text,0.0023988632019609213,0.002253980841487646
+knn_cosine,kNN (cosine),instance_based,high,48,9443,text__word__störung,störung,text,0.002389103639870882,0.002244810573756695
+knn_cosine,kNN (cosine),instance_based,high,49,1175,text__word__beschweren,beschweren,text,0.0023147554602473974,0.0021749527659267187
+knn_cosine,kNN (cosine),instance_based,high,50,5058,text__word__interessiert,interessiert,text,0.002267457079142332,0.0021305109839886427
+knn_cosine,kNN (cosine),instance_based,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.0532413013279438,0.04657784476876259
+knn_cosine,kNN (cosine),instance_based,predicted_class,2,15001,categorical__type_Incident,Incident,type,0.04204612597823143,0.03678381070494652
+knn_cosine,kNN (cosine),instance_based,predicted_class,3,15004,categorical__language_de,de,language,0.04045023396611214,0.03538765385746956
+knn_cosine,kNN (cosine),instance_based,predicted_class,4,15011,categorical__queue_Product Support,Product Support,queue,0.03991593420505524,0.03492022305727005
+knn_cosine,kNN (cosine),instance_based,predicted_class,5,15007,categorical__queue_Customer Service,Customer Service,queue,0.0344071164727211,0.0301008652895689
+knn_cosine,kNN (cosine),instance_based,predicted_class,6,15005,categorical__language_en,en,language,0.03433815762400627,0.03004053793847561
+knn_cosine,kNN (cosine),instance_based,predicted_class,7,15010,categorical__queue_IT Support,IT Support,queue,0.03389502316713333,0.02965286374092102
+knn_cosine,kNN (cosine),instance_based,predicted_class,8,15003,categorical__type_Request,Request,type,0.030758075416088104,0.026908524334430695
+knn_cosine,kNN (cosine),instance_based,predicted_class,9,15002,categorical__type_Problem,Problem,type,0.025863224640488625,0.02262629196047783
+knn_cosine,kNN (cosine),instance_based,predicted_class,10,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.019947152584791183,0.01745065115392208
+knn_cosine,kNN (cosine),instance_based,predicted_class,11,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.017229720950126648,0.0150733208283782
+knn_cosine,kNN (cosine),instance_based,predicted_class,12,7834,text__word__rechnung,rechnung,text,0.012159164994955063,0.010637374594807625
+knn_cosine,kNN (cosine),instance_based,predicted_class,13,1212,text__word__betrag,betrag,text,0.007819222286343575,0.006840601097792387
+knn_cosine,kNN (cosine),instance_based,predicted_class,14,5671,text__word__letzte,letzte,text,0.007655835244804621,0.006697663106024265
+knn_cosine,kNN (cosine),instance_based,predicted_class,15,15000,categorical__type_Change,Change,type,0.006075811572372913,0.005315388552844524
+knn_cosine,kNN (cosine),instance_based,predicted_class,16,2434,text__word__datenanalyse investitionsoptimierung,datenanalyse investitionsoptimierung,text,0.005616051144897938,0.004913169890642166
+knn_cosine,kNN (cosine),instance_based,predicted_class,17,11050,text__word__werkzeug,werkzeug,text,0.005046796053647995,0.004415160045027733
+knn_cosine,kNN (cosine),instance_based,predicted_class,18,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.004950465634465218,0.00433088606223464
+knn_cosine,kNN (cosine),instance_based,predicted_class,19,3596,text__word__facing connectivity,facing connectivity,text,0.00486742751672864,0.004258240573108196
+knn_cosine,kNN (cosine),instance_based,predicted_class,20,11175,text__word__wurden,wurden,text,0.004814504645764828,0.00421194126829505
+knn_cosine,kNN (cosine),instance_based,predicted_class,21,604,text__word__angriffs,angriffs,text,0.0047838883474469185,0.004185156896710396
+knn_cosine,kNN (cosine),instance_based,predicted_class,22,9329,text__word__strategies,strategies,text,0.0046501969918608665,0.0040681976824998856
+knn_cosine,kNN (cosine),instance_based,predicted_class,23,9338,text__word__strategies data,strategies data,text,0.0044797142036259174,0.003919051960110664
+knn_cosine,kNN (cosine),instance_based,predicted_class,24,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.004455253481864929,0.003897652728483081
+knn_cosine,kNN (cosine),instance_based,predicted_class,25,903,text__word__aufgrund fehlern,aufgrund fehlern,text,0.004292007070034742,0.0037548374384641647
+knn_cosine,kNN (cosine),instance_based,predicted_class,26,6966,text__word__phishing angriffs,phishing angriffs,text,0.004267089534550905,0.0037330384366214275
+knn_cosine,kNN (cosine),instance_based,predicted_class,27,6072,text__word__medizinische datensysteme,medizinische datensysteme,text,0.004053651355206966,0.0035463133826851845
+knn_cosine,kNN (cosine),instance_based,predicted_class,28,2485,text__word__datensysteme,datensysteme,text,0.003972900100052357,0.0034756686072796583
+knn_cosine,kNN (cosine),instance_based,predicted_class,29,2752,text__word__dienstleistungen,dienstleistungen,text,0.003937349654734135,0.0034445675555616617
+knn_cosine,kNN (cosine),instance_based,predicted_class,30,8763,text__word__sessions,sessions,text,0.003794097574427724,0.00331924413330853
+knn_cosine,kNN (cosine),instance_based,predicted_class,31,157,text__word__accuracy,accuracy,text,0.0037621997762471437,0.0032913386821746826
+knn_cosine,kNN (cosine),instance_based,predicted_class,32,4689,text__word__informationen,informationen,text,0.0036763178650289774,0.003216205397620797
+knn_cosine,kNN (cosine),instance_based,predicted_class,33,10887,text__word__verzögerungen,verzögerungen,text,0.0036679005715996027,0.0032088414300233126
+knn_cosine,kNN (cosine),instance_based,predicted_class,34,4210,text__word__hilfe,hilfe,text,0.003415534505620599,0.0029880604706704617
+knn_cosine,kNN (cosine),instance_based,predicted_class,35,10352,text__word__unstimmigkeiten,unstimmigkeiten,text,0.003243289655074477,0.002837373176589608
+knn_cosine,kNN (cosine),instance_based,predicted_class,36,1927,text__word__connectivity,connectivity,text,0.0032230254728347063,0.002819645218551159
+knn_cosine,kNN (cosine),instance_based,predicted_class,37,9014,text__word__software,software,text,0.0031829450745135546,0.002784580923616886
+knn_cosine,kNN (cosine),instance_based,predicted_class,38,10893,text__word__verzögerungen unserer,verzögerungen unserer,text,0.0031621067319065332,0.0027663507498800755
+knn_cosine,kNN (cosine),instance_based,predicted_class,39,3699,text__word__fehlern,fehlern,text,0.00307677686214447,0.002691700356081128
+knn_cosine,kNN (cosine),instance_based,predicted_class,40,9086,text__word__softwareintegration,softwareintegration,text,0.003070639446377754,0.0026863310486078262
+knn_cosine,kNN (cosine),instance_based,predicted_class,41,1934,text__word__connectivity problems,connectivity problems,text,0.0030558069702237844,0.0026733549311757088
+knn_cosine,kNN (cosine),instance_based,predicted_class,42,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0030541380401700735,0.0026718948502093554
+knn_cosine,kNN (cosine),instance_based,predicted_class,43,5058,text__word__interessiert,interessiert,text,0.0030503233429044485,0.0026685576885938644
+knn_cosine,kNN (cosine),instance_based,predicted_class,44,5513,text__word__könnten,könnten,text,0.002983123529702425,0.002609768183901906
+knn_cosine,kNN (cosine),instance_based,predicted_class,45,3237,text__word__enhancing,enhancing,text,0.002953749382868409,0.0025840704329311848
+knn_cosine,kNN (cosine),instance_based,predicted_class,46,3296,text__word__erforderlich,erforderlich,text,0.0029126370791345835,0.0025481036864221096
+knn_cosine,kNN (cosine),instance_based,predicted_class,47,6844,text__word__passwörter,passwörter,text,0.0028911998961120844,0.002529349410906434
+knn_cosine,kNN (cosine),instance_based,predicted_class,48,2366,text__word__data sources,data sources,text,0.0027198842726647854,0.0023794749286025763
+knn_cosine,kNN (cosine),instance_based,predicted_class,49,10852,text__word__versucht,versucht,text,0.0026796201709657907,0.002344250213354826
+knn_cosine,kNN (cosine),instance_based,predicted_class,50,3688,text__word__fehler,fehler,text,0.002673121402040124,0.002338564721867442
+random_forest,Random Forest,bagging_ensemble,low,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.020334042608737946,0.037245336920022964
+random_forest,Random Forest,bagging_ensemble,low,2,15007,categorical__queue_Customer Service,Customer Service,queue,0.016845587641000748,0.03085562400519848
+random_forest,Random Forest,bagging_ensemble,low,3,15010,categorical__queue_IT Support,IT Support,queue,0.011762461625039577,0.02154499478638172
+random_forest,Random Forest,bagging_ensemble,low,4,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.004969521425664425,0.009102542884647846
+random_forest,Random Forest,bagging_ensemble,low,5,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.003787997644394636,0.006938376929610968
+random_forest,Random Forest,bagging_ensemble,low,6,15009,categorical__queue_Human Resources,Human Resources,queue,0.0033228620886802673,0.006086400244385004
+random_forest,Random Forest,bagging_ensemble,low,7,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.003154098754748702,0.005777280777692795
+random_forest,Random Forest,bagging_ensemble,low,8,14840,text__char__ver,[char] ver,text,0.0015714195324108005,0.0028783283196389675
+random_forest,Random Forest,bagging_ensemble,low,9,15011,categorical__queue_Product Support,Product Support,queue,0.0015507676871493459,0.0028405007906258106
+random_forest,Random Forest,bagging_ensemble,low,10,14487,text__char__syst,[char] syst,text,0.001468264264985919,0.0026893813628703356
+random_forest,Random Forest,bagging_ensemble,low,11,12581,text__char__em ,[char] em ,text,0.0013839872553944588,0.0025350134819746017
+random_forest,Random Forest,bagging_ensemble,low,12,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.00133802171330899,0.002450819592922926
+random_forest,Random Forest,bagging_ensemble,low,13,11712,text__char__ syst,[char]  syst,text,0.001305434969253838,0.0023911313619464636
+random_forest,Random Forest,bagging_ensemble,low,14,14448,text__char__ste,[char] ste,text,0.0012545568170025945,0.002297939034178853
+random_forest,Random Forest,bagging_ensemble,low,15,14048,text__char__ras,[char] ras,text,0.001244422746822238,0.002279376843944192
+random_forest,Random Forest,bagging_ensemble,low,16,14587,text__char__tform,[char] tform,text,0.001208389876410365,0.0022133763413876295
+random_forest,Random Forest,bagging_ensemble,low,17,12325,text__char__cti,[char] cti,text,0.0011935547227039933,0.0021862031426280737
+random_forest,Random Forest,bagging_ensemble,low,18,14951,text__char__yste,[char] yste,text,0.0011715266155079007,0.0021458547562360764
+random_forest,Random Forest,bagging_ensemble,low,19,14586,text__char__tfor,[char] tfor,text,0.0011597260599955916,0.002124240156263113
+random_forest,Random Forest,bagging_ensemble,low,20,14055,text__char__rat,[char] rat,text,0.0011561698047444224,0.0021177262533456087
+random_forest,Random Forest,bagging_ensemble,low,21,14439,text__char__sta,[char] sta,text,0.0011331685818731785,0.0020755953155457973
+random_forest,Random Forest,bagging_ensemble,low,22,14486,text__char__sys,[char] sys,text,0.0011200684821233153,0.002051600255072117
+random_forest,Random Forest,bagging_ensemble,low,23,14444,text__char__star,[char] star,text,0.0011077531380578876,0.0020290426909923553
+random_forest,Random Forest,bagging_ensemble,low,24,13946,text__char__plat,[char] plat,text,0.001081540365703404,0.001981029286980629
+random_forest,Random Forest,bagging_ensemble,low,25,11872,text__char__ache ,[char] ache ,text,0.0010479510528966784,0.0019195047207176685
+random_forest,Random Forest,bagging_ensemble,low,26,13097,text__char__ils,[char] ils,text,0.0010350709781050682,0.001895912573672831
+random_forest,Random Forest,bagging_ensemble,low,27,2635,text__word__details,details,text,0.00101119140163064,0.0018521730089560151
+random_forest,Random Forest,bagging_ensemble,low,28,13489,text__char__mme,[char] mme,text,0.0010031074052676558,0.00183736567851156
+random_forest,Random Forest,bagging_ensemble,low,29,13221,text__char__ition,[char] ition,text,0.001000919146463275,0.0018333576153963804
+random_forest,Random Forest,bagging_ensemble,low,30,11507,text__char__ im,[char]  im,text,0.0009391194325871766,0.0017201605951413512
+random_forest,Random Forest,bagging_ensemble,low,31,14551,text__char__tem,[char] tem,text,0.0009383594151586294,0.0017187685007229447
+random_forest,Random Forest,bagging_ensemble,low,32,13923,text__char__per,[char] per,text,0.0009291940950788558,0.001701980596408248
+random_forest,Random Forest,bagging_ensemble,low,33,14952,text__char__ystem,[char] ystem,text,0.0009281047969125211,0.0016999853542074561
+random_forest,Random Forest,bagging_ensemble,low,34,13220,text__char__itio,[char] itio,text,0.0009274838375858963,0.001698847976513207
+random_forest,Random Forest,bagging_ensemble,low,35,14950,text__char__yst,[char] yst,text,0.0009259088546968997,0.0016959632048383355
+random_forest,Random Forest,bagging_ensemble,low,36,13071,text__char__ies,[char] ies,text,0.000920312711969018,0.001685712835751474
+random_forest,Random Forest,bagging_ensemble,low,37,12674,text__char__erl,[char] erl,text,0.0009197761537507176,0.001684730057604611
+random_forest,Random Forest,bagging_ensemble,low,38,14542,text__char__teg,[char] teg,text,0.0009142635972239077,0.0016746328910812736
+random_forest,Random Forest,bagging_ensemble,low,39,14938,text__char__you,[char] you,text,0.000912059040274471,0.0016705947928130627
+random_forest,Random Forest,bagging_ensemble,low,40,11145,text__word__would,would,text,0.0008846143027767539,0.0016203250270336866
+random_forest,Random Forest,bagging_ensemble,low,41,11768,text__char__ you,[char]  you,text,0.0008840584778226912,0.0016193068586289883
+random_forest,Random Forest,bagging_ensemble,low,42,9014,text__word__software,software,text,0.0008724542567506433,0.0015980517491698265
+random_forest,Random Forest,bagging_ensemble,low,43,11620,text__char__ plat,[char]  plat,text,0.0008622084278613329,0.0015792847843840718
+random_forest,Random Forest,bagging_ensemble,low,44,13439,text__char__mat,[char] mat,text,0.0008553552906960249,0.001566732069477439
+random_forest,Random Forest,bagging_ensemble,low,45,13145,text__char__inte,[char] inte,text,0.0008493192726746202,0.001555675989948213
+random_forest,Random Forest,bagging_ensemble,low,46,11653,text__char__ res,[char]  res,text,0.0008313634316436946,0.0015227867988869548
+random_forest,Random Forest,bagging_ensemble,low,47,14585,text__char__tfo,[char] tfo,text,0.0008261682814918458,0.0015132708940654993
+random_forest,Random Forest,bagging_ensemble,low,48,11597,text__char__ on ,[char]  on ,text,0.0008110860362648964,0.0014856451889500022
+random_forest,Random Forest,bagging_ensemble,low,49,11711,text__char__ sys,[char]  sys,text,0.0008097997051663697,0.0014832890592515469
+random_forest,Random Forest,bagging_ensemble,low,50,13326,text__char__ld ,[char] ld ,text,0.0008059928077273071,0.0014763160143047571
+random_forest,Random Forest,bagging_ensemble,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.010823092423379421,0.02352171204984188
+random_forest,Random Forest,bagging_ensemble,medium,2,15011,categorical__queue_Product Support,Product Support,queue,0.007105806842446327,0.015442974865436554
+random_forest,Random Forest,bagging_ensemble,medium,3,15010,categorical__queue_IT Support,IT Support,queue,0.0032111061736941338,0.006978663150221109
+random_forest,Random Forest,bagging_ensemble,medium,4,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.0025892197154462337,0.005627123638987541
+random_forest,Random Forest,bagging_ensemble,medium,5,14055,text__char__rat,[char] rat,text,0.0014027823926880956,0.003048652084544301
+random_forest,Random Forest,bagging_ensemble,medium,6,14448,text__char__ste,[char] ste,text,0.00138390576466918,0.0030076277907937765
+random_forest,Random Forest,bagging_ensemble,medium,7,14840,text__char__ver,[char] ver,text,0.0013174769701436162,0.002863258821889758
+random_forest,Random Forest,bagging_ensemble,medium,8,14439,text__char__sta,[char] sta,text,0.0012582557974383235,0.002734554000198841
+random_forest,Random Forest,bagging_ensemble,medium,9,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.0011900953250005841,0.0025864215567708015
+random_forest,Random Forest,bagging_ensemble,medium,10,12581,text__char__em ,[char] em ,text,0.0011900727404281497,0.0025863724295049906
+random_forest,Random Forest,bagging_ensemble,medium,11,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0011655667331069708,0.00253311381675303
+random_forest,Random Forest,bagging_ensemble,medium,12,14950,text__char__yst,[char] yst,text,0.0011186887277290225,0.0024312343448400497
+random_forest,Random Forest,bagging_ensemble,medium,13,13071,text__char__ies,[char] ies,text,0.001088794320821762,0.0023662650492042303
+random_forest,Random Forest,bagging_ensemble,medium,14,14487,text__char__syst,[char] syst,text,0.0010765090119093657,0.00233956566080451
+random_forest,Random Forest,bagging_ensemble,medium,15,11507,text__char__ im,[char]  im,text,0.0010356658603996038,0.0022508015390485525
+random_forest,Random Forest,bagging_ensemble,medium,16,14542,text__char__teg,[char] teg,text,0.0010188095038756728,0.0022141679655760527
+random_forest,Random Forest,bagging_ensemble,medium,17,13439,text__char__mat,[char] mat,text,0.0009997925953939557,0.0021728386636823416
+random_forest,Random Forest,bagging_ensemble,medium,18,14486,text__char__sys,[char] sys,text,0.0009718326618894935,0.00211207359097898
+random_forest,Random Forest,bagging_ensemble,medium,19,14952,text__char__ystem,[char] ystem,text,0.000965638377238065,0.002098611555993557
+random_forest,Random Forest,bagging_ensemble,medium,20,15007,categorical__queue_Customer Service,Customer Service,queue,0.000932862632907927,0.0020273805130273104
+random_forest,Random Forest,bagging_ensemble,medium,21,11519,text__char__ inte,[char]  inte,text,0.0009312861366197467,0.0020239541772753
+random_forest,Random Forest,bagging_ensemble,medium,22,11518,text__char__ int,[char]  int,text,0.0009210314601659775,0.0020016678608953953
+random_forest,Random Forest,bagging_ensemble,medium,23,12325,text__char__cti,[char] cti,text,0.0008870581514202058,0.001927834120579064
+random_forest,Random Forest,bagging_ensemble,medium,24,14551,text__char__tem,[char] tem,text,0.0008867602446116507,0.0019271866185590625
+random_forest,Random Forest,bagging_ensemble,medium,25,13145,text__char__inte,[char] inte,text,0.0008775159949436784,0.0019070962443947792
+random_forest,Random Forest,bagging_ensemble,medium,26,14951,text__char__yste,[char] yste,text,0.0008663450716994703,0.001882818527519703
+random_forest,Random Forest,bagging_ensemble,medium,27,12552,text__char__egr,[char] egr,text,0.0008661951869726181,0.0018824927974492311
+random_forest,Random Forest,bagging_ensemble,medium,28,13577,text__char__nfor,[char] nfor,text,0.0008596745319664478,0.0018683215603232384
+random_forest,Random Forest,bagging_ensemble,medium,29,11653,text__char__ res,[char]  res,text,0.0008557135006412864,0.0018597131129354239
+random_forest,Random Forest,bagging_ensemble,medium,30,9014,text__word__software,software,text,0.0008489686297252774,0.0018450545612722635
+random_forest,Random Forest,bagging_ensemble,medium,31,14451,text__char__stem,[char] stem,text,0.0008465771097689867,0.0018398570828139782
+random_forest,Random Forest,bagging_ensemble,medium,32,13509,text__char__mpa,[char] mpa,text,0.0008455073111690581,0.0018375320360064507
+random_forest,Random Forest,bagging_ensemble,medium,33,15009,categorical__queue_Human Resources,Human Resources,queue,0.0008430193993262947,0.0018321251263841987
+random_forest,Random Forest,bagging_ensemble,medium,34,12697,text__char__erv,[char] erv,text,0.0008322977810166776,0.0018088239012286067
+random_forest,Random Forest,bagging_ensemble,medium,35,11317,text__char__ a ,[char]  a ,text,0.0008217809372581542,0.001785967848263681
+random_forest,Random Forest,bagging_ensemble,medium,36,13671,text__char__nteg,[char] nteg,text,0.0008202875033020973,0.0017827220726758242
+random_forest,Random Forest,bagging_ensemble,medium,37,13923,text__char__per,[char] per,text,0.0008190106018446386,0.0017799470806494355
+random_forest,Random Forest,bagging_ensemble,medium,38,14488,text__char__syste,[char] syste,text,0.0008120874408632517,0.0017649009823799133
+random_forest,Random Forest,bagging_ensemble,medium,39,13221,text__char__ition,[char] ition,text,0.0008092757198028266,0.0017587903421372175
+random_forest,Random Forest,bagging_ensemble,medium,40,14636,text__char__tra,[char] tra,text,0.0008062388515099883,0.0017521902918815613
+random_forest,Random Forest,bagging_ensemble,medium,41,14938,text__char__you,[char] you,text,0.0008000744855962694,0.0017387933330610394
+random_forest,Random Forest,bagging_ensemble,medium,42,13578,text__char__nform,[char] nform,text,0.0007995555060915649,0.00173766550142318
+random_forest,Random Forest,bagging_ensemble,medium,43,13072,text__char__ies ,[char] ies ,text,0.0007944469689391553,0.001726563205011189
+random_forest,Random Forest,bagging_ensemble,medium,44,11767,text__char__ yo,[char]  yo,text,0.0007925042300485075,0.0017223410541191697
+random_forest,Random Forest,bagging_ensemble,medium,45,13326,text__char__ld ,[char] ld ,text,0.0007912249420769513,0.0017195608234032989
+random_forest,Random Forest,bagging_ensemble,medium,46,11712,text__char__ syst,[char]  syst,text,0.0007819003658369184,0.0016992958262562752
+random_forest,Random Forest,bagging_ensemble,medium,47,13442,text__char__mati,[char] mati,text,0.0007753314566798508,0.0016850195825099945
+random_forest,Random Forest,bagging_ensemble,medium,48,12021,text__char__art,[char] art,text,0.0007669306942261755,0.0016667622840031981
+random_forest,Random Forest,bagging_ensemble,medium,49,11711,text__char__ sys,[char]  sys,text,0.0007655653753317893,0.0016637950902804732
+random_forest,Random Forest,bagging_ensemble,medium,50,11710,text__char__ sy,[char]  sy,text,0.0007592345937155187,0.001650036545470357
+random_forest,Random Forest,bagging_ensemble,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.03115714155137539,0.05507313087582588
+random_forest,Random Forest,bagging_ensemble,high,2,15007,categorical__queue_Customer Service,Customer Service,queue,0.0168285071849823,0.02974594384431839
+random_forest,Random Forest,bagging_ensemble,high,3,15010,categorical__queue_IT Support,IT Support,queue,0.00855758786201477,0.01512632891535759
+random_forest,Random Forest,bagging_ensemble,high,4,15011,categorical__queue_Product Support,Product Support,queue,0.006045782472938299,0.010686480440199375
+random_forest,Random Forest,bagging_ensemble,high,5,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.0043393815867602825,0.007670258637517691
+random_forest,Random Forest,bagging_ensemble,high,6,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.003922728355973959,0.006933785509318113
+random_forest,Random Forest,bagging_ensemble,high,7,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.0029648542404174805,0.005240654107183218
+random_forest,Random Forest,bagging_ensemble,high,8,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0026224316097795963,0.004635390359908342
+random_forest,Random Forest,bagging_ensemble,high,9,15009,categorical__queue_Human Resources,Human Resources,queue,0.002484692959114909,0.004391924943774939
+random_forest,Random Forest,bagging_ensemble,high,10,14487,text__char__syst,[char] syst,text,0.0022529861889779568,0.003982361406087875
+random_forest,Random Forest,bagging_ensemble,high,11,14486,text__char__sys,[char] sys,text,0.0016992050223052502,0.00300350203178823
+random_forest,Random Forest,bagging_ensemble,high,12,12581,text__char__em ,[char] em ,text,0.001637013047002256,0.00289357197470963
+random_forest,Random Forest,bagging_ensemble,high,13,14951,text__char__yste,[char] yste,text,0.0016260246047750115,0.0028741490095853806
+random_forest,Random Forest,bagging_ensemble,high,14,14950,text__char__yst,[char] yst,text,0.001623989432118833,0.0028705515433102846
+random_forest,Random Forest,bagging_ensemble,high,15,11712,text__char__ syst,[char]  syst,text,0.0015990061219781637,0.002826391253620386
+random_forest,Random Forest,bagging_ensemble,high,16,14840,text__char__ver,[char] ver,text,0.0015359999379143119,0.0027150220703333616
+random_forest,Random Forest,bagging_ensemble,high,17,14952,text__char__ystem,[char] ystem,text,0.0014948917087167501,0.0026423593517392874
+random_forest,Random Forest,bagging_ensemble,high,18,14448,text__char__ste,[char] ste,text,0.0014216493582352996,0.0025128968991339207
+random_forest,Random Forest,bagging_ensemble,high,19,14444,text__char__star,[char] star,text,0.0013044950319454074,0.0023058156948536634
+random_forest,Random Forest,bagging_ensemble,high,20,14551,text__char__tem,[char] tem,text,0.0012829371262341738,0.002267710166051984
+random_forest,Random Forest,bagging_ensemble,high,21,14048,text__char__ras,[char] ras,text,0.0012360999826341867,0.0021849211771041155
+random_forest,Random Forest,bagging_ensemble,high,22,12084,text__char__ausf,[char] ausf,text,0.0012059290893375874,0.0021315913181751966
+random_forest,Random Forest,bagging_ensemble,high,23,13097,text__char__ils,[char] ils,text,0.0011873324401676655,0.0020987200550734997
+random_forest,Random Forest,bagging_ensemble,high,24,14439,text__char__sta,[char] sta,text,0.0011547881877049804,0.0020411950536072254
+random_forest,Random Forest,bagging_ensemble,high,25,14488,text__char__syste,[char] syste,text,0.0011512566125020385,0.0020349526312202215
+random_forest,Random Forest,bagging_ensemble,high,26,14055,text__char__rat,[char] rat,text,0.0011143084848299623,0.0019696434028446674
+random_forest,Random Forest,bagging_ensemble,high,27,11711,text__char__ sys,[char]  sys,text,0.001089795376174152,0.0019263142021372914
+random_forest,Random Forest,bagging_ensemble,high,28,14130,text__char__rgen,[char] rgen,text,0.0010786030907183886,0.0019065308151766658
+random_forest,Random Forest,bagging_ensemble,high,29,14445,text__char__start,[char] start,text,0.0010710194474086165,0.0018931259401142597
+random_forest,Random Forest,bagging_ensemble,high,30,14806,text__char__urgen,[char] urgen,text,0.0010673366487026215,0.001886616344563663
+random_forest,Random Forest,bagging_ensemble,high,31,14451,text__char__stem,[char] stem,text,0.0010574280750006437,0.0018691020086407661
+random_forest,Random Forest,bagging_ensemble,high,32,9621,text__word__system,system,text,0.0010361970635131001,0.0018315742490813136
+random_forest,Random Forest,bagging_ensemble,high,33,14526,text__char__tart,[char] tart,text,0.0010237459791824222,0.0018095658160746098
+random_forest,Random Forest,bagging_ensemble,high,34,14552,text__char__tem ,[char] tem ,text,0.001023131306283176,0.001808479311875999
+random_forest,Random Forest,bagging_ensemble,high,35,13439,text__char__mat,[char] mat,text,0.0010105144465342164,0.001786177745088935
+random_forest,Random Forest,bagging_ensemble,high,36,11409,text__char__ cri,[char]  cri,text,0.0009896608535200357,0.0017493171617388725
+random_forest,Random Forest,bagging_ensemble,high,37,12325,text__char__cti,[char] cti,text,0.0009816393721848726,0.0017351384740322828
+random_forest,Random Forest,bagging_ensemble,high,38,14452,text__char__stem ,[char] stem ,text,0.0009771684417501092,0.0017272356199100614
+random_forest,Random Forest,bagging_ensemble,high,39,14824,text__char__utag,[char] utag,text,0.0009544561034999788,0.0016870894469320774
+random_forest,Random Forest,bagging_ensemble,high,40,2635,text__word__details,details,text,0.0009453687234781682,0.0016710266936570406
+random_forest,Random Forest,bagging_ensemble,high,41,11710,text__char__ sy,[char]  sy,text,0.0009192543220706284,0.0016248670872300863
+random_forest,Random Forest,bagging_ensemble,high,42,11745,text__char__ urg,[char]  urg,text,0.0008974346565082669,0.0015862988075241446
+random_forest,Random Forest,bagging_ensemble,high,43,14542,text__char__teg,[char] teg,text,0.000894548196811229,0.0015811966732144356
+random_forest,Random Forest,bagging_ensemble,high,44,11519,text__char__ inte,[char]  inte,text,0.000893447722773999,0.0015792514896020293
+random_forest,Random Forest,bagging_ensemble,high,45,9014,text__word__software,software,text,0.0008864793926477432,0.0015669343993067741
+random_forest,Random Forest,bagging_ensemble,high,46,14805,text__char__urge,[char] urge,text,0.0008695826982147992,0.0015370679320767522
+random_forest,Random Forest,bagging_ensemble,high,47,13071,text__char__ies,[char] ies,text,0.0008610183140262961,0.0015219295164570212
+random_forest,Random Forest,bagging_ensemble,high,48,11518,text__char__ int,[char]  int,text,0.0008593383245170116,0.0015189599944278598
+random_forest,Random Forest,bagging_ensemble,high,49,14283,text__char__rupt,[char] rupt,text,0.0008592905360274017,0.0015188755933195353
+random_forest,Random Forest,bagging_ensemble,high,50,14938,text__char__you,[char] you,text,0.0008592767408117652,0.0015188511461019516
+random_forest,Random Forest,bagging_ensemble,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.02199014276266098,0.039547476917505264
+random_forest,Random Forest,bagging_ensemble,predicted_class,2,15007,categorical__queue_Customer Service,Customer Service,queue,0.008097502402961254,0.0145626962184906
+random_forest,Random Forest,bagging_ensemble,predicted_class,3,15011,categorical__queue_Product Support,Product Support,queue,0.0067261322401463985,0.012096399441361427
+random_forest,Random Forest,bagging_ensemble,predicted_class,4,15010,categorical__queue_IT Support,IT Support,queue,0.006148711312562227,0.011057955212891102
+random_forest,Random Forest,bagging_ensemble,predicted_class,5,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.0034376911353319883,0.006182406563311815
+random_forest,Random Forest,bagging_ensemble,predicted_class,6,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.0024649566039443016,0.004433023277670145
+random_forest,Random Forest,bagging_ensemble,predicted_class,7,15009,categorical__queue_Human Resources,Human Resources,queue,0.002280628541484475,0.004101524129509926
+random_forest,Random Forest,bagging_ensemble,predicted_class,8,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0020932189654558897,0.003764483379200101
+random_forest,Random Forest,bagging_ensemble,predicted_class,9,14487,text__char__syst,[char] syst,text,0.0016981462249532342,0.0030539771541953087
+random_forest,Random Forest,bagging_ensemble,predicted_class,10,12581,text__char__em ,[char] em ,text,0.0016340335132554173,0.002938675694167614
+random_forest,Random Forest,bagging_ensemble,predicted_class,11,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.0015441151335835457,0.002776965033262968
+random_forest,Random Forest,bagging_ensemble,predicted_class,12,14448,text__char__ste,[char] ste,text,0.0015186355449259281,0.0027311418671160936
+random_forest,Random Forest,bagging_ensemble,predicted_class,13,14840,text__char__ver,[char] ver,text,0.0014834601897746325,0.002667882014065981
+random_forest,Random Forest,bagging_ensemble,predicted_class,14,14055,text__char__rat,[char] rat,text,0.0013986665289849043,0.002515387488529086
+random_forest,Random Forest,bagging_ensemble,predicted_class,15,14950,text__char__yst,[char] yst,text,0.0013716764515265822,0.0024668481200933456
+random_forest,Random Forest,bagging_ensemble,predicted_class,16,14486,text__char__sys,[char] sys,text,0.0013502234360203147,0.002428266452625394
+random_forest,Random Forest,bagging_ensemble,predicted_class,17,14951,text__char__yste,[char] yste,text,0.0013293318916112185,0.0023906948044896126
+random_forest,Random Forest,bagging_ensemble,predicted_class,18,11712,text__char__ syst,[char]  syst,text,0.0013265631860122085,0.002385715488344431
+random_forest,Random Forest,bagging_ensemble,predicted_class,19,14439,text__char__sta,[char] sta,text,0.0012837479589506984,0.002308715833351016
+random_forest,Random Forest,bagging_ensemble,predicted_class,20,14952,text__char__ystem,[char] ystem,text,0.0012797813396900892,0.002301582135260105
+random_forest,Random Forest,bagging_ensemble,predicted_class,21,13071,text__char__ies,[char] ies,text,0.0011245630448684096,0.002022434724494815
+random_forest,Random Forest,bagging_ensemble,predicted_class,22,14551,text__char__tem,[char] tem,text,0.0011215098202228546,0.0020169438794255257
+random_forest,Random Forest,bagging_ensemble,predicted_class,23,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.0011128666810691357,0.0020013998728245497
+random_forest,Random Forest,bagging_ensemble,predicted_class,24,13439,text__char__mat,[char] mat,text,0.0011111515341326594,0.001998315332457423
+random_forest,Random Forest,bagging_ensemble,predicted_class,25,12325,text__char__cti,[char] cti,text,0.0010948758572340012,0.0019690447952598333
+random_forest,Random Forest,bagging_ensemble,predicted_class,26,11507,text__char__ im,[char]  im,text,0.0010681776329874992,0.0019210302270948887
+random_forest,Random Forest,bagging_ensemble,predicted_class,27,14488,text__char__syste,[char] syste,text,0.001052737352438271,0.0018932621460407972
+random_forest,Random Forest,bagging_ensemble,predicted_class,28,11711,text__char__ sys,[char]  sys,text,0.0010306837502866983,0.001853600493632257
+random_forest,Random Forest,bagging_ensemble,predicted_class,29,12084,text__char__ausf,[char] ausf,text,0.0010099279461428523,0.001816272852011025
+random_forest,Random Forest,bagging_ensemble,predicted_class,30,11519,text__char__ inte,[char]  inte,text,0.001004992751404643,0.0018073973478749394
+random_forest,Random Forest,bagging_ensemble,predicted_class,31,9014,text__word__software,software,text,0.0010001813061535358,0.001798744429834187
+random_forest,Random Forest,bagging_ensemble,predicted_class,32,11518,text__char__ int,[char]  int,text,0.0009954199194908142,0.001790181384421885
+random_forest,Random Forest,bagging_ensemble,predicted_class,33,13145,text__char__inte,[char] inte,text,0.0009908017236739397,0.001781875966116786
+random_forest,Random Forest,bagging_ensemble,predicted_class,34,14542,text__char__teg,[char] teg,text,0.000973086163867265,0.0017500160029157996
+random_forest,Random Forest,bagging_ensemble,predicted_class,35,14444,text__char__star,[char] star,text,0.0009672365849837661,0.0017394960159435868
+random_forest,Random Forest,bagging_ensemble,predicted_class,36,14451,text__char__stem,[char] stem,text,0.0009426013566553593,0.0016951914876699448
+random_forest,Random Forest,bagging_ensemble,predicted_class,37,13923,text__char__per,[char] per,text,0.00091923912987113,0.001653176499530673
+random_forest,Random Forest,bagging_ensemble,predicted_class,38,12697,text__char__erv,[char] erv,text,0.0009115761495195329,0.0016393952537328005
+random_forest,Random Forest,bagging_ensemble,predicted_class,39,14938,text__char__you,[char] you,text,0.0009034958202391863,0.0016248634783551097
+random_forest,Random Forest,bagging_ensemble,predicted_class,40,11317,text__char__ a ,[char]  a ,text,0.0008825164986774325,0.0015871338546276093
+random_forest,Random Forest,bagging_ensemble,predicted_class,41,14552,text__char__tem ,[char] tem ,text,0.0008804748649708927,0.0015834621153771877
+random_forest,Random Forest,bagging_ensemble,predicted_class,42,11710,text__char__ sy,[char]  sy,text,0.0008749942062422633,0.0015736055793240666
+random_forest,Random Forest,bagging_ensemble,predicted_class,43,14636,text__char__tra,[char] tra,text,0.0008680068422108889,0.0015610393602401018
+random_forest,Random Forest,bagging_ensemble,predicted_class,44,13509,text__char__mpa,[char] mpa,text,0.0008676617289893329,0.0015604187501594424
+random_forest,Random Forest,bagging_ensemble,predicted_class,45,14452,text__char__stem ,[char] stem ,text,0.0008648958755657077,0.0015554445562884212
+random_forest,Random Forest,bagging_ensemble,predicted_class,46,11653,text__char__ res,[char]  res,text,0.0008627800852991641,0.0015516395214945078
+random_forest,Random Forest,bagging_ensemble,predicted_class,47,14587,text__char__tform,[char] tform,text,0.0008594752289354801,0.0015456959372386336
+random_forest,Random Forest,bagging_ensemble,predicted_class,48,14445,text__char__start,[char] start,text,0.000853968143928796,0.0015357919037342072
+random_forest,Random Forest,bagging_ensemble,predicted_class,49,13671,text__char__nteg,[char] nteg,text,0.0008498217794112861,0.0015283350367099047
+random_forest,Random Forest,bagging_ensemble,predicted_class,50,11768,text__char__ you,[char]  you,text,0.0008469374151900411,0.0015231478027999401
+xgboost,XGBoost,gradient_boosting,low,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.18312756717205048,0.07994428277015686
+xgboost,XGBoost,gradient_boosting,low,2,15010,categorical__queue_IT Support,IT Support,queue,0.16916704177856445,0.07384981960058212
+xgboost,XGBoost,gradient_boosting,low,3,15007,categorical__queue_Customer Service,Customer Service,queue,0.07381533086299896,0.032224059104919434
+xgboost,XGBoost,gradient_boosting,low,4,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.0340486504137516,0.014863927848637104
+xgboost,XGBoost,gradient_boosting,low,5,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.032806117087602615,0.014321500435471535
+xgboost,XGBoost,gradient_boosting,low,6,15011,categorical__queue_Product Support,Product Support,queue,0.029250649735331535,0.012769361957907677
+xgboost,XGBoost,gradient_boosting,low,7,14048,text__char__ras,[char] ras,text,0.02832614630460739,0.012365770526230335
+xgboost,XGBoost,gradient_boosting,low,8,13489,text__char__mme,[char] mme,text,0.022974533960223198,0.010029525496065617
+xgboost,XGBoost,gradient_boosting,low,9,11872,text__char__ache ,[char] ache ,text,0.020973525941371918,0.009155986830592155
+xgboost,XGBoost,gradient_boosting,low,10,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.020358633249998093,0.008887555450201035
+xgboost,XGBoost,gradient_boosting,low,11,15009,categorical__queue_Human Resources,Human Resources,queue,0.020174840465188026,0.008807320147752762
+xgboost,XGBoost,gradient_boosting,low,12,13946,text__char__plat,[char] plat,text,0.016852859407663345,0.007357110735028982
+xgboost,XGBoost,gradient_boosting,low,13,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.016723673790693283,0.007300714496523142
+xgboost,XGBoost,gradient_boosting,low,14,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.016282783821225166,0.007108244113624096
+xgboost,XGBoost,gradient_boosting,low,15,11684,text__char__ sl,[char]  sl,text,0.014301519840955734,0.006243324372917414
+xgboost,XGBoost,gradient_boosting,low,16,2189,text__word__customer,customer,text,0.013381474651396275,0.005841678474098444
+xgboost,XGBoost,gradient_boosting,low,17,14056,text__char__rate,[char] rate,text,0.013264412991702557,0.005790575407445431
+xgboost,XGBoost,gradient_boosting,low,18,11620,text__char__ plat,[char]  plat,text,0.012778564356267452,0.005578478332608938
+xgboost,XGBoost,gradient_boosting,low,19,13237,text__char__itä,[char] itä,text,0.012136219069361687,0.005298062693327665
+xgboost,XGBoost,gradient_boosting,low,20,8648,text__word__server,server,text,0.01136227697134018,0.004960198421031237
+xgboost,XGBoost,gradient_boosting,low,21,12162,text__char__bre,[char] bre,text,0.011335248127579689,0.004948399029672146
+xgboost,XGBoost,gradient_boosting,low,22,12469,text__char__eat,[char] eat,text,0.010420643724501133,0.00454912893474102
+xgboost,XGBoost,gradient_boosting,low,23,11317,text__char__ a ,[char]  a ,text,0.010328799486160278,0.004509034100919962
+xgboost,XGBoost,gradient_boosting,low,24,11711,text__char__ sys,[char]  sys,text,0.010264785028994083,0.00448108883574605
+xgboost,XGBoost,gradient_boosting,low,25,14585,text__char__tfo,[char] tfo,text,0.010130767710506916,0.004422583617269993
+xgboost,XGBoost,gradient_boosting,low,26,10403,text__word__update,update,text,0.009850576519966125,0.004300266038626432
+xgboost,XGBoost,gradient_boosting,low,27,14636,text__char__tra,[char] tra,text,0.009667185135185719,0.004220206756144762
+xgboost,XGBoost,gradient_boosting,low,28,13071,text__char__ies,[char] ies,text,0.009443917311728,0.004122739192098379
+xgboost,XGBoost,gradient_boosting,low,29,14840,text__char__ver,[char] ver,text,0.009378881193697453,0.004094347823411226
+xgboost,XGBoost,gradient_boosting,low,30,14620,text__char__tip,[char] tip,text,0.009111689403653145,0.003977705258876085
+xgboost,XGBoost,gradient_boosting,low,31,11597,text__char__ on ,[char]  on ,text,0.009002380073070526,0.003929986152797937
+xgboost,XGBoost,gradient_boosting,low,32,9014,text__word__software,software,text,0.008222607895731926,0.003589577041566372
+xgboost,XGBoost,gradient_boosting,low,33,11605,text__char__ outd,[char]  outd,text,0.007984002120792866,0.003485413733869791
+xgboost,XGBoost,gradient_boosting,low,34,2360,text__word__data security,data security,text,0.007942662574350834,0.0034673670306801796
+xgboost,XGBoost,gradient_boosting,low,35,14448,text__char__ste,[char] ste,text,0.007901784032583237,0.003449521493166685
+xgboost,XGBoost,gradient_boosting,low,36,13045,text__char__ice ,[char] ice ,text,0.007863656617701054,0.0034328768961131573
+xgboost,XGBoost,gradient_boosting,low,37,14542,text__char__teg,[char] teg,text,0.007860291749238968,0.003431407967582345
+xgboost,XGBoost,gradient_boosting,low,38,14349,text__char__sere,[char] sere,text,0.007747132796794176,0.003382008522748947
+xgboost,XGBoost,gradient_boosting,low,39,14644,text__char__tren,[char] tren,text,0.007617773022502661,0.0033255366142839193
+xgboost,XGBoost,gradient_boosting,low,40,12581,text__char__em ,[char] em ,text,0.007550548762083054,0.003296189708635211
+xgboost,XGBoost,gradient_boosting,low,41,14815,text__char__usf,[char] usf,text,0.007498577237129211,0.0032735015265643597
+xgboost,XGBoost,gradient_boosting,low,42,13072,text__char__ies ,[char] ies ,text,0.007381911389529705,0.0032225712202489376
+xgboost,XGBoost,gradient_boosting,low,43,14055,text__char__rat,[char] rat,text,0.007211171556264162,0.003148034680634737
+xgboost,XGBoost,gradient_boosting,low,44,234,text__word__additional,additional,text,0.007187922950834036,0.003137885592877865
+xgboost,XGBoost,gradient_boosting,low,45,14846,text__char__verl,[char] verl,text,0.0071566225960850716,0.00312422146089375
+xgboost,XGBoost,gradient_boosting,low,46,11570,text__char__ met,[char]  met,text,0.00691380025818944,0.003018217394128442
+xgboost,XGBoost,gradient_boosting,low,47,14587,text__char__tform,[char] tform,text,0.0068339393474161625,0.0029833540320396423
+xgboost,XGBoost,gradient_boosting,low,48,11145,text__word__would,would,text,0.006635725032538176,0.0028968236874789
+xgboost,XGBoost,gradient_boosting,low,49,12401,text__char__dic,[char] dic,text,0.006549299694597721,0.0028590948786586523
+xgboost,XGBoost,gradient_boosting,low,50,13094,text__char__illin,[char] illin,text,0.006545975338667631,0.0028576436452567577
+xgboost,XGBoost,gradient_boosting,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.0887782871723175,0.07256624102592468
+xgboost,XGBoost,gradient_boosting,medium,2,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.03811443969607353,0.03115425631403923
+xgboost,XGBoost,gradient_boosting,medium,3,15011,categorical__queue_Product Support,Product Support,queue,0.027457501739263535,0.022443411871790886
+xgboost,XGBoost,gradient_boosting,medium,4,14539,text__char__tech,[char] tech,text,0.014255661517381668,0.011652395129203796
+xgboost,XGBoost,gradient_boosting,medium,5,14286,text__char__rus,[char] rus,text,0.013612974435091019,0.01112707145512104
+xgboost,XGBoost,gradient_boosting,medium,6,9014,text__word__software,software,text,0.009881976060569286,0.008077400736510754
+xgboost,XGBoost,gradient_boosting,medium,7,13518,"text__char__ms,","[char] ms,",text,0.009775757789611816,0.0079905791208148
+xgboost,XGBoost,gradient_boosting,medium,8,11917,text__char__agen,[char] agen,text,0.009424284100532532,0.0077032893896102905
+xgboost,XGBoost,gradient_boosting,medium,9,9621,text__word__system,system,text,0.008219342678785324,0.006718385498970747
+xgboost,XGBoost,gradient_boosting,medium,10,14580,text__char__tes,[char] tes,text,0.008128639310598373,0.006644245702773333
+xgboost,XGBoost,gradient_boosting,medium,11,12883,text__char__gin,[char] gin,text,0.007535656914114952,0.006159549579024315
+xgboost,XGBoost,gradient_boosting,medium,12,7625,text__word__provide,provide,text,0.007301863748580217,0.005968450102955103
+xgboost,XGBoost,gradient_boosting,medium,13,13661,text__char__nstab,[char] nstab,text,0.0071752374060451984,0.005864947568625212
+xgboost,XGBoost,gradient_boosting,medium,14,13326,text__char__ld ,[char] ld ,text,0.007027258165180683,0.005743991117924452
+xgboost,XGBoost,gradient_boosting,medium,15,14746,text__char__uired,[char] uired,text,0.0067748213186860085,0.005537652410566807
+xgboost,XGBoost,gradient_boosting,medium,16,12401,text__char__dic,[char] dic,text,0.006237035151571035,0.005098072811961174
+xgboost,XGBoost,gradient_boosting,medium,17,10747,text__word__verbindung,verbindung,text,0.006126524414867163,0.005007742904126644
+xgboost,XGBoost,gradient_boosting,medium,18,12647,text__char__era,[char] era,text,0.0059511479921638966,0.004864392336457968
+xgboost,XGBoost,gradient_boosting,medium,19,114,text__word__access logs,access logs,text,0.005762014538049698,0.004709796980023384
+xgboost,XGBoost,gradient_boosting,medium,20,5944,text__word__marketing,marketing,text,0.005750738549977541,0.004700580146163702
+xgboost,XGBoost,gradient_boosting,medium,21,409,text__word__aktualisieren,aktualisieren,text,0.005654908251017332,0.004622249864041805
+xgboost,XGBoost,gradient_boosting,medium,22,12490,text__char__ebs,[char] ebs,text,0.0055971876718103886,0.004575069528073072
+xgboost,XGBoost,gradient_boosting,medium,23,13752,text__char__oin,[char] oin,text,0.005461470223963261,0.004464135970920324
+xgboost,XGBoost,gradient_boosting,medium,24,3248,text__word__ensure,ensure,text,0.005384788848459721,0.004401457495987415
+xgboost,XGBoost,gradient_boosting,medium,25,14459,text__char__stim,[char] stim,text,0.005105914082378149,0.00417350884526968
+xgboost,XGBoost,gradient_boosting,medium,26,14439,text__char__sta,[char] sta,text,0.0050009689293801785,0.0040877279825508595
+xgboost,XGBoost,gradient_boosting,medium,27,14055,text__char__rat,[char] rat,text,0.004784221760928631,0.003910561557859182
+xgboost,XGBoost,gradient_boosting,medium,28,12763,text__char__ewa,[char] ewa,text,0.00461461441591382,0.0037719267420470715
+xgboost,XGBoost,gradient_boosting,medium,29,13465,text__char__met,[char] met,text,0.0046103596687316895,0.0037684491835534573
+xgboost,XGBoost,gradient_boosting,medium,30,10519,text__word__updating software,updating software,text,0.004558756481856108,0.0037262693513184786
+xgboost,XGBoost,gradient_boosting,medium,31,13072,text__char__ies ,[char] ies ,text,0.004399199970066547,0.003595849731937051
+xgboost,XGBoost,gradient_boosting,medium,32,14528,text__char__tarte,[char] tarte,text,0.004355838987976313,0.0035604070872068405
+xgboost,XGBoost,gradient_boosting,medium,33,14130,text__char__rgen,[char] rgen,text,0.0043303389102220535,0.003539563622325659
+xgboost,XGBoost,gradient_boosting,medium,34,11701,text__char__ str,[char]  str,text,0.004305861424654722,0.0035195560194551945
+xgboost,XGBoost,gradient_boosting,medium,35,14540,text__char__techn,[char] techn,text,0.004257976543158293,0.0034804155584424734
+xgboost,XGBoost,gradient_boosting,medium,36,11406,text__char__ cre,[char]  cre,text,0.0042500426061451435,0.003473930526524782
+xgboost,XGBoost,gradient_boosting,medium,37,13509,text__char__mpa,[char] mpa,text,0.0040277149528265,0.003292202716693282
+xgboost,XGBoost,gradient_boosting,medium,38,11959,text__char__alyz,[char] alyz,text,0.004010510165244341,0.0032781397458165884
+xgboost,XGBoost,gradient_boosting,medium,39,14451,text__char__stem,[char] stem,text,0.003992961719632149,0.003263795981183648
+xgboost,XGBoost,gradient_boosting,medium,40,13073,text__char__iev,[char] iev,text,0.003982563503086567,0.0032552964985370636
+xgboost,XGBoost,gradient_boosting,medium,41,8382,text__word__saas,saas,text,0.0038527254946529865,0.0031491685658693314
+xgboost,XGBoost,gradient_boosting,medium,42,13828,text__char__ora,[char] ora,text,0.003798177232965827,0.0031045814976096153
+xgboost,XGBoost,gradient_boosting,medium,43,6636,text__word__optimization,optimization,text,0.0037961392663419247,0.0031029158271849155
+xgboost,XGBoost,gradient_boosting,medium,44,14448,text__char__ste,[char] ste,text,0.003770772134885192,0.0030821808613836765
+xgboost,XGBoost,gradient_boosting,medium,45,12868,text__char__gend,[char] gend,text,0.0037539354525506496,0.0030684189405292273
+xgboost,XGBoost,gradient_boosting,medium,46,13146,text__char__integ,[char] integ,text,0.003736554877832532,0.003054212313145399
+xgboost,XGBoost,gradient_boosting,medium,47,13221,text__char__ition,[char] ition,text,0.0036906024906784296,0.003016651375219226
+xgboost,XGBoost,gradient_boosting,medium,48,14840,text__char__ver,[char] ver,text,0.0036771129816770554,0.0030056252144277096
+xgboost,XGBoost,gradient_boosting,medium,49,11653,text__char__ res,[char]  res,text,0.0036282099317759275,0.002965652383863926
+xgboost,XGBoost,gradient_boosting,medium,50,13474,text__char__misc,[char] misc,text,0.003544870298355818,0.0028975317254662514
+xgboost,XGBoost,gradient_boosting,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.2703098654747009,0.1298607736825943
+xgboost,XGBoost,gradient_boosting,high,2,15007,categorical__queue_Customer Service,Customer Service,queue,0.09705445915460587,0.04662637040019035
+xgboost,XGBoost,gradient_boosting,high,3,15010,categorical__queue_IT Support,IT Support,queue,0.09209403395652771,0.044243309646844864
+xgboost,XGBoost,gradient_boosting,high,4,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.07175078243017197,0.03447011485695839
+xgboost,XGBoost,gradient_boosting,high,5,12581,text__char__em ,[char] em ,text,0.02842053398489952,0.013653636910021305
+xgboost,XGBoost,gradient_boosting,high,6,15001,categorical__type_Incident,Incident,type,0.022958530113101006,0.011029611341655254
+xgboost,XGBoost,gradient_boosting,high,7,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.019084405153989792,0.009168424643576145
+xgboost,XGBoost,gradient_boosting,high,8,15009,categorical__queue_Human Resources,Human Resources,queue,0.018129771575331688,0.008709805086255074
+xgboost,XGBoost,gradient_boosting,high,9,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.017272185534238815,0.008297808468341827
+xgboost,XGBoost,gradient_boosting,high,10,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.017233500257134438,0.008279223926365376
+xgboost,XGBoost,gradient_boosting,high,11,6591,text__word__online,online,text,0.01567980833351612,0.007532807532697916
+xgboost,XGBoost,gradient_boosting,high,12,9014,text__word__software,software,text,0.014771437272429466,0.007096412591636181
+xgboost,XGBoost,gradient_boosting,high,13,14129,text__char__rge,[char] rge,text,0.013815504498779774,0.00663716858252883
+xgboost,XGBoost,gradient_boosting,high,14,14439,text__char__sta,[char] sta,text,0.013401802629232407,0.006438420154154301
+xgboost,XGBoost,gradient_boosting,high,15,13780,text__char__ompr,[char] ompr,text,0.013293341733515263,0.006386314053088427
+xgboost,XGBoost,gradient_boosting,high,16,14056,text__char__rate,[char] rate,text,0.012457257136702538,0.005984647199511528
+xgboost,XGBoost,gradient_boosting,high,17,12401,text__char__dic,[char] dic,text,0.012341508641839027,0.005929039791226387
+xgboost,XGBoost,gradient_boosting,high,18,12175,text__char__bst,[char] bst,text,0.012030343525111675,0.005779551342129707
+xgboost,XGBoost,gradient_boosting,high,19,14055,text__char__rat,[char] rat,text,0.01102218497544527,0.005295217502862215
+xgboost,XGBoost,gradient_boosting,high,20,12684,text__char__ermi,[char] ermi,text,0.00962815061211586,0.0046255034394562244
+xgboost,XGBoost,gradient_boosting,high,21,15011,categorical__queue_Product Support,Product Support,queue,0.009534010663628578,0.004580277018249035
+xgboost,XGBoost,gradient_boosting,high,22,12353,text__char__date ,[char] date ,text,0.00934946071356535,0.004491616506129503
+xgboost,XGBoost,gradient_boosting,high,23,12021,text__char__art,[char] art,text,0.009034368209540844,0.00434024166315794
+xgboost,XGBoost,gradient_boosting,high,24,1824,text__word__concern,concern,text,0.008735712617635727,0.004196763038635254
+xgboost,XGBoost,gradient_boosting,high,25,6626,text__word__optimierung,optimierung,text,0.008684257045388222,0.004172042943537235
+xgboost,XGBoost,gradient_boosting,high,26,13326,text__char__ld ,[char] ld ,text,0.00824531726539135,0.003961170092225075
+xgboost,XGBoost,gradient_boosting,high,27,11410,text__char__ crit,[char]  crit,text,0.00820867344737053,0.003943565767258406
+xgboost,XGBoost,gradient_boosting,high,28,14564,text__char__tent,[char] tent,text,0.007927345111966133,0.0038084115367382765
+xgboost,XGBoost,gradient_boosting,high,29,12048,text__char__ast,[char] ast,text,0.007630400825291872,0.003665755270048976
+xgboost,XGBoost,gradient_boosting,high,30,13082,text__char__ign,[char] ign,text,0.007627077866345644,0.0036641587503254414
+xgboost,XGBoost,gradient_boosting,high,31,13828,text__char__ora,[char] ora,text,0.0074636624194681644,0.0035856517497450113
+xgboost,XGBoost,gradient_boosting,high,32,12728,text__char__esta,[char] esta,text,0.007343422621488571,0.00352788669988513
+xgboost,XGBoost,gradient_boosting,high,33,14448,text__char__ste,[char] ste,text,0.007206335663795471,0.0034620282240211964
+xgboost,XGBoost,gradient_boosting,high,34,4895,text__word__integration,integration,text,0.0071176583878695965,0.0034194262698292732
+xgboost,XGBoost,gradient_boosting,high,35,13329,text__char__leadi,[char] leadi,text,0.006969917565584183,0.0033484494779258966
+xgboost,XGBoost,gradient_boosting,high,36,14421,text__char__spor,[char] spor,text,0.006875010207295418,0.0033028547186404467
+xgboost,XGBoost,gradient_boosting,high,37,13678,text__char__nterm,[char] nterm,text,0.006645974237471819,0.0031928224489092827
+xgboost,XGBoost,gradient_boosting,high,38,11744,text__char__ ur,[char]  ur,text,0.006462821736931801,0.003104833420366049
+xgboost,XGBoost,gradient_boosting,high,39,14840,text__char__ver,[char] ver,text,0.006395466160029173,0.003072474617511034
+xgboost,XGBoost,gradient_boosting,high,40,14815,text__char__usf,[char] usf,text,0.006376336794346571,0.0030632847920060158
+xgboost,XGBoost,gradient_boosting,high,41,11696,text__char__ spor,[char]  spor,text,0.006217220798134804,0.0029868429992347956
+xgboost,XGBoost,gradient_boosting,high,42,11332,text__char__ ag,[char]  ag,text,0.006083705462515354,0.0029227002523839474
+xgboost,XGBoost,gradient_boosting,high,43,11465,text__char__ fl,[char]  fl,text,0.006054541561752558,0.0029086896684020758
+xgboost,XGBoost,gradient_boosting,high,44,13781,text__char__ompro,[char] ompro,text,0.00578038627281785,0.002776981331408024
+xgboost,XGBoost,gradient_boosting,high,45,1403,text__word__cache,cache,text,0.005741797853261232,0.0027584428898990154
+xgboost,XGBoost,gradient_boosting,high,46,221,text__word__ad,ad,text,0.005740043707191944,0.002757600275799632
+xgboost,XGBoost,gradient_boosting,high,47,13442,text__char__mati,[char] mati,text,0.005620704963803291,0.002700268290936947
+xgboost,XGBoost,gradient_boosting,high,48,11457,text__char__ fail,[char]  fail,text,0.005552156828343868,0.0026673367246985435
+xgboost,XGBoost,gradient_boosting,high,49,2189,text__word__customer,customer,text,0.005399532616138458,0.002594013698399067
+xgboost,XGBoost,gradient_boosting,high,50,13509,text__char__mpa,[char] mpa,text,0.00528685050085187,0.0025398796424269676
+xgboost,XGBoost,gradient_boosting,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.18352587521076202,0.10584502667188644
+xgboost,XGBoost,gradient_boosting,predicted_class,2,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.052815962582826614,0.030460594221949577
+xgboost,XGBoost,gradient_boosting,predicted_class,3,15010,categorical__queue_IT Support,IT Support,queue,0.04568437114357948,0.026347585022449493
+xgboost,XGBoost,gradient_boosting,predicted_class,4,15007,categorical__queue_Customer Service,Customer Service,queue,0.029546935111284256,0.01704062893986702
+xgboost,XGBoost,gradient_boosting,predicted_class,5,15011,categorical__queue_Product Support,Product Support,queue,0.025234557688236237,0.014553546905517578
+xgboost,XGBoost,gradient_boosting,predicted_class,6,12581,text__char__em ,[char] em ,text,0.014107456430792809,0.008136204443871975
+xgboost,XGBoost,gradient_boosting,predicted_class,7,9014,text__word__software,software,text,0.013395464979112148,0.007725577335804701
+xgboost,XGBoost,gradient_boosting,predicted_class,8,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.012919721193611622,0.007451201323419809
+xgboost,XGBoost,gradient_boosting,predicted_class,9,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.010027863085269928,0.005783377680927515
+xgboost,XGBoost,gradient_boosting,predicted_class,10,14055,text__char__rat,[char] rat,text,0.009863443672657013,0.005688551813364029
+xgboost,XGBoost,gradient_boosting,predicted_class,11,15001,categorical__type_Incident,Incident,type,0.009802056476473808,0.005653148051351309
+xgboost,XGBoost,gradient_boosting,predicted_class,12,15009,categorical__queue_Human Resources,Human Resources,queue,0.009331941604614258,0.0053820181638002396
+xgboost,XGBoost,gradient_boosting,predicted_class,13,12401,text__char__dic,[char] dic,text,0.009194179438054562,0.005302566569298506
+xgboost,XGBoost,gradient_boosting,predicted_class,14,14286,text__char__rus,[char] rus,text,0.008912174962460995,0.005139925982803106
+xgboost,XGBoost,gradient_boosting,predicted_class,15,13780,text__char__ompr,[char] ompr,text,0.008268846198916435,0.004768898244947195
+xgboost,XGBoost,gradient_boosting,predicted_class,16,14439,text__char__sta,[char] sta,text,0.00825609639286995,0.004761545453220606
+xgboost,XGBoost,gradient_boosting,predicted_class,17,13326,text__char__ld ,[char] ld ,text,0.008182456716895103,0.0047190748155117035
+xgboost,XGBoost,gradient_boosting,predicted_class,18,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.007737901993095875,0.004462686367332935
+xgboost,XGBoost,gradient_boosting,predicted_class,19,14056,text__char__rate,[char] rate,text,0.007050358224660158,0.004066159017384052
+xgboost,XGBoost,gradient_boosting,predicted_class,20,9621,text__word__system,system,text,0.006955064833164215,0.004011200275272131
+xgboost,XGBoost,gradient_boosting,predicted_class,21,6591,text__word__online,online,text,0.006761132273823023,0.0038993533235043287
+xgboost,XGBoost,gradient_boosting,predicted_class,22,14539,text__char__tech,[char] tech,text,0.006583171896636486,0.003796718083322048
+xgboost,XGBoost,gradient_boosting,predicted_class,23,12175,text__char__bst,[char] bst,text,0.006430312059819698,0.003708559088408947
+xgboost,XGBoost,gradient_boosting,predicted_class,24,14840,text__char__ver,[char] ver,text,0.0063251350075006485,0.0036479001864790916
+xgboost,XGBoost,gradient_boosting,predicted_class,25,14129,text__char__rge,[char] rge,text,0.0061027067713439465,0.0035196191165596247
+xgboost,XGBoost,gradient_boosting,predicted_class,26,14448,text__char__ste,[char] ste,text,0.006080095190554857,0.0035065782722085714
+xgboost,XGBoost,gradient_boosting,predicted_class,27,11917,text__char__agen,[char] agen,text,0.005927236285060644,0.0034184197429567575
+xgboost,XGBoost,gradient_boosting,predicted_class,28,12021,text__char__art,[char] art,text,0.0058633312582969666,0.0033815638162195683
+xgboost,XGBoost,gradient_boosting,predicted_class,29,7625,text__word__provide,provide,text,0.005744474474340677,0.0033130154479295015
+xgboost,XGBoost,gradient_boosting,predicted_class,30,11872,text__char__ache ,[char] ache ,text,0.00568543653935194,0.0032789665274322033
+xgboost,XGBoost,gradient_boosting,predicted_class,31,12684,text__char__ermi,[char] ermi,text,0.005372585263103247,0.0030985355842858553
+xgboost,XGBoost,gradient_boosting,predicted_class,32,12647,text__char__era,[char] era,text,0.005345072131603956,0.0030826677102595568
+xgboost,XGBoost,gradient_boosting,predicted_class,33,13082,text__char__ign,[char] ign,text,0.005326095502823591,0.0030717235058546066
+xgboost,XGBoost,gradient_boosting,predicted_class,34,13072,text__char__ies ,[char] ies ,text,0.005230662878602743,0.0030166844371706247
+xgboost,XGBoost,gradient_boosting,predicted_class,35,114,text__word__access logs,access logs,text,0.0051872809417545795,0.0029916646890342236
+xgboost,XGBoost,gradient_boosting,predicted_class,36,12883,text__char__gin,[char] gin,text,0.005179138388484716,0.0029869687277823687
+xgboost,XGBoost,gradient_boosting,predicted_class,37,5944,text__word__marketing,marketing,text,0.005175434984266758,0.002984832739457488
+xgboost,XGBoost,gradient_boosting,predicted_class,38,13828,text__char__ora,[char] ora,text,0.005155314691364765,0.0029732289258390665
+xgboost,XGBoost,gradient_boosting,predicted_class,39,14815,text__char__usf,[char] usf,text,0.00513882702216506,0.002963719889521599
+xgboost,XGBoost,gradient_boosting,predicted_class,40,13661,text__char__nstab,[char] nstab,text,0.005095288157463074,0.00293860980309546
+xgboost,XGBoost,gradient_boosting,predicted_class,41,14564,text__char__tent,[char] tent,text,0.004968978464603424,0.0028657629154622555
+xgboost,XGBoost,gradient_boosting,predicted_class,42,11684,text__char__ sl,[char]  sl,text,0.0049643730744719505,0.002863107016310096
+xgboost,XGBoost,gradient_boosting,predicted_class,43,14580,text__char__tes,[char] tes,text,0.0048384107649326324,0.0027904605958610773
+xgboost,XGBoost,gradient_boosting,predicted_class,44,4895,text__word__integration,integration,text,0.004728559870272875,0.002727106213569641
+xgboost,XGBoost,gradient_boosting,predicted_class,45,13509,text__char__mpa,[char] mpa,text,0.004718303680419922,0.0027211911510676146
+xgboost,XGBoost,gradient_boosting,predicted_class,46,13439,text__char__mat,[char] mat,text,0.004487065598368645,0.002587829018011689
+xgboost,XGBoost,gradient_boosting,predicted_class,47,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.004479477647691965,0.002583452733233571
+xgboost,XGBoost,gradient_boosting,predicted_class,48,11410,text__char__ crit,[char]  crit,text,0.004446063656359911,0.0025641820393502712
+xgboost,XGBoost,gradient_boosting,predicted_class,49,1824,text__word__concern,concern,text,0.004382905084639788,0.0025277563836425543
+xgboost,XGBoost,gradient_boosting,predicted_class,50,12048,text__char__ast,[char] ast,text,0.004286617040634155,0.0024722241796553135
+lightgbm,LightGBM,gradient_boosting,low,1,15010,categorical__queue_IT Support,IT Support,queue,0.22270624339580536,0.05657278746366501
+lightgbm,LightGBM,gradient_boosting,low,2,15015,categorical__queue_Technical Support,Technical Support,queue,0.21992957592010498,0.05586744844913483
+lightgbm,LightGBM,gradient_boosting,low,3,15007,categorical__queue_Customer Service,Customer Service,queue,0.07449208945035934,0.018922798335552216
+lightgbm,LightGBM,gradient_boosting,low,4,15011,categorical__queue_Product Support,Product Support,queue,0.04747982695698738,0.012061027809977531
+lightgbm,LightGBM,gradient_boosting,low,5,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.03232960030436516,0.008212503045797348
+lightgbm,LightGBM,gradient_boosting,low,6,14048,text__char__ras,[char] ras,text,0.03155529871582985,0.008015811443328857
+lightgbm,LightGBM,gradient_boosting,low,7,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.031296487897634506,0.007950067520141602
+lightgbm,LightGBM,gradient_boosting,low,8,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.029237737879157066,0.007427094504237175
+lightgbm,LightGBM,gradient_boosting,low,9,13946,text__char__plat,[char] plat,text,0.023890795186161995,0.006068841554224491
+lightgbm,LightGBM,gradient_boosting,low,10,11872,text__char__ache ,[char] ache ,text,0.023409385234117508,0.005946551915258169
+lightgbm,LightGBM,gradient_boosting,low,11,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.022657889872789383,0.005755653604865074
+lightgbm,LightGBM,gradient_boosting,low,12,13489,text__char__mme,[char] mme,text,0.022194266319274902,0.005637881811708212
+lightgbm,LightGBM,gradient_boosting,low,13,8648,text__word__server,server,text,0.018351180478930473,0.00466164480894804
+lightgbm,LightGBM,gradient_boosting,low,14,14815,text__char__usf,[char] usf,text,0.016524285078048706,0.004197569098323584
+lightgbm,LightGBM,gradient_boosting,low,15,14587,text__char__tform,[char] tform,text,0.015869464725255966,0.004031228832900524
+lightgbm,LightGBM,gradient_boosting,low,16,2937,text__word__downtime,downtime,text,0.015196283347904682,0.0038602245040237904
+lightgbm,LightGBM,gradient_boosting,low,17,11684,text__char__ sl,[char]  sl,text,0.014962045475840569,0.003800722537562251
+lightgbm,LightGBM,gradient_boosting,low,18,13237,text__char__itä,[char] itä,text,0.014732219278812408,0.0037423409521579742
+lightgbm,LightGBM,gradient_boosting,low,19,12469,text__char__eat,[char] eat,text,0.013665782287716866,0.0034714401699602604
+lightgbm,LightGBM,gradient_boosting,low,20,15009,categorical__queue_Human Resources,Human Resources,queue,0.013516065664589405,0.003433408448472619
+lightgbm,LightGBM,gradient_boosting,low,21,2189,text__word__customer,customer,text,0.013344865292310715,0.0033899194095283747
+lightgbm,LightGBM,gradient_boosting,low,22,11604,text__char__ outa,[char]  outa,text,0.012649038806557655,0.0032131627667695284
+lightgbm,LightGBM,gradient_boosting,low,23,14093,text__char__refe,[char] refe,text,0.01236660685390234,0.0031414180994033813
+lightgbm,LightGBM,gradient_boosting,low,24,12924,text__char__haben,[char] haben,text,0.012002319097518921,0.003048880258575082
+lightgbm,LightGBM,gradient_boosting,low,25,12581,text__char__em ,[char] em ,text,0.011897322721779346,0.0030222085770219564
+lightgbm,LightGBM,gradient_boosting,low,26,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.011857225559651852,0.0030120229348540306
+lightgbm,LightGBM,gradient_boosting,low,27,6626,text__word__optimierung,optimierung,text,0.011801677756011486,0.0029979124665260315
+lightgbm,LightGBM,gradient_boosting,low,28,14623,text__char__tisc,[char] tisc,text,0.01176552101969719,0.0029887277632951736
+lightgbm,LightGBM,gradient_boosting,low,29,13949,text__char__ple ,[char] ple ,text,0.011525736190378666,0.0029278164729475975
+lightgbm,LightGBM,gradient_boosting,low,30,13877,text__char__overl,[char] overl,text,0.011513435281813145,0.0029246918857097626
+lightgbm,LightGBM,gradient_boosting,low,31,13582,text__char__nga,[char] nga,text,0.01111661922186613,0.0028238908853381872
+lightgbm,LightGBM,gradient_boosting,low,32,12328,text__char__ctio,[char] ctio,text,0.011008032597601414,0.0027963072061538696
+lightgbm,LightGBM,gradient_boosting,low,33,13509,text__char__mpa,[char] mpa,text,0.01052883081138134,0.00267457845620811
+lightgbm,LightGBM,gradient_boosting,low,34,11601,text__char__ our,[char]  our,text,0.010520514100790024,0.0026724657509475946
+lightgbm,LightGBM,gradient_boosting,low,35,421,text__word__aktualisierung,aktualisierung,text,0.01040586270391941,0.0026433414313942194
+lightgbm,LightGBM,gradient_boosting,low,36,3906,text__word__führen,führen,text,0.010399086400866508,0.0026416201144456863
+lightgbm,LightGBM,gradient_boosting,low,37,12858,text__char__ge ,[char] ge ,text,0.010248690843582153,0.002603416098281741
+lightgbm,LightGBM,gradient_boosting,low,38,11973,text__char__angs,[char] angs,text,0.010214490815997124,0.0025947284884750843
+lightgbm,LightGBM,gradient_boosting,low,39,6591,text__word__online,online,text,0.01017675083130598,0.0025851416867226362
+lightgbm,LightGBM,gradient_boosting,low,40,14585,text__char__tfo,[char] tfo,text,0.01009078323841095,0.002563303802162409
+lightgbm,LightGBM,gradient_boosting,low,41,4160,text__word__helfen,helfen,text,0.010059732012450695,0.002555415965616703
+lightgbm,LightGBM,gradient_boosting,low,42,12194,text__char__cam,[char] cam,text,0.009984948672354221,0.00253641908057034
+lightgbm,LightGBM,gradient_boosting,low,43,3324,text__word__erhöhte,erhöhte,text,0.00994835700839758,0.0025271240156143904
+lightgbm,LightGBM,gradient_boosting,low,44,2360,text__word__data security,data security,text,0.009760222397744656,0.002479333197697997
+lightgbm,LightGBM,gradient_boosting,low,45,14789,text__char__upt,[char] upt,text,0.00968868937343359,0.0024611621629446745
+lightgbm,LightGBM,gradient_boosting,low,46,11342,text__char__ any ,[char]  any ,text,0.009587875567376614,0.0024355528876185417
+lightgbm,LightGBM,gradient_boosting,low,47,11711,text__char__ sys,[char]  sys,text,0.009549194015562534,0.002425726968795061
+lightgbm,LightGBM,gradient_boosting,low,48,11695,text__char__ spo,[char]  spo,text,0.009534823708236217,0.002422076417133212
+lightgbm,LightGBM,gradient_boosting,low,49,12316,text__char__criti,[char] criti,text,0.00952127669006586,0.002418635180220008
+lightgbm,LightGBM,gradient_boosting,low,50,12162,text__char__bre,[char] bre,text,0.009487508796155453,0.0024100574664771557
+lightgbm,LightGBM,gradient_boosting,medium,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.08270274847745895,0.03304319456219673
+lightgbm,LightGBM,gradient_boosting,medium,2,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.05291590094566345,0.021142108365893364
+lightgbm,LightGBM,gradient_boosting,medium,3,15011,categorical__queue_Product Support,Product Support,queue,0.04072599858045578,0.01627173461019993
+lightgbm,LightGBM,gradient_boosting,medium,4,14540,text__char__techn,[char] techn,text,0.01786792278289795,0.007138980086892843
+lightgbm,LightGBM,gradient_boosting,medium,5,15007,categorical__queue_Customer Service,Customer Service,queue,0.014173781499266624,0.005663016811013222
+lightgbm,LightGBM,gradient_boosting,medium,6,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.011400562711060047,0.004554999992251396
+lightgbm,LightGBM,gradient_boosting,medium,7,14286,text__char__rus,[char] rus,text,0.011308236978948116,0.004518112167716026
+lightgbm,LightGBM,gradient_boosting,medium,8,11711,text__char__ sys,[char]  sys,text,0.010592528618872166,0.0042321570217609406
+lightgbm,LightGBM,gradient_boosting,medium,9,12883,text__char__gin,[char] gin,text,0.010327991098165512,0.004126463085412979
+lightgbm,LightGBM,gradient_boosting,medium,10,14580,text__char__tes,[char] tes,text,0.010141844861209393,0.0040520899929106236
+lightgbm,LightGBM,gradient_boosting,medium,11,680,text__word__application,application,text,0.010075322352349758,0.00402551144361496
+lightgbm,LightGBM,gradient_boosting,medium,12,13752,text__char__oin,[char] oin,text,0.010001479648053646,0.003996008075773716
+lightgbm,LightGBM,gradient_boosting,medium,13,114,text__word__access logs,access logs,text,0.009865882806479931,0.003941831644624472
+lightgbm,LightGBM,gradient_boosting,medium,14,11917,text__char__agen,[char] agen,text,0.009823654778301716,0.003924959804862738
+lightgbm,LightGBM,gradient_boosting,medium,15,14738,text__char__ufa,[char] ufa,text,0.008555540814995766,0.0034182951785624027
+lightgbm,LightGBM,gradient_boosting,medium,16,14560,"text__char__tems,","[char] tems,",text,0.008085401728749275,0.0032304550986737013
+lightgbm,LightGBM,gradient_boosting,medium,17,15010,categorical__queue_IT Support,IT Support,queue,0.007954643107950687,0.0031782116275280714
+lightgbm,LightGBM,gradient_boosting,medium,18,14090,text__char__redi,[char] redi,text,0.007923448458313942,0.003165747970342636
+lightgbm,LightGBM,gradient_boosting,medium,19,14746,text__char__uired,[char] uired,text,0.007609373889863491,0.003040262032300234
+lightgbm,LightGBM,gradient_boosting,medium,20,12840,text__char__fun,[char] fun,text,0.00751090981066227,0.003000921569764614
+lightgbm,LightGBM,gradient_boosting,medium,21,9014,text__word__software,software,text,0.007095180451869965,0.002834820421412587
+lightgbm,LightGBM,gradient_boosting,medium,22,12955,text__char__hes,[char] hes,text,0.006782338488847017,0.002709826920181513
+lightgbm,LightGBM,gradient_boosting,medium,23,14528,text__char__tarte,[char] tarte,text,0.00646450137719512,0.002582837827503681
+lightgbm,LightGBM,gradient_boosting,medium,24,10747,text__word__verbindung,verbindung,text,0.006447635591030121,0.002576099243015051
+lightgbm,LightGBM,gradient_boosting,medium,25,2623,text__word__detailed documentation,detailed documentation,text,0.006315513979643583,0.0025233111809939146
+lightgbm,LightGBM,gradient_boosting,medium,26,12118,text__char__bee,[char] bee,text,0.00609442126005888,0.00243497546762228
+lightgbm,LightGBM,gradient_boosting,medium,27,11744,text__char__ ur,[char]  ur,text,0.006034431513398886,0.002411006949841976
+lightgbm,LightGBM,gradient_boosting,medium,28,13518,"text__char__ms,","[char] ms,",text,0.0060246470384299755,0.0024070977233350277
+lightgbm,LightGBM,gradient_boosting,medium,29,6191,text__word__microsoft teams,microsoft teams,text,0.006013229489326477,0.0024025358725339174
+lightgbm,LightGBM,gradient_boosting,medium,30,9621,text__word__system,system,text,0.006005141884088516,0.002399304648861289
+lightgbm,LightGBM,gradient_boosting,medium,31,409,text__word__aktualisieren,aktualisieren,text,0.005938525777310133,0.002372688613831997
+lightgbm,LightGBM,gradient_boosting,medium,32,12232,text__char__ced ,[char] ced ,text,0.005810650996863842,0.00232159742154181
+lightgbm,LightGBM,gradient_boosting,medium,33,14729,text__char__udie,[char] udie,text,0.005802924744784832,0.0023185103200376034
+lightgbm,LightGBM,gradient_boosting,medium,34,14448,text__char__ste,[char] ste,text,0.005782528314739466,0.002310361247509718
+lightgbm,LightGBM,gradient_boosting,medium,35,13828,text__char__ora,[char] ora,text,0.0055151223205029964,0.002203521318733692
+lightgbm,LightGBM,gradient_boosting,medium,36,12763,text__char__ewa,[char] ewa,text,0.005482325796037912,0.002190417842939496
+lightgbm,LightGBM,gradient_boosting,medium,37,13661,text__char__nstab,[char] nstab,text,0.005478197708725929,0.002188768470659852
+lightgbm,LightGBM,gradient_boosting,medium,38,13474,text__char__misc,[char] misc,text,0.0054192314855754375,0.002165209036320448
+lightgbm,LightGBM,gradient_boosting,medium,39,9502,text__word__suchen,suchen,text,0.00540609285235405,0.002159959403797984
+lightgbm,LightGBM,gradient_boosting,medium,40,11762,text__char__ wäh,[char]  wäh,text,0.005393159110099077,0.00215479196049273
+lightgbm,LightGBM,gradient_boosting,medium,41,13220,text__char__itio,[char] itio,text,0.005341190844774246,0.0021340283565223217
+lightgbm,LightGBM,gradient_boosting,medium,42,6192,text__word__microsoft word,microsoft word,text,0.005286109633743763,0.002112021204084158
+lightgbm,LightGBM,gradient_boosting,medium,43,14641,text__char__trate,[char] trate,text,0.005248244386166334,0.0020968925673514605
+lightgbm,LightGBM,gradient_boosting,medium,44,8641,text__word__seo,seo,text,0.005188499111682177,0.002073021838441491
+lightgbm,LightGBM,gradient_boosting,medium,45,8776,text__word__settings issue,settings issue,text,0.005162212066352367,0.002062518848106265
+lightgbm,LightGBM,gradient_boosting,medium,46,12924,text__char__haben,[char] haben,text,0.005085195414721966,0.0020317474845796824
+lightgbm,LightGBM,gradient_boosting,medium,47,14459,text__char__stim,[char] stim,text,0.005035419017076492,0.0020118597894906998
+lightgbm,LightGBM,gradient_boosting,medium,48,14564,text__char__tent,[char] tent,text,0.005022195167839527,0.002006576396524906
+lightgbm,LightGBM,gradient_boosting,medium,49,10818,text__word__verschlüsselung daten,verschlüsselung daten,text,0.004970375914126635,0.001985872397199273
+lightgbm,LightGBM,gradient_boosting,medium,50,1927,text__word__connectivity,connectivity,text,0.004946892149746418,0.001976489555090666
+lightgbm,LightGBM,gradient_boosting,high,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.3497532606124878,0.09607090801000595
+lightgbm,LightGBM,gradient_boosting,high,2,15007,categorical__queue_Customer Service,Customer Service,queue,0.10974331945180893,0.03014451079070568
+lightgbm,LightGBM,gradient_boosting,high,3,15010,categorical__queue_IT Support,IT Support,queue,0.09864231199026108,0.027095263823866844
+lightgbm,LightGBM,gradient_boosting,high,4,15001,categorical__type_Incident,Incident,type,0.06964010000228882,0.01912887953221798
+lightgbm,LightGBM,gradient_boosting,high,5,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.0669732615351677,0.018396345898509026
+lightgbm,LightGBM,gradient_boosting,high,6,15009,categorical__queue_Human Resources,Human Resources,queue,0.037490177899599075,0.010297875851392746
+lightgbm,LightGBM,gradient_boosting,high,7,12581,text__char__em ,[char] em ,text,0.03320235013961792,0.009120086207985878
+lightgbm,LightGBM,gradient_boosting,high,8,11701,text__char__ str,[char]  str,text,0.029294917359948158,0.008046785369515419
+lightgbm,LightGBM,gradient_boosting,high,9,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.028741462156176567,0.007894760929048061
+lightgbm,LightGBM,gradient_boosting,high,10,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.026134958490729332,0.007178801577538252
+lightgbm,LightGBM,gradient_boosting,high,11,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.02488422766327858,0.0068352483212947845
+lightgbm,LightGBM,gradient_boosting,high,12,15003,categorical__type_Request,Request,type,0.022146783769130707,0.0060833222232759
+lightgbm,LightGBM,gradient_boosting,high,13,9014,text__word__software,software,text,0.021596848964691162,0.00593226496130228
+lightgbm,LightGBM,gradient_boosting,high,14,14129,text__char__rge,[char] rge,text,0.021263962611556053,0.005840826779603958
+lightgbm,LightGBM,gradient_boosting,high,15,14950,text__char__yst,[char] yst,text,0.0203492883592844,0.005589582491666079
+lightgbm,LightGBM,gradient_boosting,high,16,12353,text__char__date ,[char] date ,text,0.01683129370212555,0.004623252898454666
+lightgbm,LightGBM,gradient_boosting,high,17,6591,text__word__online,online,text,0.016186730936169624,0.004446202889084816
+lightgbm,LightGBM,gradient_boosting,high,18,15011,categorical__queue_Product Support,Product Support,queue,0.016127411276102066,0.004429908934980631
+lightgbm,LightGBM,gradient_boosting,high,19,13780,text__char__ompr,[char] ompr,text,0.01411010604351759,0.003875791560858488
+lightgbm,LightGBM,gradient_boosting,high,20,1403,text__word__cache,cache,text,0.013802056200802326,0.0037911757826805115
+lightgbm,LightGBM,gradient_boosting,high,21,13961,text__char__pora,[char] pora,text,0.013798745349049568,0.0037902663461863995
+lightgbm,LightGBM,gradient_boosting,high,22,11696,text__char__ spor,[char]  spor,text,0.013369888998568058,0.0036724673118442297
+lightgbm,LightGBM,gradient_boosting,high,23,12401,text__char__dic,[char] dic,text,0.01306638028472662,0.0035890990402549505
+lightgbm,LightGBM,gradient_boosting,high,24,13678,text__char__nterm,[char] nterm,text,0.012711695395410061,0.0034916733857244253
+lightgbm,LightGBM,gradient_boosting,high,25,12175,text__char__bst,[char] bst,text,0.01222598273307085,0.0033582570031285286
+lightgbm,LightGBM,gradient_boosting,high,26,14056,text__char__rate,[char] rate,text,0.011641277000308037,0.0031976487953215837
+lightgbm,LightGBM,gradient_boosting,high,27,6626,text__word__optimierung,optimierung,text,0.011485861614346504,0.003154959063977003
+lightgbm,LightGBM,gradient_boosting,high,28,11456,text__char__ fai,[char]  fai,text,0.010736523196101189,0.0029491293244063854
+lightgbm,LightGBM,gradient_boosting,high,29,13558,text__char__neffe,[char] neffe,text,0.010325324721634388,0.0028361803852021694
+lightgbm,LightGBM,gradient_boosting,high,30,3964,text__word__geräte,geräte,text,0.010305174626410007,0.0028306455351412296
+lightgbm,LightGBM,gradient_boosting,high,31,14055,text__char__rat,[char] rat,text,0.009065085090696812,0.002490015234798193
+lightgbm,LightGBM,gradient_boosting,high,32,221,text__word__ad,ad,text,0.009052135981619358,0.0024864585138857365
+lightgbm,LightGBM,gradient_boosting,high,33,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.008906591683626175,0.002446480095386505
+lightgbm,LightGBM,gradient_boosting,high,34,1824,text__word__concern,concern,text,0.008483602665364742,0.0023302927147597075
+lightgbm,LightGBM,gradient_boosting,high,35,2635,text__word__details,details,text,0.008469468913972378,0.002326410263776779
+lightgbm,LightGBM,gradient_boosting,high,36,9621,text__word__system,system,text,0.008182389661669731,0.002247554948553443
+lightgbm,LightGBM,gradient_boosting,high,37,14564,text__char__tent,[char] tent,text,0.0079510398209095,0.002184007316827774
+lightgbm,LightGBM,gradient_boosting,high,38,114,text__word__access logs,access logs,text,0.007915010675787926,0.0021741106174886227
+lightgbm,LightGBM,gradient_boosting,high,39,14840,text__char__ver,[char] ver,text,0.007886420004069805,0.0021662572398781776
+lightgbm,LightGBM,gradient_boosting,high,40,11738,text__char__ une,[char]  une,text,0.007858365774154663,0.0021585512440651655
+lightgbm,LightGBM,gradient_boosting,high,41,4769,text__word__inquiry,inquiry,text,0.007791873533278704,0.0021402870770543814
+lightgbm,LightGBM,gradient_boosting,high,42,1375,text__word__browser,browser,text,0.007732394617050886,0.0021239493507891893
+lightgbm,LightGBM,gradient_boosting,high,43,11028,text__word__weiterhin,weiterhin,text,0.00762675516307354,0.002094932133331895
+lightgbm,LightGBM,gradient_boosting,high,44,10747,text__word__verbindung,verbindung,text,0.007467284332960844,0.0020511283073574305
+lightgbm,LightGBM,gradient_boosting,high,45,12037,text__char__ashb,[char] ashb,text,0.007390371058136225,0.0020300017204135656
+lightgbm,LightGBM,gradient_boosting,high,46,13326,text__char__ld ,[char] ld ,text,0.007388806436210871,0.0020295719150453806
+lightgbm,LightGBM,gradient_boosting,high,47,14815,text__char__usf,[char] usf,text,0.007072065025568008,0.0019425686914473772
+lightgbm,LightGBM,gradient_boosting,high,48,5198,text__word__invoice,invoice,text,0.0069489795714616776,0.0019087593536823988
+lightgbm,LightGBM,gradient_boosting,high,49,12084,text__char__ausf,[char] ausf,text,0.006923674140125513,0.0019018084276467562
+lightgbm,LightGBM,gradient_boosting,high,50,8085,text__word__request update,request update,text,0.006916895043104887,0.0018999462481588125
+lightgbm,LightGBM,gradient_boosting,predicted_class,1,15015,categorical__queue_Technical Support,Technical Support,queue,0.213711678981781,0.06704484671354294
+lightgbm,LightGBM,gradient_boosting,predicted_class,2,15010,categorical__queue_IT Support,IT Support,queue,0.05964067950844765,0.01871025562286377
+lightgbm,LightGBM,gradient_boosting,predicted_class,3,15014,categorical__queue_Service Outages and Maintenance,Service Outages and Maintenance,queue,0.05627429857850075,0.017654167488217354
+lightgbm,LightGBM,gradient_boosting,predicted_class,4,15007,categorical__queue_Customer Service,Customer Service,queue,0.04986296594142914,0.01564282737672329
+lightgbm,LightGBM,gradient_boosting,predicted_class,5,15011,categorical__queue_Product Support,Product Support,queue,0.03900954872369766,0.012237932533025742
+lightgbm,LightGBM,gradient_boosting,predicted_class,6,15001,categorical__type_Incident,Incident,type,0.025103125721216202,0.007875260896980762
+lightgbm,LightGBM,gradient_boosting,predicted_class,7,15012,categorical__queue_Returns and Exchanges,Returns and Exchanges,queue,0.017980659380555153,0.005640826653689146
+lightgbm,LightGBM,gradient_boosting,predicted_class,8,12581,text__char__em ,[char] em ,text,0.016484536230564117,0.005171468481421471
+lightgbm,LightGBM,gradient_boosting,predicted_class,9,15008,categorical__queue_General Inquiry,General Inquiry,queue,0.015591857954859734,0.004891420714557171
+lightgbm,LightGBM,gradient_boosting,predicted_class,10,15009,categorical__queue_Human Resources,Human Resources,queue,0.014762520790100098,0.004631244111806154
+lightgbm,LightGBM,gradient_boosting,predicted_class,11,15006,categorical__queue_Billing and Payments,Billing and Payments,queue,0.014443604275584221,0.00453119445592165
+lightgbm,LightGBM,gradient_boosting,predicted_class,12,11701,text__char__ str,[char]  str,text,0.01406393013894558,0.0044120848178863525
+lightgbm,LightGBM,gradient_boosting,predicted_class,13,9014,text__word__software,software,text,0.013190695084631443,0.004138136748224497
+lightgbm,LightGBM,gradient_boosting,predicted_class,14,6591,text__word__online,online,text,0.0115960156545043,0.003637859597802162
+lightgbm,LightGBM,gradient_boosting,predicted_class,15,14950,text__char__yst,[char] yst,text,0.010935349389910698,0.0034305977169424295
+lightgbm,LightGBM,gradient_boosting,predicted_class,16,15003,categorical__type_Request,Request,type,0.010323900729417801,0.003238776233047247
+lightgbm,LightGBM,gradient_boosting,predicted_class,17,14129,text__char__rge,[char] rge,text,0.010120466351509094,0.0031749557238072157
+lightgbm,LightGBM,gradient_boosting,predicted_class,18,114,text__word__access logs,access logs,text,0.009905106388032436,0.0031073936261236668
+lightgbm,LightGBM,gradient_boosting,predicted_class,19,11684,text__char__ sl,[char]  sl,text,0.009314597584307194,0.002922141458839178
+lightgbm,LightGBM,gradient_boosting,predicted_class,20,15013,categorical__queue_Sales and Pre-Sales,Sales and Pre-Sales,queue,0.009309115819633007,0.0029204217717051506
+lightgbm,LightGBM,gradient_boosting,predicted_class,21,14286,text__char__rus,[char] rus,text,0.008826090954244137,0.0027688888367265463
+lightgbm,LightGBM,gradient_boosting,predicted_class,22,14540,text__char__techn,[char] techn,text,0.00841620471328497,0.0026403008960187435
+lightgbm,LightGBM,gradient_boosting,predicted_class,23,12401,text__char__dic,[char] dic,text,0.008395197801291943,0.0026337106246501207
+lightgbm,LightGBM,gradient_boosting,predicted_class,24,6626,text__word__optimierung,optimierung,text,0.00809985026717186,0.0025410554371774197
+lightgbm,LightGBM,gradient_boosting,predicted_class,25,11711,text__char__ sys,[char]  sys,text,0.007768705021589994,0.002437169663608074
+lightgbm,LightGBM,gradient_boosting,predicted_class,26,13780,text__char__ompr,[char] ompr,text,0.007648034952580929,0.002399313496425748
+lightgbm,LightGBM,gradient_boosting,predicted_class,27,9621,text__word__system,system,text,0.007541489787399769,0.002365888562053442
+lightgbm,LightGBM,gradient_boosting,predicted_class,28,11456,text__char__ fai,[char]  fai,text,0.007414670195430517,0.0023261031601577997
+lightgbm,LightGBM,gradient_boosting,predicted_class,29,14580,text__char__tes,[char] tes,text,0.00733186025172472,0.0023001243826001883
+lightgbm,LightGBM,gradient_boosting,predicted_class,30,14048,text__char__ras,[char] ras,text,0.007174911443144083,0.0022508869878947735
+lightgbm,LightGBM,gradient_boosting,predicted_class,31,14090,text__char__redi,[char] redi,text,0.007153247948735952,0.002244090661406517
+lightgbm,LightGBM,gradient_boosting,predicted_class,32,12883,text__char__gin,[char] gin,text,0.0070661879144608974,0.0022167786955833435
+lightgbm,LightGBM,gradient_boosting,predicted_class,33,14564,text__char__tent,[char] tent,text,0.006561796646565199,0.002058542799204588
+lightgbm,LightGBM,gradient_boosting,predicted_class,34,10747,text__word__verbindung,verbindung,text,0.006492850836366415,0.0020369132980704308
+lightgbm,LightGBM,gradient_boosting,predicted_class,35,14056,text__char__rate,[char] rate,text,0.00633770739659667,0.001988242380321026
+lightgbm,LightGBM,gradient_boosting,predicted_class,36,12175,text__char__bst,[char] bst,text,0.006259556394070387,0.0019637250807136297
+lightgbm,LightGBM,gradient_boosting,predicted_class,37,13752,text__char__oin,[char] oin,text,0.00612771138548851,0.001922363182529807
+lightgbm,LightGBM,gradient_boosting,predicted_class,38,1185,text__word__bestand darin,bestand darin,text,0.005957372020930052,0.0018689249409362674
+lightgbm,LightGBM,gradient_boosting,predicted_class,39,13509,text__char__mpa,[char] mpa,text,0.00587462680414319,0.0018429664196446538
+lightgbm,LightGBM,gradient_boosting,predicted_class,40,11917,text__char__agen,[char] agen,text,0.005849867593497038,0.0018351990729570389
+lightgbm,LightGBM,gradient_boosting,predicted_class,41,12353,text__char__date ,[char] date ,text,0.005832810420542955,0.001829847926273942
+lightgbm,LightGBM,gradient_boosting,predicted_class,42,12957,"text__char__hes,","[char] hes,",text,0.005732240621000528,0.0017982975114136934
+lightgbm,LightGBM,gradient_boosting,predicted_class,43,13678,text__char__nterm,[char] nterm,text,0.005649626720696688,0.0017723802011460066
+lightgbm,LightGBM,gradient_boosting,predicted_class,44,14448,text__char__ste,[char] ste,text,0.005634024739265442,0.001767485635355115
+lightgbm,LightGBM,gradient_boosting,predicted_class,45,14055,text__char__rat,[char] rat,text,0.00531699787825346,0.0016680291155353189
+lightgbm,LightGBM,gradient_boosting,predicted_class,46,409,text__word__aktualisieren,aktualisieren,text,0.005311971064656973,0.0016664521535858512
+lightgbm,LightGBM,gradient_boosting,predicted_class,47,12924,text__char__haben,[char] haben,text,0.00502040283754468,0.0015749824233353138
+lightgbm,LightGBM,gradient_boosting,predicted_class,48,13828,text__char__ora,[char] ora,text,0.005011747125536203,0.0015722669195383787
+lightgbm,LightGBM,gradient_boosting,predicted_class,49,14840,text__char__ver,[char] ver,text,0.004960215650498867,0.0015561006730422378
+lightgbm,LightGBM,gradient_boosting,predicted_class,50,14815,text__char__usf,[char] usf,text,0.00494824955239892,0.0015523467445746064

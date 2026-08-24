@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "signature": "0850829bfa3c832077f86692b3238ece73b6e684e66f1b25eb7a6643ea31e98d",
+  "completed_models": [
+    "logistic_regression",
+    "linear_svm",
+    "complement_naive_bayes",
+    "knn_cosine",
+    "random_forest",
+    "xgboost",
+    "lightgbm"
+  ],
+  "selected_parameters": {
+    "logistic_regression": {
+      "classifier__C": 10.0,
+      "classifier__class_weight": "balanced"
+    },
+    "linear_svm": {
+      "classifier__C": 1.0,
+      "classifier__class_weight": "balanced"
+    },
+    "complement_naive_bayes": {
+      "classifier__alpha": 0.05
+    },
+    "knn_cosine": {
+      "classifier__n_neighbors": 5,
+      "classifier__weights": "distance"
+    },
+    "random_forest": {
+      "classifier__class_weight": "balanced_subsample",
+      "classifier__max_depth": null,
+      "classifier__min_samples_leaf": 2
+    },
+    "xgboost": {
+      "classifier__max_depth": 7,
+      "classifier__min_child_weight": 1,
+      "classifier__reg_lambda": 10.0
+    },
+    "lightgbm": {
+      "classifier__min_child_samples": 10,
+      "classifier__num_leaves": 63,
+      "classifier__reg_lambda": 0.0
+    }
+  }
+}
