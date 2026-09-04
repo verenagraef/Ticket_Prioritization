@@ -2,7 +2,7 @@
 
 **Author:** Verena Gräf
 
-This repository contains the reproducible analysis pipeline and final artifacts for the associated paper.
+This repository contains the analysis pipeline and final artifacts for the associated paper.
 
 ## Repository structure
 
@@ -22,7 +22,8 @@ This repository contains the reproducible analysis pipeline and final artifacts 
 ├─ REPRODUCIBILITY_FILE_MAP.md # input/output map
 ├─ CITATION.cff                # citation metadata
 ├─ LICENSE                     # MIT license for repository code
-├─ DATASET_LICENSE.md          # dataset attribution and license
+├─ DATASET_LICENSE.md          # dataset attribution and License
+├─ .gitattributes.txt          # files managed via Git LFS
 └─ README.md
 ```
 
@@ -105,7 +106,7 @@ For a complete Git clone including these artifacts, install Git LFS before cloni
 
 ## Licensing
 
-- **Original repository code:** MIT License (`LICENSE`)
+- **Original repository code and generated analysis artifacts:** MIT License (`LICENSE`)
 - **Customer IT Support - Ticket Dataset by Tobias Bueck:** CC BY 4.0 (`DATASET_LICENSE.md`)
 - **Paper/manuscript:** not covered by the MIT software license. If published by JAIR, the article will be distributed under JAIR's Creative Commons Attribution (CC BY) publication license.
 

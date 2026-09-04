@@ -1,5 +1,11 @@
 # Environment 
 # Windows x86-64
+# Windows edition/version: Microsoft Windows 11 Home 10.0.26200 (build 26200)
+# CPU: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz; 4 cores / 8 logical processors
+# CPU cache: L2 5 MB; L3 8 MB
+# RAM: 16 GB installed (15.75 GB usable)
+# Graphics: Intel(R) Iris(R) Xe Graphics; driver 32.0.101.6737
+# Computation mode: CPU-only; GPU acceleration was not used
 # Python 3.11.15
 # Analytical package versions are pinned below.
 name: masterthesis_final
