@@ -1367,8 +1367,23 @@ save_csv(cv_class_results, CV_CLASS_RESULTS_PATH)
 matrix = cv_results.pivot(index="feature_set", columns="model", values="mean_macro_f1").reindex(
     index=FEATURE_ORDER, columns=MODEL_ORDER
 )
-section("Cross-validated Macro-F1")
-print(matrix.round(4).to_string())
+std_matrix = (
+    cv_results
+    .pivot(index="feature_set", columns="model", values="std_macro_f1")
+    .reindex(index=FEATURE_ORDER, columns=MODEL_ORDER)
+)
+
+cv_display = matrix.copy().astype(object)
+
+for feature_set in FEATURE_ORDER:
+    for model_name in MODEL_ORDER:
+        cv_display.loc[feature_set, model_name] = (
+            f"{matrix.loc[feature_set, model_name]:.4f} ± "
+            f"{std_matrix.loc[feature_set, model_name]:.4f}"
+        )
+
+section("Cross-validated Macro-F1 (mean ± SD)")
+print(cv_display.to_string())
 
 best_by_feature = (
     cv_results.sort_values(SORT_METRICS, ascending=False)
