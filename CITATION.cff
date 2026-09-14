@@ -6,7 +6,6 @@ authors:
   - given-names: "Verena"
     family-names: "Gräf"
 version: 1.0.0
-date-released: 2026-10-26
 license: MIT
 keywords:
   - IT support
@@ -16,5 +15,5 @@ keywords:
   - explainable AI
   - SHAP
   - CRISP-DM
-# repository-code: "https://github.com/verenagraef/Ticket_Prioritization"
+repository-code: "https://github.com/verenagraef/Ticket_Prioritization"
 # doi: "10.5281/zenodo.XXXXXXXX"

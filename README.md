@@ -21,9 +21,9 @@ This repository contains the analysis pipeline and final artifacts for the assoc
 ├─ environment.yml             # Python environment
 ├─ REPRODUCIBILITY_FILE_MAP.md # input/output map
 ├─ CITATION.cff                # citation metadata
-├─ LICENSE                     # MIT license for repository code
+├─ LICENSE                     # MIT license for repository code and generated analysis artifacts
 ├─ DATASET_LICENSE.md          # dataset attribution and License
-├─ .gitattributes.txt          # files managed via Git LFS
+├─ .gitattributes		        # files managed via Git LFS
 └─ README.md
 ```
 

@@ -15,7 +15,7 @@ The dataset is attributed to Tobias Bueck and is redistributed under the terms o
 
 ## Modifications
 
-The file in `data/raw/` represents the source dataset used for this thesis.
+The file in `data/raw/` represents the source dataset used for this paper.
 
 The file in `data/processed/` is a derived/modified version created by the analysis pipeline in this repository. Transformations include documented record exclusions, text normalization, language-label corrections, exact-text grouping, semantic grouping, and derived metadata. The complete transformation logic is contained in the scripts under `src/`, primarily `01_data_understanding.py`, `01a_manual_review_validation.py`, and `02_data_preparation.py`.
 
