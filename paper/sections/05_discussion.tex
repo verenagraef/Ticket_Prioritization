@@ -1,0 +1,147 @@
+\section{Discussion}
+
+This section interprets the empirical findings with respect to the research
+questions and the existing literature. The limitations of the study are then
+discussed, followed by implications for future research and potential
+application scenarios.
+
+\subsection{Interpretation of Classification Performance and Explainability}
+
+RQ1 examined how the investigated ML classifiers differ in performance for
+NLP-based prioritization of IT support tickets. On the common data, split, and
+feature basis, LightGBM achieved the highest hold-out Macro-F1 on FS4 and was
+the only alternative that significantly outperformed Logistic Regression after
+Holm correction. The observed difference was
+$\Delta F1_{\mathrm{macro}} = 0.0197$, which supports H1. This does not
+indicate a general superiority of more complex model families. Earlier ticket
+studies likewise report context-dependent rankings, with different models
+performing best across datasets and classical SVM approaches remaining
+competitive with more complex methods
+\cite{ahmed2023incident,martins2024port,bonechi2024support}.
+
+The feature basis also affected performance. FS4 achieved the highest average
+cross-validation performance across all seven classifiers, indicating that
+queue information added predictive value in this dataset. The SHAP analysis
+of the final model also assigned a relevant share of attribution mass to the
+queue. This is consistent with work that incorporates ticket-related and
+contextual information in addition to text
+\cite{beckers2009multifacet,fuchs2022support}. Queue structures are tied to
+organizational processes, so this predictive value may not transfer directly
+to other service organizations. Sentiment features added little.
+FS5-LightGBM reached a hold-out Macro-F1 of 0.5597 compared with 0.5594 for
+FS4-LightGBM, while sentiment accounted for less than one percent of absolute
+SHAP mass.
+
+The final model should not be interpreted as ready for immediate production
+use. Low-priority tickets were identified less reliably, with a Recall of
+0.3291, and Macro-F1 does not reflect different operational consequences of
+misclassification. The moderate classification performance may partly reflect the information
+available for priority prediction, as \citet{tian2015priority} model
+bug-report priority as a multi-factor decision involving textual, temporal,
+author, related-report, severity, and product information. In contrast, the
+present study was restricted to the text and structured features available in
+the investigated dataset. In addition, real-world ITSM research reports
+particular difficulties for semantically complex and underrepresented classes
+\cite{razma2026classification}. RQ1 is therefore answered by the finding that the
+classifiers differed in prioritization performance. LightGBM performed best
+on the common feature basis and was the only alternative with a statistically
+significant advantage over Logistic Regression, while no general superiority
+of more complex model families was observed.
+
+RQ2 examined differences in SHAP-based explanation properties. Explanation
+compactness was operationalized for inferential testing. Logistic Regression
+showed significantly higher Top-10 concentration than Complement Naive Bayes
+and Random Forest, which supports H2 under the prespecified criterion. No such
+advantage was observed over Linear SVM, kNN, XGBoost, or LightGBM.
+Robustness analyses confirmed the result for Complement Naive Bayes across all
+five operationalizations, whereas the comparison with Random Forest depended
+on the compactness measure used.
+
+These findings extend earlier XAI work in ticket classification. Local
+explanation methods have been used to analyze relevant features and
+misclassifications, while SHAP-based explanations have been integrated into
+helpdesk systems \cite{zicari2022ticket,licina2026helpagent}. In contrast to studies that primarily evaluate ticket-classification performance
+or use explanations within individual classification frameworks \cite{razma2026classification,zicari2022ticket,licina2026helpagent}, the present
+analysis compares SHAP-based explanation compactness across the investigated
+classifiers. This comparison shows that predictive performance and explanation compactness
+do not follow a consistent trade-off. Explanation quality is multidimensional
+\cite{nauta2023evaluation}, so faithfulness and robustness were considered in
+addition to compactness. The faithfulness analysis indicated that highlighted
+features were related to model behavior, while local cases showed
+heterogeneous plausibility. SHAP describes feature attributions to model predictions
+\cite{lundberg2017shap}, which should not be interpreted as establishing
+causal relationships \cite{janzing2020causal}. Comprehensibility for
+actual users was not examined systematically, so the findings do not replace
+independent user or expert evaluation. RQ2 is therefore answered by
+model-dependent differences in SHAP-based explanation properties without a
+consistent advantage of Logistic Regression or a simple separation between
+linear and more complex models.
+
+\subsection{Limitations}
+
+A central limitation is the synthetic data basis. Public availability supports
+reproducible comparison \cite{bueck2025support}. Synthetic data may not fully
+capture characteristics and distributions observed in real-world data
+\cite{goyal2024synthetic}. In the present context, this concerns in particular
+language, support processes, and error patterns and may therefore limit
+transferability to real ITSM environments. The dataset also includes broader queues such as
+Human Resources, Sales and Pre-Sales, and General Inquiry. The findings
+therefore concern a heterogeneous support population rather than a narrowly
+defined IT service desk.
+
+The analysis assumed that the queue was already available when priority was
+predicted. Because no process timestamps establish the order of queue and
+priority assignment, this assumption could not be verified. Priority and
+language labels could not be validated independently. Manual reviews assessed
+the plausibility of data-quality decisions rather than reassigning priorities.
+Semantic grouping also depends on the Sentence-BERT representation, the
+similarity threshold of 0.95, and the complete-linkage strategy
+\cite{reimers2019sentencebert}.
+
+The group-based hold-out measures generalization within the same dataset.
+Neither external nor temporal validation was conducted. This is relevant because
+model performance in IT-related classification has been shown to depend on the
+application context \cite{ahmed2023incident}, while temporal changes may alter
+the relationship between input data and target concepts \cite{gama2014conceptdrift}.
+Consequently, concept drift, alternative queue structures, and
+organization-specific prioritization rules remain unobserved. The algorithm and representation screenings were exploratory and budget-limited. Hyperparameters selected on FS1 were fixed for later feature-set comparisons. This improves comparability but may prevent individual
+models from reaching their optimum on later feature sets. The cross-validation
+Macro-F1 of 0.5330 therefore represents model-selection performance within the
+training partition, while the hold-out Macro-F1 of 0.5597 represents the
+separate final evaluation.
+
+Different model structures required different SHAP explainers, which limits
+the direct comparability of the H2 results across models. Because
+Shapley-based attributions can vary depending on how they are computed
+\cite{sundararajan2020many}, the observed H2 differences in explanation
+compactness may reflect both model differences and differences in the
+attribution method. The H2 sample contained 100 semantic
+groups per priority class, giving all classes equal weight rather than their
+natural frequencies. Random Forest and XGBoost were explained approximately
+for computational reasons. Exact and approximate XGBoost attributions showed
+high agreement with $\rho = 0.9666$, but this cannot be assumed for Random
+Forest. The kNN explanations were sensitive to the background sample and
+evaluation budget. The qualitative plausibility assessment was conducted by the author rather
+than independent ITSM experts. Since explanation quality is multidimensional
+\cite{nauta2023evaluation}, the present analysis cannot establish whether the
+explanations are understandable or decision-relevant for ITSM practitioners.
+
+\subsection{Implications and Future Research}
+
+The findings suggest that automated ticket prioritization can benefit from
+structured contextual information in addition to text. More complex
+classifiers did not consistently outperform the baseline, so a
+supportive human-in-the-loop setting appears more plausible initially than
+fully autonomous priority assignment. This approach was also adopted in prior work
+on intelligent ticket management \cite{zicari2022ticket}.
+
+Future studies should test the findings on real-world ITSM data across multiple
+organizations and use temporal test sets. Cost-sensitive or ordinal learning
+objectives could better reflect unequal operational consequences of errors.
+The exploratory transformer screening could also be extended by evaluating
+multilingual transformer classifiers such as XLM-RoBERTa (XLM-R) \cite{conneau2020xlmr}
+under the full group-based modeling and hold-out design. Independent assessments
+by ITSM experts would complement model-based XAI metrics by examining
+comprehensibility and actual decision utility.
+
+Overall, the study provides a controlled comparison of classifiers and their SHAP-based explanations under a common evaluation design. Whether the observed technical differences translate into operational value requires subsequent real-world process and user evaluation.

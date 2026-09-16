@@ -1,0 +1,218 @@
+\documentclass[manuscript, screen, review]{jair}
+
+\setcopyright{cc}
+
+\JAIRTrack{}
+
+\acmDOI{10.1613/jair.1.xxxxx}
+
+\RequirePackage[
+  datamodel=acmdatamodel,
+  style=acmauthoryear,
+  backend=biber,
+  giveninits=true,
+  uniquename=init
+]{biblatex}
+
+\renewcommand*{\bibopenbracket}{(}
+\renewcommand*{\bibclosebracket}{)}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+\title[Automatic Prioritization of IT Support Tickets]
+{Automatic Prioritization of IT Support Tickets Using Natural Language Processing and Explainable AI: A Data-Driven Evaluation of Machine Learning Classifiers Based on the CRISP-DM Model}
+
+\author{Verena Gräf}
+
+\email{xverenagraefx@gmail.com}
+
+\affiliation{%
+  \institution{FOM University of Applied Sciences}
+  \city{Bonn}
+  \country{Germany}
+}
+
+\renewcommand{\shortauthors}{Gräf}
+
+\begin{abstract}
+{\bf Background:}
+Determining the priority of IT support tickets dictates the order of requests with different urgency levels, which is particularly important for time-critical cases. Since this decision is largely guided by unstructured
+ticket descriptions, automation using Natural Language Processing (NLP) offers potential for automated support.
+
+{\bf Objectives:}
+The study investigated different machine learning classifiers concerning classification performance and explainability for NLP-based ticket prioritization.
+
+
+{\bf Methods:}
+The classifier comparison used a publicly available, synthetically generated IT support ticket dataset, with Macro-F1 as the performance metric. Differences in performance relative to a Logistic Regression baseline were assessed using paired bootstrap resampling with Holm correction. Finally, explainability was
+operationalized by measuring the concentration of absolute SHapley Additive exPlanations (SHAP) attributions.
+
+{\bf Results:}
+On the common feature set, LightGBM showed the highest hold-out performance and significantly outperformed Logistic Regression by 0.0197 Macro-F1 points ($p_{\mathrm{Holm}} = 0.024$). The final LightGBM model selected using cross-validation achieved a hold-out Macro-F1 of 0.5597. Logistic Regression showed significantly more concentrated SHAP attributions than Complement Naive Bayes ($\Delta = 0.0775$) and Random Forest ($\Delta = 0.0741$). Both comparisons were significant after Holm correction
+($p_{\mathrm{Holm}} < 0.001$). However, no superiority over all alternative classifiers could be shown.
+
+{\bf Conclusions:}
+The results suggest that classification performance and SHAP-based explanation properties constitute different dimensions of the prioritization task and should therefore be evaluated independently during model selection.
+
+\end{abstract}
+
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_methodology}
+\input{sections/04_results}
+\input{sections/05_discussion}
+\input{sections/06_conclusion}
+
+\printbibliography
+
+\appendix
+
+\section{Supplementary Materials}
+
+\textbf{Code}\quad
+\url{https://github.com/verenagraef/Ticket_Prioritization}
+
+\section{Use of Generative AI}
+
+Generative AI tools were used in a supporting role during manuscript
+preparation and code quality assurance. The specific uses are summarized in
+Table~\ref{tab:ai-use}.
+
+\begin{table}[ht]
+\caption{Use of generative AI tools during the study.}
+\label{tab:ai-use}
+\begin{tabular}{p{0.18\linewidth} p{0.34\linewidth} p{0.40\linewidth}}
+\toprule
+Tool & Purpose & Use and verification \\
+\midrule
+ChatGPT
+& Language quality assurance and translation support
+& Used to support linguistic revision of manuscript text and the translation
+of author-written passages from German into English. Suggested formulations
+were reviewed and revised by the author before inclusion in the manuscript. \\
+
+Claude
+& Code review
+& Used to support the review of Python code with respect to code structure,
+consistency, and potential implementation issues. Suggested changes were
+evaluated by the author before being applied. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Reproducibility Checklist for JAIR}
+
+\subsection*{All articles:}
+
+%\hh{revised for stylistic consistency:}
+\begin{enumerate}
+    \item All claims investigated in this work are clearly stated. 
+    [yes]
+    \item Clear explanations are given how the work reported substantiates the claims. 
+    [yes]
+    \item Limitations or technical assumptions are stated clearly and explicitly. 
+    [yes]
+    \item Conceptual outlines and/or pseudo-code descriptions of the AI methods introduced in this work are provided, and important implementation details are discussed. 
+    [NA]
+    \item 
+    Motivation is provided for all design choices, including algorithms, implementation choices, parameters, data sets and experimental protocols beyond metrics.
+    [yes]
+\end{enumerate}
+
+\subsection*{Articles containing theoretical contributions:}
+Does this paper make theoretical contributions? 
+[no] 
+
+\subsection*{Articles reporting on computational experiments:}
+Does this paper include computational experiments? [yes]
+
+If yes, please complete the list below.
+\begin{enumerate}
+    \item 
+    All source code required for conducting experiments is included in an online appendix 
+    or will be made publicly available upon publication of the paper.
+    The online appendix follows best practices for source code readability and documentation as well as for long-term accessibility.
+    [yes]
+    \item The source code comes with a license that
+    allows free usage for reproducibility purposes.
+    [yes]
+    \item The source code comes with a license that
+    allows free usage for research purposes in general.
+    [yes]
+    \item 
+    Raw, unaggregated data from all experiments is included in an online appendix 
+    or will be made publicly available upon publication of the paper.
+    The online appendix follows best practices for long-term accessibility.
+    [yes]
+    \item The unaggregated data comes with a license that
+    allows free usage for reproducibility purposes.
+    [yes]
+    \item The unaggregated data comes with a license that
+    allows free usage for research purposes in general.
+    [yes]
+    \item If an algorithm depends on randomness, then the method used for generating random numbers and for setting seeds is described in a way sufficient to allow replication of results. 
+    [yes]
+    \item The execution environment for experiments, the computing infrastructure (hardware and software) used for running them, is described, including GPU/CPU makes and models; amount of memory (cache and RAM); make and version of operating system; names and versions of relevant software libraries and frameworks. 
+    [yes]
+    \item 
+    The evaluation metrics used in experiments are clearly explained and their choice is explicitly motivated. 
+    [yes]
+    \item 
+    The number of algorithm runs used to compute each result is reported. 
+    [yes]
+    \item 
+    Reported results have not been ``cherry-picked'' by silently ignoring unsuccessful or unsatisfactory experiments. 
+    [yes]
+    \item 
+    Analysis of results goes beyond single-dimensional summaries of performance (e.g., average, median) to include measures of variation, confidence, or other distributional information. 
+    [yes]
+    \item 
+    All (hyper-) parameter settings for 
+    the algorithms/methods used in experiments have been reported, along with the rationale or method for determining them. 
+    [yes]
+    \item 
+    The number and range of (hyper-) parameter settings explored prior to conducting final experiments have been indicated, along with the effort spent on (hyper-) parameter optimisation. 
+    [yes]
+    \item 
+    Appropriately chosen statistical hypothesis tests are used to establish statistical significance
+    in the presence of noise effects.
+    [yes]
+\end{enumerate}
+
+
+\subsection*{Articles using data sets:}
+Does this work rely on one or more data sets (possibly obtained from a benchmark generator or similar software artifact)? 
+[yes]
+
+If yes, please complete the list below.
+\begin{enumerate}
+    \item 
+    All newly introduced data sets 
+    are included in an online appendix 
+    or will be made publicly available upon publication of the paper.
+    The online appendix follows best practices for long-term accessibility with a license
+    that allows free usage for research purposes.
+    [NA]
+    \item The newly introduced data set comes with a license that
+    allows free usage for reproducibility purposes.
+    [yes]
+    \item The newly introduced data set comes with a license that
+    allows free usage for research purposes in general.
+    [yes]
+    \item All data sets drawn from the literature or other public sources (potentially including authors' own previously published work) are accompanied by appropriate citations.
+    [yes]
+    \item All data sets drawn from the existing literature (potentially including authors’ own previously published work) are publicly available. [yes]
+    %\item All data sets that are not publicly available are described in detail.
+    %[NA]
+    \item All new data sets and data sets that are not publicly available are described in detail, including relevant statistics, the data collection process and annotation process if relevant.
+    [NA]
+    \item 
+    All methods used for preprocessing, augmenting, batching or splitting data sets (e.g., in the context of hold-out or cross-validation)
+    are described in detail. [yes]
+\end{enumerate}
+
+\end{document}

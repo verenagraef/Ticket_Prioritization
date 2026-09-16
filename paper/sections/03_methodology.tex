@@ -1,0 +1,104 @@
+\section{Methodology}
+
+This section describes the methodological approach of the study. First, the research design and data basis are presented. This is followed by data preparation and feature representation, model development and performance evaluation, and the SHAP-based explainability analysis.
+
+\subsection{Research Design and Data Basis}
+
+The study followed a quantitative, comparative research design and operationalized IT support ticket prioritization as a supervised multiclass classification task with the target classes \textit{low}, \textit{medium}, and \textit{high}. The Cross-Industry Standard Process for Data Mining (CRISP-DM) was used as the process framework, structuring the phases Business Understanding, Data Understanding, Data Preparation, Modeling, and Evaluation \cite{chapman2000crisp}. This study did not include the Deployment phase because no production system integration was conducted. The resulting empirical research workflow is illustrated in Figure~\ref{fig:Pipeline}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=\linewidth]{figures/Pipeline.png}
+    \caption{Investigation model of the empirical analysis for NLP-based prioritization of IT support tickets and SHAP-based explainability analysis.}
+    \label{fig:Pipeline}
+    \Description{Flow diagram showing the analysis pipeline from the ticket
+    dataset through data understanding, preprocessing, semantic grouping,
+    train--hold-out splitting, screening, feature-set construction, model training
+    and cross-validation, and the subsequent classification-performance and
+    SHAP-based explainability analyzes.}
+\end{figure}
+
+The publicly available \textit{Customer IT Support Ticket Dataset} by \citet{bueck2025support} served as the data source. The synthetically generated raw dataset comprised 28,587 tickets and 16 variables and was selected because it provides multilingual ticket texts, priority labels, and structured contextual features in a publicly accessible and reproducible form. The modeling input comprised ticket texts derived from \texttt{subject} and \texttt{body}, the categorical features \texttt{type}, \texttt{language}, and \texttt{queue}, and the target variable \texttt{priority}. The defined modeling space excluded the variable \texttt{answer} because it contains downstream and potentially leakage-prone information, while \texttt{version} and the tag variables were not included.
+
+During Data Understanding, potential data-quality and leakage issues were examined in addition to descriptive analyses. Three reproducibly drawn, stratified manual samples were assessed to evaluate key data-quality decisions. For the semantic assessment, 20 deduplicated nearest-neighbor pairs were selected from each of three cosine-similarity ranges: $0.90 \leq s < 0.95$, $0.95 \leq s < 0.98$, and $0.98 \leq s \leq 1.00$. Language detection was performed using \texttt{langdetect} and assessed through the manual sample. This sample comprised 20 cases with a high-confidence discrepancy between the declared and automatically detected language, 20 high-confidence agreements, and 20 cases with uncertain or non-target-language detection. For the plausibility assessment of the priority labels, five tickets were drawn from each combination of the three priority classes and the two declared languages, German and English, resulting in 30 reviewed cases.
+
+\subsection{Data Preparation and Feature Representation}
+
+During data preparation, 36 tickets were excluded. These comprised three uninformative short texts, 20 cases with likely leakage between request and response content, and 13 tickets outside the intended German--English language scope. In addition, 3,330 inconsistent language labels were corrected according to the previously assessed assignment logic. The final analytical dataset therefore comprised 28,551 tickets with unevenly distributed target classes across low (20.61\%), medium (40.29\%) and high (39.10\%).
+Text preprocessing included normalization of Unicode characters, HTML and escape sequences, control characters, and whitespace. URLs and email addresses were replaced with standardized placeholders. To prevent identical or highly semantically similar tickets from being distributed across the training and hold-out partitions, semantic groups were formed in addition to exact text duplicates. Multilingual Sentence-BERT embeddings generated with the \texttt{paraphrase-multilingual-MiniLM-L12-v2} model were used for this purpose \cite{reimers2019sentencebert,reimers2020multilingual}. Tickets were grouped based on cosine similarity using complete-linkage clustering with a threshold of 0.95. The preceding manual assessment of the three similarity ranges supported the selection of this threshold. Group formation did not use the target variable and resulted in 20,825 semantic groups. Groups containing different priority labels were retained unchanged and no retrospective label homogenization was performed.
+
+The textual representation combined word- and character-level TF-IDF \cite{manning2008introduction}. Word $n$-grams of order 1--2 and \texttt{char\_wb} character $n$-grams of order 3--5 were used together with German and English stopwords. The representation had been selected in a preceding screening conducted exclusively on training data. Within the modeling pipelines, 15,000 text features were subsequently selected using chi-square, ensuring that all transformations learned from the study data were fitted exclusively within the respective training folds. Categorical features were incorporated using one-hot encoding. For the extended feature set, the three probabilities \textit{negative}, \textit{neutral}, and \textit{positive} produced by the fixed pretrained multilingual sentiment model \texttt{cardiffnlp/twitter-xlm-roberta-base-sentiment} were additionally included \cite{barbieri2022xlmt}.
+
+To investigate the incremental contribution of additional structured information, five feature sets (FS1–FS5) were defined (Table~\ref{tab:feature_sets}). The analysis assumed that queue information was available as a contextual feature at the time of priority prediction.
+
+\begin{table}[H]
+    \centering
+    \caption{Cumulative construction of the investigated feature sets.}
+    \label{tab:feature_sets}
+    \begin{tabular}{ll}
+        \toprule
+        Feature Set & Input Features \\
+        \midrule
+        FS1 & Text \\
+        FS2 & Text + ticket type \\
+        FS3 & Text + ticket type + language \\
+        FS4 & Text + ticket type + language + queue \\
+        FS5 & Text + ticket type + language + queue + sentiment \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Model Development and Performance Evaluation}
+
+The prepared dataset was split into 80\% training data and 20\% hold-out data using a group-stratified procedure. The variable \texttt{semantic\_group\_id} defined the splitting unit, ensuring that semantically related tickets could not occur in different partitions. Five-fold group-stratified cross-validation was subsequently performed within the training partition using the same grouping variable. This procedure prevented nearly identical texts from artificially inflating measured generalization performance \cite{kaufman2012leakage}.
+
+Following a preceding algorithm and representation screening, seven classifiers were included in the final comparison: Logistic Regression, Linear SVM, Complement Naive Bayes, kNN with cosine distance, Random Forest, XGBoost, and LightGBM. For each classifier, twelve hyperparameter configurations were evaluated on FS1 using five-fold group-stratified cross-validation. The selected hyperparameters were subsequently kept fixed for the comparison across FS1--FS5, such that only the available input information changed between feature sets.
+
+Macro-F1 was the primary evaluation metric because it weights the three priority classes equally, irrespective of their frequency \cite{sokolova2009systematic}. Weighted-F1 and Accuracy were used as tie-breakers. The final overall model corresponded to the model–feature-set combination with the highest mean cross-validation Macro-F1. The hold-out dataset was evaluated during the Evaluation stage.
+
+Hypothesis testing additionally used a common feature basis for the cross-model comparison. The feature set with the highest average cross-validation Macro-F1 across all seven classifiers was selected. In the event of a tie, average Weighted-F1 and subsequently Accuracy were used as tie-breakers. On this common feature set, Logistic Regression (LR) served as the baseline for six separate comparisons with the alternative classifiers. These comparisons were conducted on the hold-out dataset. For H1, the following expression defined the difference for each alternative (1).
+
+\begin{equation}
+\Delta F1_{\mathrm{macro}}
+=
+F1_{\mathrm{macro}}^{\mathrm{Alternative}}
+-
+F1_{\mathrm{macro}}^{\mathrm{LR}}
+\label{eq:h1_delta}
+\end{equation}
+
+Uncertainty was quantified using 10,000 paired bootstrap iterations at the semantic-group level \cite{efron1979bootstrap}. Two-sided 95\% percentile confidence intervals and Holm-adjusted one-sided $p$-values were reported at $\alpha = 0.05$ \cite{holm1979simple}. H1 was considered supported if at least one alternative yielded $\Delta F1_{\mathrm{macro}} > 0$ and a Holm-adjusted one-sided $p$-value below 0.05.
+
+\subsection{SHAP-Based Explainability Analysis}
+
+For the explainability analysis, the same seven classifiers were investigated using the common feature set previously selected through cross-validation. SHAP was used for explaining model predictions by decomposing them into additive feature contributions, thereby enabling both global and local analyses \cite{lundberg2017shap}.
+
+For the global H2 analysis, the same 300 semantic groups were used for all
+models to enable paired comparisons and balanced class representation, with
+100 groups per priority class and one representative ticket per group. Logistic Regression and Linear SVM were analyzed using
+\texttt{LinearExplainer}. For Complement Naive Bayes,
+\texttt{LinearExplainer} was applied to its additive class-score
+representation. kNN was analyzed using \texttt{PermutationExplainer}, Random
+Forest and XGBoost using approximate \texttt{TreeExplainer}, and LightGBM using
+native TreeSHAP contributions. SHAP provides the general additive
+feature-attribution framework \cite{lundberg2017shap}, while TreeSHAP provides
+a model-specific implementation for tree-based models
+\cite{lundberg2020trees}.
+
+Explanation compactness was measured as the proportion of absolute SHAP mass attributable to the ten most important features for the respective predicted class. Within this study, a higher Top-10 share represented a stronger concentration of the explanation on a small number of features and therefore greater compactness. Compactness was thus treated as a specific property of an explanation rather than as a general assessment of explainability quality \cite{nauta2023evaluation}. For H2, the difference for each alternative was calculated using the following expression (2).
+
+\begin{equation}
+\Delta \mathrm{Top10}
+=
+\mathrm{Top10}_{\mathrm{LR}}
+-
+\mathrm{Top10}_{\mathrm{Alternative}}
+\label{eq:h2_delta}
+\end{equation}
+
+Positive values indicated lower explanation compactness of the alternative classifier relative to Logistic Regression. Statistical inference was based on 10,000 paired, class-stratified bootstrap
+iterations at the semantic-group level \cite{efron1979bootstrap}. Two-sided
+95\% percentile confidence intervals and Holm-adjusted one-sided $p$-values
+were reported at $\alpha = 0.05$ \cite{holm1979simple}.
+
+The robustness of this operationalization was also assessed using Top-5 and Top-20 concentration, \(K_{80}\), defined as the number of features required to account for 80\% of the absolute SHAP attribution mass, normalized entropy, and a Top-10 concentration restricted to active features. For 150 cases, it was further examined whether removing the ten most important SHAP text features reduced the model score more strongly and changed the predicted class more frequently than removing the same number of randomly selected active text features. For XGBoost, the sensitivity analysis compared the approximate SHAP computation with exact contributions. Finally, twelve local cases were used for a structured qualitative manual plausibility assessment by the author. A separate SHAP analysis also explained the final overall model selected through cross-validation.

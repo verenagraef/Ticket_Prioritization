@@ -1,0 +1,45 @@
+\section{Conclusion}
+
+This study examined the automatic prioritization of IT support tickets using
+NLP and machine learning together with the SHAP-based explainability of the
+resulting model predictions. Seven classifiers were compared under a common
+group-based evaluation design and assessed with respect to classification
+performance and selected explanation properties.
+
+RQ1 shows that the investigated classifiers differed in their prioritization
+performance, although no general superiority of a particular model family was
+observed. On FS4, which was selected as the common feature set based on
+cross-validation, LightGBM achieved the highest hold-out performance and was
+the only alternative that significantly outperformed Logistic Regression after
+Holm correction. H1 is therefore supported. The final model selected overall
+was LightGBM with FS5, which achieved a Macro-F1 of 0.5597 on the separate
+hold-out dataset. In addition to the ticket text, the queue provided relevant
+contextual information, whereas the additional contribution of sentiment
+features was small.
+
+RQ2 also revealed clear model-dependent differences. Logistic Regression
+showed significantly higher SHAP-based explanation compactness than Complement
+Naive Bayes and Random Forest, but not than all alternative classifiers. H2 is
+therefore supported according to the prespecified criterion. At the same time,
+LightGBM combined comparatively high classification performance with a high
+concentration of SHAP attributions. The results consequently provide no
+evidence of a consistent trade-off between predictive performance and
+explanation compactness.
+
+The interpretation of these findings is mainly limited by the synthetic data
+basis, the absence of independent validation of the priority labels, and the
+evaluation within a single dataset. Further limitations arise from the
+organization-specific role of the queue and from methodological constraints
+of the SHAP-based model comparisons. The findings should therefore be
+understood as a controlled comparison of the investigated approaches rather
+than as evidence of readiness for operational deployment.
+
+Future research should replicate the analysis on real-world ITSM data,
+preferably across multiple organizations, and use temporal test sets to examine
+concept drift. Ordinal and cost-sensitive learning approaches may offer useful
+extensions, as may multilingual transformer-based models such as
+XLM-R \cite{conneau2020xlmr}. Explainability research should also examine whether the
+identified SHAP explanations are perceived by ITSM experts as understandable
+and relevant to decision making. A subsequent field study could then assess
+whether model-supported prioritization in a human-in-the-loop setting leads to
+measurable improvements in operational service metrics.

@@ -1,0 +1,29 @@
+\section{Introduction}
+
+In IT Service Management (ITSM), the prioritization of IT support tickets determines the order in which requests are processed by assigning them to priority levels according to their urgency and business impact. In practice, this assessment is often performed by support staff based on the problem description contained in the ticket \cite{lyubinets2018labeling,razma2026classification}.
+
+Relying on text for this decision creates opportunities to automate the prioritization process. Machine learning (ML) classifiers predict the priority class of tickets, while unstructured ticket descriptions are preprocessed using Natural Language Processing (NLP) techniques \cite{lyubinets2018labeling,braun-2026-solving,selvi2025customer}. This supports manual evaluation and automates priority assignment \cite{braun-2026-solving}.
+
+Recent studies on IT support data show that text-based classification models must address challenges such as multilingual input and imbalanced class distributions under real-world conditions \cite{razma2026classification}. Studies further show that both the choice of classifier and the text representation can affect classification performance \cite{lyubinets2018labeling,revina2020ticket}.
+
+In addition to predictive performance, automated classification decisions raise the question of which information a model relies on when generating its predictions. Explainable Artificial Intelligence (XAI) considers explainability a multidimensional construct \cite{guidotti2018survey,sokol2020factsheets}. \citet{nauta2023evaluation} identify the compactness of an explanation as a distinct and quantitatively assessable property. Shapley additive explanations (SHAP) provide an approach applicable across model types for the attribution-based analysis of individual predictions \cite{lundberg2017shap}.
+
+Although the automated processing of IT support tickets is an established research field, a substantial part of the literature focuses on general ticket classification, routing, and assignment \cite{zangari2023ticket,fuchs2022support}. Explainability has also been investigated in the context of support ticket classification \cite{zicari2022ticket,licina2026helpagent}. However, the combination of a comparative performance benchmark for priority prediction with a cross-model quantitative evaluation of SHAP-based explanation properties has received only limited attention in the literature reviewed for this study. This highlights the need for comparative studies that place priority prediction at the center of the analysis.
+
+Motivated by these gaps, the present study investigates NLP-based priority prediction for IT support tickets using multiple ML classifiers. The following research questions are addressed.
+
+\textbf{RQ1:} How do ML classifiers differ in their classification performance for NLP-based prioritization of IT support tickets?
+
+\textbf{RQ2:} How do the investigated classifiers differ in terms of the SHAP-based explainability of their predictions?
+
+For the performance comparison, Logistic Regression is used as the reference model. Linear, neighborhood-based, tree-based, and ensemble-based methods have been comparatively applied in research on ticket classification \cite{revina2020ticket,fuchs2022support,paramesh2018ensemble}. Studies in the IT support context show that alternative model classes can achieve higher Macro-F1 scores than a Logistic Regression baseline \cite{razma2026classification}. Based on this evidence, the following directional hypothesis is derived for the first research question.
+
+\textbf{H1:} At least one of the investigated alternative classifiers achieves a higher Macro-F1 score than the Logistic Regression baseline for NLP-based prioritization of IT support tickets.
+
+The second research question extends the model comparison by considering SHAP-based explainability. As explainability is a multidimensional construct, the inferential analysis focuses on explanation compactness as a quantitatively assessable dimension \cite{nauta2023evaluation}. While more complex model classes are often regarded as black boxes, linear models are considered easier to interpret due to their transparent decision structure \cite{ribeiro2016lime,lundberg2017shap,guidotti2018survey}. Against this background, the following directional hypothesis is formulated.
+
+\textbf{H2:} At least one of the investigated alternative classifiers exhibits lower SHAP-based explanation compactness than the Logistic Regression baseline.
+
+This study advances automated ticket prioritization research by comparing multiple classifiers under a common data, feature, and evaluation framework and by extending performance evaluation with a quantitative comparison of SHAP-based explanation compactness. This study does not compare different XAI methods, conduct a user-based evaluation, or test the approach in a production environment.
+
+In the following, Section~2 contextualizes the study within the current state of research before Section~3 details the methodological approach. The empirical results are presented in Section~4 and subsequently discussed regarding their broader implications and limitations in Section~5. The paper concludes with Section~6, which summarizes the central findings.
